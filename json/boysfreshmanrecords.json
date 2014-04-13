@@ -1,0 +1,149 @@
+{
+	"Events":
+	[
+        {
+            "event": "100",
+            "eventGroup":"TS",
+            "first": "AJ",
+            "last": "Sims",
+            "performance": "10.9",
+            "year": 1997
+        },
+        {
+            "event": "200",
+            "eventGroup":"TS",
+            "first": "AJ",
+            "last": "Sims",
+            "performance": "22.2",
+            "year": 1997
+        },
+        {
+            "event": "400",
+            "eventGroup":"TS",
+            "first": "Matt",
+            "last": "Ryan",
+            "performance": "52.9",
+            "year": 1998
+        },
+        {
+            "event": "800",
+            "eventGroup":"TS",
+            "first": "Scott",
+            "last": "Howell",
+            "performance": "2:03.4",
+            "year": 1993
+        },
+        {
+            "event": "1600",
+            "eventGroup":"TD",
+            "first": "Scott",
+            "last": "Gillespie",
+            "performance": "4:40.1",
+            "year": 2005
+        },
+        {
+            "event": "3200",
+            "eventGroup":"TD",
+            "first": "Curtis",
+            "last": "Cline",
+            "performance": "9:51.33",
+            "year": 2010
+        },
+        {
+            "event": "110 Hurdles",
+            "eventGroup":"TH",
+            "first": "Euler",
+            "last": "Brophleh",
+            "performance": "15.6",
+            "year": 1997
+        },
+        {
+            "event": "300 Hurdles",
+            "eventGroup":"TH",
+            "first": "Mike",
+            "last": "Hoffman",
+            "performance": "43.4",
+            "year": 1997
+        },
+        {
+            "event": "High Jump",
+            "eventGroup":"FVJ",
+            "first": "Eric",
+            "last": "Okeefe",
+            "performance": "6-00",
+            "year": 1993
+        },
+        {
+            "event": "Long Jump",
+            "eventGroup":"FHJ",
+            "first": "Eddie",
+            "last": "Bradley",
+            "performance": "20-02.5",
+            "year": 1990
+        },
+        {
+            "event": "Triple Jump",
+            "eventGroup":"FHJ",
+            "first": "Nicolay",
+            "last": "Skvortsov",
+            "performance": "40-04.75",
+            "year": 2013
+        },
+        {
+            "event": "Shot Put",
+            "eventGroup":"FT",
+            "first": "Scott",
+            "last": "Shelby",
+            "performance": "44-11.5",
+            "year": 1992
+        },
+        {
+            "event": "Discus",
+            "eventGroup":"FT",
+            "first": "KZ",
+            "last": "Kenning",
+            "performance": "132-05",
+            "year": 1999
+        },
+        {
+            "event": "Javelin",
+            "eventGroup":"FT",
+            "first": "Johannes",
+            "last": "Swanepoel",
+            "performance": "187-02",
+            "year": 2007
+        },
+        {
+            "event": "Pole Vault",
+            "eventGroup":"FVJ",
+            "first": "David",
+            "last": "McNeil",
+            "performance": "11-06",
+            "year": 2000
+        },
+        {
+            "event": "4 x 100",
+            "eventGroup":"TRS",
+            "first": "",
+            "last": "L. Washington, A. Stephens, M. Ryan, M. Novac",
+            "performance": "45.1",
+            "year": 1998
+        },
+        {
+            "event": "4 x 400",
+            "eventGroup":"TRS",
+            "first": "",
+            "last": "B. Lager, K. Gorman, D. Richards, B. Coates",
+            "performance": "3:42.4",
+            "year": 1995
+        },
+        {
+            "event": "4 x 800",
+            "eventGroup":"TRS",
+            "first": "",
+            "last": "P. Ferebee, S. Spong, F. Tankard, P. Barger",
+            "performance": "8:53.0",
+            "year": 2000
+        }
+	]
+}

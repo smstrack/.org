@@ -1,0 +1,289 @@
+{ "Events" : 
+[
+	{"event" : "100 Meters*", "list"  :
+		[
+			{"performance" : "12.12", "video" : "/video/cbingaman12.12.wmv", "videoIcon" : "/images/wms.bmp","first" : "Clare", "last" : "Bingaman","year" : "2012"},
+			{"performance" : "12.21","first" : "Meg","last" : "Ryan","year" : "2004"},
+			{"performance" : "12.1","first" : "Churee","last" : "Robinson","year" : "1993"},
+			{"performance" : "12.53","first" : "Nora","last" : "Bingaman","year" : "2012"},
+			{"performance" : "12.3","first" : "Melissa","last" : "Church","year" : "1988"},
+			{"performance" : "12.3","first" : "Jessica","last" : "Tyre","year" : "1997"},
+			{"performance" : "12.4","first" : "Sue","last" : "Scardino","year" : "1979"},
+			{"performance" : "12.6","first" : "Hillary","last" : "Hoffman","year" : "2006"},
+			{"performance" : "12.7","first" : "Marvita","last" : "Oliver","year" : "1978"},
+			{"performance" : "12.8","first" : "Kasandra","last" : "Johnson","year" : "1998"},
+			{"performance" : "12.8","first" : "Tina","last" : "Niu","year" : "1985"},
+			{"performance" : "12.8","first" : "Jessica","last" : "Niecamp","year" : "&nbsp;"}
+		]
+	},
+	{"event" : "200 Meters*", "list"   :
+		[
+			{"performance" : "25.40", "video" : "/video/cbingaman25.40.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Clare", "last" : "Bingaman", "year" : "2012"},
+			{"performance" : "25.3","first" : "Churee","last" : "Robinson","year" : "1993"},
+			{"performance" : "25.3","first" : "Jessica","last" : "Tyre","year" : "1997"},
+			{"performance" : "25.3","first" : "Meg","last" : "Ryan","year" : "2004"},
+			{"performance" : "25.8","first" : "Sue","last" : "Scardino","year" : "1979"},
+			{"performance" : "26.2","first" : "Melissa","last" : "Church","year" : "1988"},
+			{"performance" : "26.3","first" : "Dalene","last" : "Zimmerman","year" : "1988"},
+			{"performance" : "26.4","first" : "Pam","last" : "Warfield","year" : "1981"},
+			{"performance" : "26.4","first" : "Leslie","last" : "Thompson","year" : "1985"},
+			{"performance" : "26.8","first" : "Tina","last" : "Webster","year" : "1990"}
+		]
+	},
+	{"event" : "400 Meters*", "list"   :
+		[
+			{"performance" : "57.4","first" : "Kristen","last" : "Gillespie","year" : "2006"},
+			{"performance" : "59.0","first" : "Lisa","last" : "Avery","year" : "1994"},
+			{"performance" : "59.2","first" : "Marvita","last" : "Oliver","year" : "1978"},
+			{"performance" : "60.23","first" : "Clare","last" : "Bingaman","year" : "2011"},
+			{"performance" : "60.1","first" : "Elizabeth","last" : "Dedon","year" : "2006"},
+			{"performance" : "60.1","first" : "Susan","last" : "Harding","year" : "1978"},
+			{"performance" : "60.6","first" : "Tamra","last" : "Vogel","year" : "1981"},
+			{"performance" : "60.8","first" : "Jane","last" : "Grissom","year" : "1976"},
+			{"performance" : "61.15","first" : "Megan","last" : "Murray","year" : "2008"},
+			{"performance" : "61.2","first" : "Maddy","last" : "Rhodes","year" : "2001"},
+			{"performance" : "61.5","first" : "Autumn","last" : "Sharp","year" : "1997"}
+		]
+	},
+	{"event" : "800 Meters", "list"   :
+		[
+			{"performance" : "2:13.62","first" : "Kristen","last" : "Gillespie","year" : "2008"},
+			{"performance" : "2:13.7**","first" : "Sally","last" : "Arthur","year" : "1973"},
+			{"performance" : "2:16.2","first" : "Dede","last" : "Lawless","year" : "1981"},
+			{"performance" : "2:19.1","first" : "Lisa","last" : "Avery","year" : "1995"},
+			{"performance" : "2:19.3","first" : "Leeann","last" : "Conway","year" : "1989"},
+			{"performance" : "2:20.6","first" : "Leah","last" : "Honeycutt","year" : "1987"},
+			{"performance" : "2:23.0","first" : "Laura","last" : "Friederich","year" : "2001"},
+			{"performance" : "2:24.9","first" : "Tamra","last" : "Vogel","year" : "1981"},
+			{"performance" : "2:26.53","first" : "Megan","last" : "Murray","year" : "2007"},
+			{"performance" : "2:27.0","first" : "Haley","last" : "Beggs","year" : "2006"},
+			{"performance" : "**","first" : "Converted","last" : "from","year" : "&nbsp;"}
+		]
+	},
+	{"event" : "1600 Meters", "list"   : 
+		[
+			{"performance" : "4:53.2","first" : "Dede","last" : "Lawless","year" : "1980"},
+			{"performance" : "5:07.0","first" : "Leeann","last" : "Conway","year" : "1989"},
+			{"performance" : "5:08.6","first" : "Connie","last" : "Abbott","year" : "2003"},
+			{"performance" : "5:11.3","first" : "Jenny","last" : "Marien","year" : "1989"},
+			{"performance" : "5:11.6","first" : "Sally","last" : "Arthur","year" : "1973"},
+			{"performance" : "5:24.6","first" : "Jana","last" : "Muir","year" : "1979"},
+			{"performance" : "5:26.19","first" : "Lauren","last" : "McCarthy","year" : "2011"},
+			{"performance" : "5:28.62","first" : "Lindsey","last" : "Brown","year" : "2009"},
+			{"performance" : "5:28.74","first" : "Lauren","last" : "McCarthy","year" : "2012"},
+			{"performance" : "5:29.8","first" : "Dana","last" : "Schoulis","year" : "&nbsp;"}
+		]
+	},
+
+	{"event" : "3200 Meters", "list"   :
+		[
+			{"performance" : "10:56.3","first" : "Connie","last" : "Abbott","year" : "2002"},
+			{"performance" : "10:58.2","first" : "Jenny","last" : "Marien","year" : "1986"},
+			{"performance" : "11:10.2","first" : "Leeann","last" : "Conway","year" : "1987"},
+			{"performance" : "11:18.2","first" : "Dede","last" : "Lawless","year" : "1981"},
+			{"performance" : "11:35.14","first" : "Lauren","last" : "McCarthy","year" : "2012"},
+			{"performance" : "11:35.90","first" : "Allie","last" : "Antrim&nbsp;","year" : "2010"},
+			{"performance" : "11:36.62","first" : "Haley","last" : "Beggs","year" : "2005"},
+			{"performance" : "11.42.71","first" : "Sydney","last" : "Oltjen","year" : "2010"},
+			{"performance" : "11:47.91","first" : "Kerry","last" : "Kurta","year" : "2010"},
+			{"performance" : "11:48.91","first" : "Hayley","last" : "Cline","year" : "2008"}
+		]
+	},
+		
+	{"event" : "3000 Meters", "list"   : 
+		[
+			{"performance" : "10:02.84","first" : "Connie","last" : "Abbot","year" : "2003"}
+		]
+	},
+	
+	{"event" : "100 High Hurdles*", "list"   :
+		[
+			{"performance" : "15.0","first" : "Tina","last" : "Niu","year" : "1984"},
+			{"performance" : "15.0","first" : "Sarah","last" : "Nutt","year" : "1997"},
+			{"performance" : "15.0","first" : "Gail","last" : "McBride","year" : "1973"},
+			{"performance" : "15.0","first" : "Martha","last" : "Rinker","year" : "1976"},
+			{"performance" : "15.2","first" : "Sara","last" : "Jadlow","year" : "1990"},
+			{"performance" : "15.3","first" : "Kris","last" : "Oden","year" : "1988"},
+			{"performance" : "15.6","first" : "Angel","last" : "Cloughley","year" : "1992"},
+			{"performance" : "15.7","first" : "Wendy","last" : "Deering","year" : "1987"},
+			{"performance" : "15.7","first" : "Becky","last" : "Butcher","year" : "1980"},
+			{"performance" : "15.8","first" : "Suzie","last" : "Leonard","year" : "&nbsp;"}
+		]
+	},
+	{"event" : "300 Low Hurdles*", "list"   : 
+		[
+			{"performance" : "45.3","first" : "Kris","last" : "Oden","year" : "1987"},
+			{"performance" : "45.8","first" : "Tina","last" : "Niu","year" : "1984"},
+			{"performance" : "46.5","first" : "Sarah","last" : "Nutt","year" : "1997"},
+			{"performance" : "46.7","first" : "Angel","last" : "Cloughley","year" : "1992"},
+			{"performance" : "47.02","first" : "Nora","last" : "Bingaman","year" : "2012"},
+			{"performance" : "47.0","first" : "Wendy","last" : "Deering","year" : "1987"},
+			{"performance" : "48.1","first" : "Marianne","last" : "Tremblay","year" : "1995"},
+			{"performance" : "48.4","first" : "Sara","last" : "Jadlow","year" : "1990"},
+			{"performance" : "49.1","first" : "Olivia","last" : "Thompson","year" : "1993"},
+			{"performance" : "49.6","first" : "Christy","last" : "Cloughley","year" : "1989"}
+		]
+	},
+	{"event" : "Discus", "list"   :
+		[
+			{"performance" : "149-04", "video" : "/video/arichards149-04.wmv", "videoIcon" : "/images/wms.bmp","first" : "Alix","last" : "Richards","year" : "2010"},
+			{"performance" : "133-02", "video" : "/video/krichards133-02.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Korbin","last" : "Richards","year" : "2011"},
+			{"performance" : "130-08","first" : "Carol","last" : "Bennett","year" : "1981"},
+			{"performance" : "125-03", "video" : "/video/mlong125-3.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Maggie","last" : "Long","year" : "2004"},
+			{"performance" : "124-09","first" : "Tara","last" : "Hacker","year" : "2000"},
+			{"performance" : "120-10","first" : "Jennifer","last" : "Anderson","year" : "2006"},
+			{"performance" : "118-03","first" : "Julie","last" : "Dermeyer","year" : "1986"},
+			{"performance" : "117-06","first" : "Julie","last" : "Weisman","year" : "1979"},
+			{"performance" : "116-02","first" : "Chris","last" : "Bivona","year" : "1975"},
+			{"performance" : "114-05","first" : "Karen","last" : "Keith","year" : "1978"}
+		]
+	},
+	{"event" : "Shot Put", "list"   :
+		[
+			{"performance" : "40-10","first" : "Alix","last" : "Richards","year" : "2009"},
+			{"performance" : "39-08.75", "video" : "/video/janderson39-8.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Jennifer","last" : "Anderson","year" : "2006"},
+			{"performance" : "39-06" ,"video" : "/video/dolsen39-6.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Dana","last" : "Olsen","year" : "2006"},
+			{"performance" : "39-03" , "video" : "/video/krichards39-03.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Korbin","last" : "Richards","year" : "2011"},
+			{"performance" : "37-08" , "video" : "/video/bwebb37-08.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Bethany","last" : "Webb","year" : "2012"},
+			{"performance" : "36-08","first" : "Whitney","last" : "Loe","year" : "2006"},
+			{"performance" : "36-03","first" : "Tara","last" : "Hacker","year" : "2000"},
+			{"performance" : "35-09","first" : "Danielle","last" : "McCray","year" : "2003"},
+			{"performance" : "35-02","first" : "Jennifer","last" : "May","year" : "1995"},
+			{"performance" : "34-06","first" : "Carol","last" : "Bennett","year" : "1981"}
+		]
+	},
+	{"event" : "Javelin", "list"   : 
+		[
+			{"performance" : "139-09","first" : "Lauren","last" : "Busch","year" : "2007"},
+			{"performance" : "126-07","first" : "Laura","last" : "Meschke","year" : "2011"},
+			{"performance" : "118-11","first" : "Holly","last" : "Myers","year" : "2006"},
+			{"performance" : "106-06","first" : "Cori","last" : "Komarek","year" : "2007"},
+			{"performance" : "106-00","first" : "Jennifer","last" : "Anderson","year" : "2006"},
+			{"performance" : "Old Style"},
+			{"performance" : "123-06","first" : "Ashely","last" : "Weeks","year" : "1999"},
+			{"performance" : "114-02","first" : "Jennifer","last" : "House","year" : "1995"},
+			{"performance" : "112-04","first" : "Jessie","last" : "Barger","year" : "2002"},
+			{"performance" : "111-03","first" : "Lauren","last" : "Myers","year" : "2001"},
+			{"performance" : "111-02","first" : "Kristi","last" : "Singleton","year" : "1993"},
+			{"performance" : "110-10","first" : "Jill","last" : "Bornkessel","year" : "1993"}
+		]
+	},
+	{"event" : "High Jump", "list"   : 
+		[
+			{"performance" : "5-06","first" : "Lisa","last" : "Plummer","year" : "1977"},
+			{"performance" : "5-06","first" : "Sara","last" : "Dickey","year" : "1982"},
+			{"performance" : "5-04","first" : "Jocelyn","last" : "Cummings","year" : "2008"},
+			{"performance" : "5-04","first" : "Lisa","last" : "Avery","year" : "1994"},
+			{"performance" : "5-04","first" : "Beth","last" : "Olson","year" : "&nbsp;"},
+			{"performance" : "5-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
+			{"performance" : "5-02","first" : "Rachel","last" : "Compton","year" : "1994"},
+			{"performance" : "5-01","first" : "Stacy","last" : "Bombaars","year" : "1985"},
+			{"performance" : "5-00","first" : "Ariel","last" : "Marasuk","year" : "2006"},
+			{"performance" : "5-00","first" : "Kyle","last" : "Washington","year" : "2006"},
+			{"performance" : "5-00","first" : "Andrea","last" : "Chambers","year" : "2000"},
+			{"performance" : "5-00","first" : "Amy","last" : "Ogden","year" : "1989"},
+			{"performance" : "5-00","first" : "Wanda","last" : "Smith","year" : "1996"},
+			{"performance" : "5-00","first" : "Tria","last" : "Chomyak","year" : "1987"},
+			{"performance" : "5-00","first" : "Leah","last" : "Honeycutt","year" : "1986"}
+		]
+	},
+	{"event" : "Long Jump", "list"   : 
+		[
+			{"performance" : "18-06","first" : "Sherie","last" : "Smith","year" : "1977"},
+			{"performance" : "18-02","first" : "Brooke","last" : "Holmes","year" : "2013"},
+			{"performance" : "17-02","first" : "Lisa","last" : "Avery","year" : "1994"},
+			{"performance" : "17-02","first" : "Hillary","last" : "Hoffman","year" : "2007"},
+			{"performance" : "16-11","first" : "Jody","last" : "Manson","year" : "&nbsp;"},
+			{"performance" : "16-10","first" : "Stacy","last" : "Bombaars","year" : "1985"},
+			{"performance" : "16-08","first" : "Tina","last" : "Niu","year" : "1984"},
+			{"performance" : "16-08","first" : "Kelly","last" : "Turner","year" : "1992"},
+			{"performance" : "16-07","first" : "Meg","last" : "Ryan","year" : "2004"},
+			{"performance" : "16-07","first" : "Annie","last" : "Drinane","year" : "2001"}
+		]
+	},
+	{"event" : "Triple Jump", "list"   : 
+		[
+			{"performance" : "37-05.5", "video" : "/video/Brooke%2037%20ft%205.5%20in.wmv", "videoIcon" : "/images/wms.bmp","first" : "Brooke","last" : "Holmes","year" : "2012"},
+			{"performance" : "34-09","first" : "Kelly","last" : "Turner","year" : "1992"},
+			{"performance" : "34-04.5","first" : "Annie","last" : "Drinane","year" : "2001"},
+			{"performance" : "34-02","first" : "Dana","last" : "Drinane","year" : "1995"},
+			{"performance" : "34-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
+			{"performance" : "34-01","first" : "Casey","last" : "Gilbert","year" : "1998"},
+			{"performance" : "33-09","first" : "Laura","last" : "Pummill","year" : "2000"},
+			{"performance" : "33-10","first" : "Ashley","last" : "Robinson","year" : "2006"},
+			{"performance" : "33-09","first" : "Danielle","last" : "McCray","year" : "2003"},
+			{"performance" : "33-03","first" : "Jocelyn","last" : "Cummings","year" : "2009"},
+			{"performance" : "33-01","first" : "Danielle","last" : "Scott","year" : "1998"}
+		]
+	},
+	{"event" : "Pole Vault", "list"   : 
+		[
+			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003"},
+			{"performance" : "11-07","first" : "Julia","last" : "Cummings","year" : "2006"},
+			{"performance" : "11-00","first" : "Claire","last" : "Christy","year" : "2008"},
+			{"performance" : "11-00","first" : "Kendra","last" : "Martiny","year" : "2011"},
+			{"performance" : "10-06","first" : "Maddie","last" : "Fowler","year" : "2012"},
+			{"performance" : "10-03","first" : "Monica","last" : "Funk","year" : "2012"},
+			{"performance" : "10-00","first" : "Nicola","last" : "Tutera","year" : "2001"},
+			{"performance" : "10-00","first" : "Rachel","last" : "Distefano","year" : "2009"},
+			{"performance" : "10-00","first" : "Alana","last" : "Steward","year" : "2011"},
+			{"performance" : "9-06","first" : "Abbey","last" : "Baslock-Bechler","year" : "2008"}
+		]
+	},
+	{"event" : "4 x 100", "list"   : 
+		[
+			{"performance" : "48.97","first" : "K.","last" : "Zvosec,","year" : "2012"},
+			{"performance" : "49.11","first" : "E.","last" : "Brock,","year" : "2010"},
+			{"performance" : "49.54","first" : "E.","last" : "Brock,","year" : "2011"},
+			{"performance" : "49.8","first" : "","last" : "","year" : "2000"},
+			{"performance" : "50.0","first" : "","last" : "","year" : "1995"},
+			{"performance" : "50.1","first" : "","last" : "","year" : "1989"},
+			{"performance" : "50.2","first" : "","last" : "","year" : "2006"},
+			{"performance" : "50.2","first" : "","last" : "","year" : "1993"},
+			{"performance" : "50.5","first" : "","last" : "","year" : "1980"},
+			{"performance" : "50.7","first" : "","last" : "","year" : "1992"}
+		]
+	},
+	{"event" : "4 x 200", "list"   : 
+		[
+			{"performance" : "01:45.6","first" : "S.","last" : "Smith,","year" : "1977"},
+			{"performance" : "01:47.3","first" : "","last" : "","year" : "1987"},
+			{"performance" : "01:48.0","first" : "","last" : "","year" : "1992"},
+			{"performance" : "01:48.1","first" : "","last" : "","year" : "1988"},
+			{"performance" : "01:48.3","first" : "","last" : "","year" : "1981"},
+			{"performance" : "01:48.3","first" : "","last" : "","year" : "1988"},
+			{"performance" : "01:48.9","first" : "","last" : "","year" : "1987"},
+			{"performance" : "01:49.1","first" : "","last" : "","year" : "2000"},
+			{"performance" : "01:49.7","first" : "","last" : "","year" : "1976"},
+			{"performance" : "01:49.9","first" : "","last" : "","year" : "1997"}
+		]
+	},
+	{"event" : "4 x 400", "list"   : 
+		[
+			{"performance" : "3:58.81","first" : "N.","last" : "Bingaman,","year" : "2010"},
+			{"performance" : "4:00.9","first" : "","last" : "","year" : "1977"},
+			{"performance" : "4:01.1","first" : "Dedon-Murray-Goebel-Gillepsie","last" : "","year" : "2007"},
+			{"performance" : "4:02.00","first" : "Bingaman-Murray-Podvin-Bingaman","last" : "(Regional)","year" : "2010"},
+			{"performance" : "4:02.58","first" : "League","last" : "","year" : "2010"},
+			{"performance" : "4:03.9","first" : "","last" : "","year" : "1992"},
+			{"performance" : "4:04.28","first" : "Murray-Dedon-Beggs-Gillespie(North","last" : "Relays)","year" : "2008"},
+			{"performance" : "4:04.8","first" : "","last" : "","year" : "1989"},
+			{"performance" : "4:05.0","first" : "","last" : "","year" : "1987"},
+			{"performance" : "4:06.67","first" : "Bingaman-Murray-Podvin-Bngman","last" : "(Seaman","year" : "2010"}
+		]
+	},
+	{"event" : "4 x 800", "list"   : 
+		[
+			{"performance" : "9:20.63","first" : "E.","last" : "Dedon,","year" : "2007"},
+			{"performance" : "9:30.3","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
+			{"performance" : "9:35.5","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
+			{"performance" : "9:41.78","first" : "Murray-Dedon-Beggs-Gillespie","last" : "","year" : "2008"},
+			{"performance" : "9:45.43","first" : "Murray-Dedon-Cline-Beggs","last" : "","year" : "2008"},
+			{"performance" : "9:49.8","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2006"},
+			{"performance" : "9:54.03","first" : "Murray-Dedon-Cline-Beggs","last" : "","year" : "2008"},
+			{"performance" : "9:54.48","first" : "Murray-Dedon-Beggs-Gillespie","last" : "","year" : "2008"},
+			{"performance" : "9:58.2","first" : "","last" : "","year" : "2005"},
+			{"performance" : "9:58.5","first" : "","last" : "","year" : "2001"}		
+		]
+	}
+]} 

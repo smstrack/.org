@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Afternoon
+refcount=2
+
+[titles]
+1040=Pomeriggio
+1053=Eftermiddag
+1032=Απόγευμα
+1031=Nachmittag
+1036=Après-midi
+1044=Ettermiddag
+1042=나른한 오후
+1028=午後日光
+2052=午后
+1038=Délután
+1049=Полдень
+1046=Sol
+1041=午後
+2070=Praia
+1025=وقت الغروب
+1054=ยามบ่าย
+3082=Atardecer
+1043=Middag
+1030=Eftermiddag
+1035=Iltapäivä
+1029=Pravé poledne
+1045=Popołudnie
+1037=אחר-הצהריים
+1055=Öğleden Sonra
+

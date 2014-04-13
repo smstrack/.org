@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Concrete
+refcount=2
+
+[titles]
+1040=Cemento
+1053=Betong
+1032=Μπετόν
+1031=Asphalt
+1036=Ciment
+1044=Betong
+1042=그레이 톤
+1028=陰天
+2052=凝固
+1038=Beton
+1049=Бетон
+1046=Cimento
+1041=コンクリート
+2070=Betão
+1025=اسمنت
+1054=คอนกรีต
+3082=Mercurio
+1043=Beton
+1030=Beton
+1035=Betoni
+1029=Betonový blok
+1045=Cement
+1037=בטון
+1055=Soğuk
+

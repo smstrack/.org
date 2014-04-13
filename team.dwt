@@ -1,0 +1,143 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "smstrack.dwt" -->
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #ParentBeginEditable "doctitle" -->
+<!-- #BeginEditable "doctitle" -->
+<title>Home</title>
+<!-- #EndEditable -->
+<!-- #ParentEndEditable -->
+<link rel="stylesheet" type="text/css" href="sms.css">
+<style type="text/css">
+.style23 {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div style="margin:0 auto;max-width:1250px">
+<div style="width:100%">
+
+
+<div id="banner" class="style1" >
+	<table cellspacing="0" cellpadding="0" class="style2" style="width: 100%">
+		<tr >
+			<td align="left" valign="top" style="width: 410px">
+			
+			<a target="_blank" href="http://smsouthtrack.blogspot.com/feeds/posts/default">
+			<img alt="RSS Feed" src="images/feed-icon-32x32.png" width="32" height="32" class="style22" align="middle"></a>
+			<a target="_blank" href="http://www.youtube.com/user/smsraidertrack">
+			<img src="images/youtube.png" alt="Youtube channel" class="style22" align="middle"></a>
+			<br><a href="http://www.smstrack.org"><img  src="images/clear.gif" alt="" style=" border:0;"></a>
+			</td>
+			<td  class="style3" onclick="location.href='http://www.smstrack.org'" style="cursor:pointer;">
+			<img  border="0" src="images/run.png" alt=""></td>
+		</tr>
+		
+	</table>
+</div>
+<div id="menubar" class="menubar">
+	<table class="menubar" border="0" cellpadding="0" style="border-collapse: collapse" width="100%" id="table1">
+		<tr class="menubar">
+			<td><a href="index.htm">Home</a></td>
+			<td><a href="news.htm">News</a></td>
+			<td><a href="schedule.htm">Schedule/Results</a></td>
+<!--			<td><a href="directions.htm">Directions</a></td>-->
+			<td><a href="team.htm">Team</a></td>
+			<td><a href="coaches.htm">Coaches</a></td>
+			<td><a href="archives/state_champion_teams.htm">Records/Lists</a></td>
+			<td><a href="honors.htm">Honors</a></td>
+			<td><a href="pictures.htm">Pictures</a></td>
+			<td><a href="links.htm">Links</a></td>
+		</tr>
+	</table>
+</div>
+<div id="contenttable">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<!-- MSTableType="layout" -->
+		<tr>
+			<td valign="top" width="100%">
+			<!-- MSCellType="ContentBody" -->
+			<!-- #ParentBeginEditable "content" -->
+			<div  class="menubar2">
+			<table align="center" width="100%" class="menubar2">
+			  <tr class="menuba2r">
+			    <td><a href="guidelines.htm">Policies</a></td>
+			    <td><a href="rules.htm">Rules</a></td>
+			    <td><a href="forms.htm">Forms</a></td>
+		        <td><a href="roster.htm">Roster</a></td>
+			    <td><a href="throws/index.htm">Shot/Disc</a></td>
+		        <td><a href="http://coachsassistant.gtmsportswear.com/smshstrack?lockerid=14537" target="_blank">SMSTF Team Gear</a></td>
+			  </tr>
+			</table>
+			</div>
+			<!-- #BeginEditable "content" -->
+			<div></div>
+<!-- #EndEditable -->
+<!-- #ParentEndEditable -->
+			</td>
+			<td height="273"></td>
+		</tr>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p class="style23"><em>Home of the Shawnee Mission South Raiders Track & 
+			Field Team</em></p>
+			</td>
+		</tr>
+<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+
+		<tr align="center">
+			<td valign="bottom"><a href="http://www.smsd.org/schools/smsouth">
+			<img border="0" src="images/sms_tr2.jpg" width="83" height="101"></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center"><font face="Arial" size="2">
+			<a href="http://www.smsd.org/schools/smsouth">Shawnee Mission South 
+			High School</a><br>
+			</font><font face="Arial" size="-1">5800 West 107th Street<br>
+			Overland Park, KS 66207</font></p>
+			</td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=3895026; 
+var sc_invisible=1; 
+var sc_security="c1dd7cc1"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/free-web-stats/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
+alt="web stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
