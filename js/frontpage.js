@@ -123,10 +123,15 @@ function updateScroller(startItem)
 	{
 		title = newsItems[iNum].title;
 		subTitle = newsItems[iNum].content;
-		link = newsItems[iNum].selfLink;
-		
-//		singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">'+subTitle+'</span></p>';
-		singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">(<a href="'+link+'">Read More</a>)</span></p>';
+		link = newsItems[iNum].url;
+		if (subTitle.trim().search('<a') == 0)
+		{
+			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">'+subTitle+'</span></p>';
+		}
+		else
+		{
+			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">[<a target="_blank" href="'+link+'">Read More</a>]</span></p>';
+		}
 		iNum++;
 	}	
 	
@@ -148,9 +153,17 @@ function handleResponse(response)
 		// update front page
 		startItem = 1;
 		
+		var content = fpNewsItem.content;
+		var url = fpNewsItem.url;
+		
 		// update main page with latest blog entry
 		data += "<p class='style37'>"+fpNewsItem.title+"</p>";
-		data +="<p>"+fpNewsItem.content+"</p>";
+		if (content.trim().search('<a') != 0)
+		{
+			content = "[<a target='_blank' href='"+url+"'>Read More</a>]";
+		}
+
+		data +="<p>"+content+"</p>";
 		$("#newsDisplay").html(data);
 	}
 	
