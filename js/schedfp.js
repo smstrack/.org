@@ -1,5 +1,5 @@
 var MSDAY = 86400000;
-var scheduleLookAheadDays = 5;   // days to look ahead from todays date
+var scheduleLookAheadDays = 3;   // days to look ahead from first event found date
 var lookAheadTime = MSDAY * scheduleLookAheadDays;
 var eventsFound = 0;
 var firstEventDate;
