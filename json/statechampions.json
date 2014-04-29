@@ -8,6 +8,7 @@
             "last": "Anderson",
             "first": "Dave",
 			"gender":"m",
+			"season":"i",
             "performance": "04:16.1"
         },
         {
@@ -38,6 +39,7 @@
             "last": "Eichner",
             "first": "Ryan",
 			"gender":"m",
+            "season":"i",
             "performance": "04:21.8"
         },
         {
@@ -112,6 +114,7 @@
             "last": "Dorsey",
             "first": "Floyd",
 			"gender":"m",
+            "season":"i",
             "performance": "54-01.25"
         },
         {
@@ -168,6 +171,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "19.7"
         },
         {
@@ -177,6 +181,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "7.5"
         },
         {
@@ -186,6 +191,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "7.7"
         },
         {
@@ -196,6 +202,7 @@
             "last": "Hoenig",
             "first": "Mark",
 			"gender":"m",
+            "season":"i",
             "performance": "6-08.5"
         },
         {
@@ -206,6 +213,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "22-05.25"
         },
         {
@@ -244,6 +252,7 @@
             "last": "Eichner",
             "first": "Reed",
 			"gender":"m",
+            "season":"i",
             "performance": "04:18.3"
         },
         {
@@ -253,6 +262,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "7.6"
         },
         {
@@ -263,6 +273,7 @@
             "last": "Hoenig",
             "first": "Mark",
 			"gender":"m",
+            "season":"i",
             "performance": "6-07"
         },
         {
@@ -273,6 +284,7 @@
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
+            "season":"i",
             "performance": "23-04"
         },
         {
@@ -283,6 +295,7 @@
             "last": "Sutherland",
             "first": "Mark",
 			"gender":"m",
+            "season":"i",
             "performance": "54-03"
         },
         {
@@ -368,6 +381,7 @@
             "last": "Parrette",
             "first": "Les",
 			"gender":"m",
+            "season":"i",
             "performance": "51.2"
         },
         {
@@ -378,6 +392,7 @@
             "last": "Plummer",
             "first": "Lisa",
 			"gender":"f",
+            "season":"i",
             "performance": "5-02"
         },
         {
@@ -388,6 +403,7 @@
             "last": "Sutherland",
             "first": "Mark",
 			"gender":"m",
+            "season":"i",
             "performance": "61-03.5"
         },
         {
@@ -407,6 +423,7 @@
             "last": "Bell",
             "first": "Jim",
 			"gender":"m",
+            "season":"i",
             "performance": "60-07.5"
         },
         {
