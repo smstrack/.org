@@ -86,6 +86,8 @@
        		<script src="/js/events.js"></script>
             <script src="/js/statechamps.js"></script>
 			<script type="text/javascript">
+			var genderFilter = '.male, .female';
+			var seasonFilter = '.outdoor, .indoor';
 			$(document).ready(function() 
 			{
 			    $.getJSON('/json/statechampions.json', function callback(data)
@@ -122,28 +124,57 @@
 			    		}); 
 			    });
 		    });
+			
+			function applyFilters()
+			{
+				$('.indoor, .outdoor, .female, .male').hide();
+			    var s1 = $(genderFilter);
+				$(seasonFilter).filter(genderFilter).show();
+				
+	            $("#scTable").trigger('update');
+	            $("#scTable").trigger("applyWidgets"); 
+			}
+			
             function changeGender(gender)
             {
                 if (gender == 'both')
                 {
-                    $('.female').show();
-                    $('.male').show();
+               	 genderFilter='.female, .male';
                 }
                 
                 if (gender == 'male')
                 {
-                    $('.female').hide();
-                    $('.male').show();
+               	 genderFilter='.male';
                 }
                 
                 if (gender == 'female')
                 {
-                    $('.female').show();
-                    $('.male').hide();
+               	 genderFilter='.female';
                 }
                 
-                $("#scTable").trigger('update');
-                $("#scTable").trigger("applyWidgets"); 
+                applyFilters();
+                
+            }
+            
+            function changeSeason(season)
+            {
+                if (season == 'both')
+                {
+               	 seasonFilter='.indoor, .outdoor';
+                }
+                
+                if (season == 'outdoor')
+                {
+               	 seasonFilter='.outdoor';
+                }
+                
+                if (season == 'indoor')
+                {
+               	 seasonFilter='.indoor';
+                }
+
+                applyFilters();
+                
             }
 			</script>
 			<p class="style1h">Individual Kansas State Champions<br>
@@ -153,6 +184,10 @@
                 <input type="radio" name="gender" onclick="javascript:changeGender('both')" checked="checked">Combined
                 <input type="radio" name="gender" onclick="javascript:changeGender('male')" >Boys
                 <input type="radio" name="gender" onclick="javascript:changeGender('female')" >Girls
+                <br>
+                <input type="radio" name="season" onclick="javascript:changeSeason('both')" checked="checked">Combined
+                <input type="radio" name="season" onclick="javascript:changeSeason('indoor')" >Indoor
+                <input type="radio" name="season" onclick="javascript:changeSeason('outdoor')" >Outdoor
             </div>
 			<div id="champs">
 			</div>

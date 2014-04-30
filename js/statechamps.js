@@ -9,7 +9,7 @@ function formatJSON(data) {
    tableStr += '<thead><th>Year</th><th>Last</th><th>First</th><th>Event</th><th>Performance</th></thead><tbody>';
    for (x = 0; x < data.champs.length; x++) {
       var row = data.champs[x];
-      var rowClass = ((row.gender == 'm') ? "male" : "female") + " " + ((row.eventGroup == 'TRS'  || row.eventGroup == 'TRD') ? "relay" : "");
+      var rowClass = ((row.gender == 'm') ? "male" : "female") + " " +       	((row.eventGroup == 'TRS'  || row.eventGroup == 'TRD') ? "relay" : "") + " " + ((row.season == 'i') ? "indoor" : "outdoor");
       tableStr += '<tr ';
       if (row.year == currentYear) {
          rowClass += ' currentYear';

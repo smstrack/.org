@@ -32,6 +32,7 @@ function setupMyService()
     query.setMaximumStartTime(startMax);
     query.setOrderBy('starttime');
     query.setSortOrder('a');
+    query.setMaxResults(50);
 
 }
 
