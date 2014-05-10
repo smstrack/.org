@@ -130,7 +130,7 @@ function updateScroller(startItem)
 		}
 		else
 		{
-			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">[<a target="_blank" href="'+link+'">Read More</a>]</span></p>';
+			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">[<a target="_blank" href="'+link+'">Read More...</a>]</span></p>';
 		}
 		iNum++;
 	}	
@@ -160,7 +160,7 @@ function handleResponse(response)
 		data += "<p class='style37'>"+fpNewsItem.title+"</p>";
 		if (content.trim().search('<a') != 0)
 		{
-			content = "[<a target='_blank' href='"+url+"'>Read More</a>]";
+			content = "[<a target='_blank' href='"+url+"'>Read More...</a>]";
 		}
 
 		data +="<p>"+content+"</p>";
