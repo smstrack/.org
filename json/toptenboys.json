@@ -58,7 +58,8 @@
 			{"performance" : "1:56.8**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "1:56.7","first" : "Scott","last" : "Gillespie","year" : "2008"},
 			{"performance" : "1:56.9","first" : "Gordon","last" : "Graham","year" : "1971"},
-			{"performance" : "1:57.2**","first" : "Marty","last" : "Holman","year" : "1968"}
+			{"performance" : "1:56.93","first" : "Aidan","last" : "Johnson","year" : "2014"},
+			{"performance" : "**","first" : "Converted from 880yd","last" : "","year" : ""}
 		]
 	},
 	{"event" : "1600", "eventGroup" : "TD",	"list" : 
@@ -72,7 +73,8 @@
 			{"performance" : "4:15.1**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "4:17.0**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "4:19.2**","first" : "Jeff","last" : "Brady","year" : "1977"},
-			{"performance" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"}
+			{"performance" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"},
+			{"performance" : "**","first" : "Converted from 1 mile","last" : "","year" : ""}
 		]
 	},
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
@@ -86,7 +88,8 @@
 			{"performance" : "9:24.1**","first" : "Jim","last" : "Graham","year" : "1968"},
 			{"performance" : "9:27.8**","first" : "Paul","last" : "Francis","year" : "1969"},
 			{"performance" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
-			{"performance" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"}
+			{"performance" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"},
+			{"performance" : "**","first" : "Converted from 2 mile","last" : "","year" : ""}
 		]
 	},
 	{"event" : "110 Hurdles*", "eventGroup" : "TH",	"list" :
@@ -154,7 +157,7 @@
 			{"performance" : "173-09","first" : "Taylor","last" : "Huhn","year" : "2010"},
 			{"performance" : "169-05","first" : "John","last" : "O'Donnell","year" : "2007"},
 			{"performance" : "167-05","first" : "Clay","last" : "Pearce","year" : "2012"},
-			{"performance" : "Old Style"},
+			{"performance" : "Old Style", "":"", "":"", "":""},
 			{"performance" : "213-04","first" : "Mike","last" : "Morse","year" : "1976"},
 			{"performance" : "205-03","first" : "Tom","last" : "Rystrom","year" : "1976"},
 			{"performance" : "205-02","first" : "Scott","last" : "Zolotor","year" : "1981"},
@@ -202,7 +205,7 @@
 			{"performance" : "44-09","first" : "Dave","last" : "Exby","year" : "1991"},
 			{"performance" : "44-08","first" : "Bob","last" : "Wooten","year" : "1977"},
 			{"performance" : "44-04","first" : "Gary","last" : "Geck","year" : "1982"},
-			{"performance" : "44-02","first" : "Pat","last" : "Coen","year" : "&nbsp;"}
+			{"performance" : "44-02","first" : "Pat","last" : "Coen","year" : "1992"}
 		]
 	},
 	{"event" : "Pole Vault", "eventGroup" : "FVJ",	"list"  :
@@ -222,7 +225,8 @@
 			{"performance" : "13-06","first" : "Joe","last" : "Quint","year" : "1993"},
 			{"performance" : "13-06","first" : "Bill","last" : "Fash","year" : "1977"},
 			{"performance" : "13-06","first" : "Tom","last" : "Grafton","year" : "2008"},
-			{"performance" : "13-06","first" : "Braxton","last" : "Quelle","year" : "2009"}
+			{"performance" : "13-06","first" : "Braxton","last" : "Quelle","year" : "2009"}, 
+			{"performance" : "13-06","first" : "Jacob","last" : "Benson","year" : "2014"}
 		]
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",	"list"  : 
@@ -233,10 +237,10 @@
 			{"performance" : "42.9","first" : "&nbsp;","last" : "","year" : "1998"},
 			{"performance" : "43.0","first" : "&nbsp;","last" : "","year" : "1976"},
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
-			{"performance" : "43.1","first" : "Brian","last" : "Shurtleff,","year" : "1984"},
+			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
-			{"performance" : "43.3","first" : "Phill","last" : "Staley,","year" : "1983"},
+			{"performance" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
 			{"performance" : "43.4","first" : "&nbsp;","last" : "","year" : "1973"}
 		]
 	},
@@ -282,7 +286,7 @@
 			{"performance" : "07:59.7","first" : "&nbsp;","last" : "","year" : "1985"}
 		]
 	},
-	{"event" : "Javelin", "eventGroup" : "DF",	"list"  : 
+	{"event" : "Javelin (old style)&#134;", "eventGroup" : "DF",	"list"  : 
 		[
 			{"performance" : "213-04", "first" : "Mike", "last" : "Morse", "year" : "1976"}
 		]
