@@ -11,6 +11,6 @@ var EVENT_GROUPS =
 	FHJ:{sortPrefix:'gFHJ',   name:'Field'},            /* field horizontal jumps */
 	FVJ:{sortPrefix:'hFVJ',   name:'Field'},            /* field vertical jumps */
 	FT: {sortPrefix:'iFT',    name:'Field'},            /* field throws */
-	DT: {sortPrefix:'jDT',    name:'Discontinued'},     /* discontinued track */
-	DF: {sortPrefix:'kDF',    name:'Discontinued'}      /* discontinued field */
+	NS: {sortPrefix:'jNS',    name:'Non Standard'},     /* non-standard track */		DT: {sortPrefix:'kDT',    name:'Discontinued'},     /* discontinued track */	
+	DF: {sortPrefix:'lDF',    name:'Discontinued'}      /* discontinued field */
 };

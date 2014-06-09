@@ -35,7 +35,7 @@ function formatJSON(data) {
       tableStr += '<td>';
       tableStr += row.performance;
       if (row.video != null && row.video.length > 0) {
-         tableStr += ' <a href="' + row.video + '"><img border="0" src="' + row.videoIcon + '"/></a>';
+         tableStr += ' <a href="' + row.video + '" target="_blank" ><img border="0" width="16px"  height="16px" src="' + row.videoIcon + '"/></a>';
       }
       tableStr += '</td>';
       tableStr += '</tr>';

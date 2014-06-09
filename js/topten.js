@@ -1,10 +1,10 @@
 // needs events.js and records.css
 //var hideListChar = '&#x25be;';
-var hideListChar = '&#9662;';
-//var hideListChar = '[-]';
+//var hideListChar = '&#9662;';
+var hideListChar = '-';
 //var showListChar = '&#x25b9';
-var showListChar = '&#9656;';
-//var showListChar = '[+]';
+//var showListChar = '&#9656;';
+var showListChar = '+';
 // var hideListChar = '';
 // var showListChar = '';
 var hideAllListsText = 'Collapse All';
@@ -148,6 +148,9 @@ function formatJSON(jsonData)
 			var performance = performanceList[y];
 			var rowClass = ' performance ';
 
+			if (performance.performance == undefined)
+				continue;
+			
 			tableStr += '<tr ';
 
 			// mark performances for current year

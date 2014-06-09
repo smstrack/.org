@@ -4,7 +4,7 @@
 		[
 			{"performance" : "10.77","first" : "Anthony","last" : "Hill","year" : "2006"},
 			{"performance" : "10.81","first" : "AJ","last" : "Sims","year" : "1999"},
-			{"performance" : "10.6","first" : "Vince","last" : "Parrett","year" : "1976", "record" : "true"},
+			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
 			{"performance" : "10.7","first" : "Ryan","last" : "Stanley","year" : "1995"},
 			{"performance" : "10.7","first" : "Chad","last" : "Stafford","year" : "1991"},
 			{"performance" : "10.99","first" : "Drew","last" : "Haig","year" : "2011"},
@@ -58,8 +58,7 @@
 			{"performance" : "1:56.8**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "1:56.7","first" : "Scott","last" : "Gillespie","year" : "2008"},
 			{"performance" : "1:56.9","first" : "Gordon","last" : "Graham","year" : "1971"},
-			{"performance" : "1:56.93","first" : "Aidan","last" : "Johnson","year" : "2014"},
-			{"performance" : "**","first" : "Converted from 880yd","last" : "","year" : ""}
+			{"performance" : "1:56.93","first" : "Aidan","last" : "Johnson","year" : "2014"}
 		]
 	},
 	{"event" : "1600", "eventGroup" : "TD",	"list" : 
@@ -73,8 +72,7 @@
 			{"performance" : "4:15.1**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "4:17.0**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "4:19.2**","first" : "Jeff","last" : "Brady","year" : "1977"},
-			{"performance" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"},
-			{"performance" : "**","first" : "Converted from 1 mile","last" : "","year" : ""}
+			{"performance" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"}
 		]
 	},
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
@@ -88,13 +86,12 @@
 			{"performance" : "9:24.1**","first" : "Jim","last" : "Graham","year" : "1968"},
 			{"performance" : "9:27.8**","first" : "Paul","last" : "Francis","year" : "1969"},
 			{"performance" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
-			{"performance" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"},
-			{"performance" : "**","first" : "Converted from 2 mile","last" : "","year" : ""}
+			{"performance" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"}
 		]
 	},
 	{"event" : "110 Hurdles*", "eventGroup" : "TH",	"list" :
 		[
-			{"performance" : "13.8","first" : "Darren","last" : "Nutt","year" : "1988"},
+			{"performance" : "13.8","first" : "Darren","last" : "Nutt","year" : "1989"},
 			{"performance" : "14.0","first" : "Vincent","last" : "Parrette","year" : "1976"},
 			{"performance" : "14.4","first" : "Mike","last" : "Miller","year" : "1984"},
 			{"performance" : "14.5","first" : "Phil","last" : "Saunders","year" : "1979"},
@@ -175,7 +172,7 @@
 			{"performance" : "6-06","first" : "Troy","last" : "Adkins","year" : "1988"},
 			{"performance" : "6-06","first" : "Eric","last" : "Okeefe","year" : "1993"},
 			{"performance" : "6-06","first" : "Johnny","last" : "Ferraro","year" : "1993"},
-			{"performance" : "6-06","first" : "Chris","last" : "Heinz","year" : "1981"},
+			{"performance" : "6-06","first" : "Chris","last" : "Heinz","year" : "1982"},
 			{"performance" : "6-06","first" : "David","last" : "Cox","year" : "1978"}
 		]
 	},
@@ -196,7 +193,7 @@
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",	"list"  : 
 		[
-			{"performance" : "51-06","first" : "Vincent","last" : "Parrett","year" : "1976"},
+			{"performance" : "51-06.75","first" : "Vincent","last" : "Parrett","year" : "1976"},
 			{"performance" : "48-02","first" : "Jay","last" : "Shouse","year" : "1979"},
 			{"performance" : "46-05","first" : "Ken","last" : "Berry","year" : "2000"},
 			{"performance" : "45-03","first" : "Steve","last" : "Casto","year" : "1988"},
@@ -232,9 +229,9 @@
 	{"event" : "4 x 100", "eventGroup" : "TRS",	"list"  : 
 		[
 			{"performance" : "42.8","first" : "Troy Adkins, Terri Mohajir,","last" : "Jim Davis, Darren Nutt","year" : "1988"},
-			{"performance" : "42.9","first" : "&nbsp;","last" : "","year" : "2000"},
-			{"performance" : "42.9","first" : "&nbsp;","last" : "","year" : "1999"},
-			{"performance" : "42.9","first" : "&nbsp;","last" : "","year" : "1998"},
+			{"performance" : "42.9","first" : "AJ Sims, Jeremy Gordon, ","last" : "Euler Bropleh, Matt Ryan","year" : "1998"},
+			{"performance" : "42.9","first" : "Mike Novak, Alvin Chambers","last" : "Matt Ryan, AJ Sims","year" : "1999"},
+			{"performance" : "42.9","first" : "Josh Mott, Alvin Chambers, ","last" : "Matt Ryan, AJ Sims ","year" : "2000"},
 			{"performance" : "43.0","first" : "&nbsp;","last" : "","year" : "1976"},
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
 			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
@@ -247,45 +244,62 @@
 	{"event" : "4 x 200", "eventGroup" : "TRS",	"list"  : 
 		[
 			{"performance" : "01:29.2","first" : "B.J. Cribbs, Ryan Stanley,","last" : "Jason Catlett, Dave Henderson","year" : "1995"},
-			{"performance" : "01:29.4","first" : "&nbsp;","last" : "","year" : "2000"},
-			{"performance" : "01:29.5","first" : "&nbsp;","last" : "","year" : "1988"},
-			{"performance" : "01:30.3","first" : "&nbsp;","last" : "","year" : "1973"},
-			{"performance" : "01:30.5","first" : "&nbsp;","last" : "","year" : "1998"},
-			{"performance" : "01:30.5","first" : "&nbsp;","last" : "","year" : "1976"},
-			{"performance" : "01:30.7","first" : "&nbsp;","last" : "","year" : "1999"},
-			{"performance" : "01:30.7","first" : "&nbsp;","last" : "","year" : "1975"},
-			{"performance" : "01:31.0","first" : "&nbsp;","last" : "","year" : "1972"},
-			{"performance" : "01:31.1","first" : "&nbsp;","last" : "","year" : "1969"}
+			{"performance" : "01:29.4","first" : "Josh Mott, Alvin Chambers, ","last" : "Matt Ryan AJ Sims","year" : "2000"},
+			{"performance" : "01:29.5","first" : "JT Collor, Jim Davis, ","last" : "Terri Mohajir, Darren Nutt","year" : "1988"},
+			{"performance" : "01:30.3","first" : "","last" : "","year" : "1973"},
+			{"performance" : "01:30.5","first" : "Euler Bropleh, Mike Novak, ","last" : "Matt Ryan, AJ Sims","year" : "1998"},
+			{"performance" : "01:30.5","first" : "","last" : "","year" : "1976"},
+			{"performance" : "01:30.7","first" : "Euler Bropleh, Josh Mott","last" : "Matt Ryan, AJ Sims","year" : "1999"},
+			{"performance" : "01:30.7","first" : "","last" : "","year" : "1975"},
+			{"performance" : "01:31.0","first" : "","last" : "","year" : "1972"},
+			{"performance" : "01:31.1","first" : "","last" : "","year" : "1969"}
 		]
 	},
 	{"event" : "4 x 400", "eventGroup" : "TRS",	"list"  : 
 		[
 			{"performance" : "03:17.4","first" : "Rodney Olsen, Mark Graham,","last" : "Bill Bucher, Rodger Stewart","year" : "1972"},
-			{"performance" : "03:20.3","first" : "&nbsp;","last" : "","year" : "1969"},
-			{"performance" : "03:20.4","first" : "&nbsp;","last" : "","year" : "1995"},
-			{"performance" : "03:20.6","first" : "&nbsp;","last" : "","year" : "1984"},
-			{"performance" : "03:21.2","first" : "&nbsp;","last" : "","year" : "1983"},
-			{"performance" : "03:21.2","first" : "&nbsp;","last" : "","year" : "1989"},
-			{"performance" : "03:21.6","first" : "&nbsp;","last" : "","year" : "1988"},
-			{"performance" : "03:21.8","first" : "&nbsp;","last" : "","year" : "1999"},
-			{"performance" : "03:21.9","first" : "&nbsp;","last" : "","year" : "1971"},
-			{"performance" : "03:21.9","first" : "&nbsp;","last" : "","year" : "1968"}
+			{"performance" : "03:20.3","first" : "","last" : "","year" : "1969"},
+			{"performance" : "03:20.4","first" : "Jason Catlett, BJ Cribbs, ","last" : "Dave Henderson, Ryan Stanley","year" : "1995"},
+			{"performance" : "03:20.6","first" : "Craig Adams, Bob Bates, ","last" : "Randy Leighton, Mike Miller","year" : "1984"},
+			{"performance" : "03:21.2","first" : "Mike Miller, Randy Leighton, ","last" : "Mark Millard, Kevin Underhill","year" : "1983"},
+			{"performance" : "03:21.2","first" : "Sean Murray, Troy Adkins, ","last" : "Brian Cline, Darren Nutt","year" : "1989"},
+			{"performance" : "03:21.6","first" : "Darren Nutt, Teri Mohajir, ","last" : "Jim Davis, JT Collor","year" : "1988"},
+			{"performance" : "03:21.8","first" : "Ryan Fox, Matt Ryan, ","last" : "Mike Hoffman, AJ Sims","year" : "1999"},
+			{"performance" : "03:21.9","first" : "","last" : "","year" : "1971"},
+			{"performance" : "03:21.9","first" : "","last" : "","year" : "1968"}
 		]
 	},
 	{"event" : "4 x 800", "eventGroup" : "TRS",	"list"  : 
 		[
 			{"performance" : "07:50.7","first" : "Brent Steiner, Chris Bentson,","last" : "Mark Lauterbach, Steve Smith","year" : "1980"},
-			{"performance" : "07:52.0","first" : "&nbsp;","last" : "","year" : "1968"},
-			{"performance" : "07:54.5","first" : "&nbsp;","last" : "","year" : "1975"},
-			{"performance" : "07:55.0","first" : "&nbsp;","last" : "","year" : "1969"},
-			{"performance" : "07:57.2","first" : "&nbsp;","last" : "","year" : "1978"},
-			{"performance" : "07:57.2","first" : "&nbsp;","last" : "","year" : "1991"},
-			{"performance" : "07:57.3","first" : "&nbsp;","last" : "","year" : "1977"},
-			{"performance" : "07:58.3","first" : "&nbsp;","last" : "","year" : "1987"},
-			{"performance" : "07:58.9","first" : "&nbsp;","last" : "","year" : "1979"},
-			{"performance" : "07:59.7","first" : "&nbsp;","last" : "","year" : "1985"}
+			{"performance" : "07:52.0","first" : "","last" : "","year" : "1968"},
+			{"performance" : "07:54.5","first" : "","last" : "","year" : "1975"},
+			{"performance" : "07:55.0","first" : "","last" : "","year" : "1969"},
+			{"performance" : "07:57.2","first" : "","last" : "","year" : "1978"},
+			{"performance" : "07:57.2","first" : "Chris Fletcher, Doug Stokes, ","last" : "Barry Lueh, Curt Creason","year" : "1985"},
+			{"performance" : "07:57.3","first" : "","last" : "","year" : "1977"},
+			{"performance" : "07:58.3","first" : "Richard Hochanadel, Jeff Patterson","last" : "Jim Davis, Brian White","year" : "1987"},
+			{"performance" : "07:58.9","first" : "","last" : "","year" : "1979"},
+			{"performance" : "07:59.7","first" : "","last" : "","year" : "1985"}
 		]
 	},
+	{"event" : "400 Hurdles", "eventGroup" : "NS", "list"   : 
+        [
+            {"performance" : "53.25","first" : "Mike","last" : "Miller","year" : "1984"}
+        ]
+    },
+	{"event" : "2000 Steeple", "eventGroup" : "NS", "list"   : 
+        [
+            {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010"}
+        ]
+    },
+	{"event" : "Hammer", "eventGroup" : "NS", "list"   : 
+        [
+            {"performance" : "157-08","first" : "Scott","last" : "Lofquist","year" : "1978"}
+        ]
+    },
+    
+	
 	{"event" : "Javelin (old style)&#134;", "eventGroup" : "DF",	"list"  : 
 		[
 			{"performance" : "213-04", "first" : "Mike", "last" : "Morse", "year" : "1976"}
