@@ -192,6 +192,7 @@ function setupMyService()
 	    .fromIso8601(scheduleYear + '-07-31T00:00:00.000-08:00');
     query.setMinimumStartTime(startMin);
     query.setMaximumStartTime(startMax);
+    query.setMaxResults(50);
     query.setOrderBy('starttime');
     query.setSortOrder('a');
 
