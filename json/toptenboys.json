@@ -293,6 +293,11 @@
             {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010"}
         ]
     },
+	{"event" : "Distance Medley", "eventGroup" : "NS", "list"   : 
+        [
+            {"performance" : "10:15.93**","first" : "","last" : "","year" : "1979"}
+        ]
+    },
 	{"event" : "Hammer", "eventGroup" : "NS", "list"   : 
         [
             {"performance" : "157-08","first" : "Scott","last" : "Lofquist","year" : "1978"}
