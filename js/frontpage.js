@@ -174,50 +174,59 @@ function handleResponse(response)
 	    scheduleYear += 1;
 	}
 
-	google.load("gdata", "1");
-	google.setOnLoadCallback(getMyFeed);
-
 }
 
-
-function setupMyService()
+function loadGoogleData()
 {
-    myService = new google.gdata.calendar.CalendarService(
-	    'exampleCo-exampleApp-1');
-    query = new google.gdata.calendar.CalendarEventQuery(feedUrl);
+	var date = new Date();
 
-    var startMin = google.gdata.DateTime
-	    .fromIso8601(scheduleYear+'-01-01T00:00:00.000-08:00');
-    var startMax = google.gdata.DateTime
-	    .fromIso8601(scheduleYear + '-07-31T00:00:00.000-08:00');
-    query.setMinimumStartTime(startMin);
-    query.setMaximumStartTime(startMax);
-    query.setMaxResults(50);
-    query.setOrderBy('starttime');
-    query.setSortOrder('a');
+	var scheduleYear = date.getFullYear();
 
+//		if (date.getMonth() > 6)
+//		{
+//			scheduleYear += 1;
+//		}
+
+	var timeStart = new Date(scheduleYear, 0, 1, 8);
+	var timeEnd = new Date(scheduleYear, 11, 31, 8);
+	gapi.client.setApiKey('AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE');
+	gapi.client.load('calendar', 'v3', function()
+	{
+		var request = gapi.client.calendar.events.list({
+			'calendarId' : 'smsraidertrack@gmail.com',
+			'orderBy' : 'startTime',
+			'sortOrder' : 'a',
+				'timeMin' : ISODateString(timeStart),
+				'timeMax' : ISODateString(timeEnd),
+			'maxResults' : 50,
+			'singleEvents' : true
+		});
+
+		request.execute(function(resp)
+		{
+			displayUpcomingEvents(resp.items);
+			setFrontPage();
+		});
+
+	});
 }
 
-// calendar setup call back
-function getMyFeed()
+function ISODateString(d)
 {
-    setupMyService();
-
-    // myService.getEventsFeed(feedUrl, handleMyFeed, handleError);
-    myService.getEventsFeed(query, handleMyFeed, handleError);
+	function pad(n)
+	{
+		return n < 10 ? '0' + n : n
+	}
+	
+	returnStr = d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + 'T'
+   + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) + 'Z'; 
+	
+	return returnStr;
 }
 
 function handleError(e)
 {
     alert("There was an error!");
     alert(e.cause ? e.cause.statusText : e.message);
-}
-
-
-// data response from google calendar
-function handleMyFeed(myResultsFeedRoot)
-{
-	displayUpcomingEvents(myResultsFeedRoot.feed.getEntries());
-	setFrontPage();
 }
 

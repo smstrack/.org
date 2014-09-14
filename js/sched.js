@@ -19,7 +19,11 @@ function displaySchedule(entries)
 		// var eventTitle = eventEntry.getTitle().getText();
 		var eventTitle = eventEntry.summary;
 		// var eventDate = (eventEntry.getTimes())[0].getStartTime().getDate();
-		var eventDate = dateFromISO8601(eventEntry.start.dateTime);
+		var eventDate = eventEntry.start.dateTime;
+		if (eventDate == null){
+			eventDate = eventEntry.start.date;
+		}
+		eventDate = dateFromISO8601(eventDate);
 		// var eventLocation = (eventEntry.getLocations())[0];
 		var eventLocation = eventEntry.location;
 		var eventDateStr = eventDate.toDateString();
@@ -36,7 +40,15 @@ function displaySchedule(entries)
 		var eventMinutes = eventDate.getMinutes();
 		// var eventSummary =
 		// eventEntry.getContent().getText().split(EVENT_SPLIT);
-		var eventSummary = eventEntry.description.split(EVENT_SPLIT);
+		
+		var eventDesc = eventEntry.description;
+		if (eventDesc == null)
+		{
+			eventDesc = "SMS";
+		}
+		
+		
+		var eventSummary = eventDesc.split(EVENT_SPLIT);
 		var shortLocation = eventSummary[0];
 		var infoUrl = "";
 		var resultsUrl = "";

@@ -7,6 +7,13 @@ var firstEventDate;
 var EVENT_SPLIT = "|";
 var SUMMARY_SPLIT = "-";
 
+function dateFromISO8601(isostr)
+{
+	var parts = isostr.match(/\d+/g);
+	return new Date(parts[0], parts[1] - 1, parts[2], parts[3], parts[4], parts[5]);
+}
+
+
 function displayUpcomingEvents(entries)
 {
 	// var htmlStr = '<table border="1" class="style19" align="center"
@@ -19,8 +26,13 @@ function displayUpcomingEvents(entries)
 	{
 		rowClass = i % 2;
 		var eventEntry = entries[i];
-		var eventTitle = eventEntry.getTitle().getText();
-		var eventDate = (eventEntry.getTimes())[0].getStartTime().getDate();
+		var eventTitle = eventEntry.summary;
+		var eventDate = eventEntry.start.dateTime;
+		if (eventDate == null){
+			eventDate = eventEntry.start.date;
+		}
+		
+		var eventDate = dateFromISO8601(eventDate);
 		
 		
 		// event date > todays date and 
@@ -36,7 +48,7 @@ function displayUpcomingEvents(entries)
 			{
 				firstEventDate = eventDate;
 			}	
-			var eventLocation = (eventEntry.getLocations())[0];
+			var eventLocation = eventEntry.location;
 			var eventDateStr = eventDate.toDateString();
 			eventDateStr = eventDateStr.substring(0, eventDateStr.length - 4);
 			var eventTime;
@@ -49,7 +61,14 @@ function displayUpcomingEvents(entries)
 			}
 
 			var eventMinutes = eventDate.getMinutes();
-			var eventSummary = eventEntry.getContent().getText().split("|");
+			
+			var eventDesc = eventEntry.description;
+			if (eventDesc == null)
+			{
+				eventDesc = "SMS";
+			}
+			
+			var eventSummary = eventDesc.split(EVENT_SPLIT);
 			var shortLocation = eventSummary[0];
 			var infoUrl = "";
 			var resultsUrl = "";
@@ -85,7 +104,7 @@ function displayUpcomingEvents(entries)
 
 			var mapLink = "";
 
-			var locationString = $.trim(eventLocation.getValueString());
+			var locationString = $.trim(eventLocation);
 
 			var content = '<div class="style1m">';
 			
