@@ -87,12 +87,16 @@ function displaySchedule(entries)
 		if (locationString != null && locationString.length != 0)
 		{
 			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ ">Map</a>"
+					+ ">"+shortLocation+"</a>"
+		} 
+		else 
+		{
+			mapLink = shortLocation;
 		}
 
 		eventTime = eventHours + ":" + ((eventMinutes < 10) ? "0" + eventMinutes : eventMinutes) + timeMod;
 		htmlStr += "<tr class='row" + rowClass + "'><td>" + eventDateStr + "</td><td>" + eventTitle + "</td><td>"
-				+ eventTime + "</td><td>" + shortLocation + "</td><td>" + mapLink + "</td><td>" + infoLinks + "</td>";
+				+ eventTime + "</td><td>" + mapLink + "</td><td>" + infoLinks + "</td>";
 	}
 	htmlStr += "</table>"
 	$('#sched').html(htmlStr);
