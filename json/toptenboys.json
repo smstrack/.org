@@ -142,7 +142,8 @@
 			{"performance" : "57-03", "video" : "/video/j_holmes57-03.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Justin","last" : "Holmes","year" : "2008"},
 			{"performance" : "56-00","first" : "Dirk","last" : "Ochs","year" : "1990"},
 			{"performance" : "55-06","first" : "Lynn","last" : "Stowe","year" : "1967"},
-			{"performance" : "55-02","first" : "Zac","last" : "Bendrick","year" : "2011"}
+			{"performance" : "55-02.25","first" : "Dalton","last" : "Lewallen","year" : "2015"},
+			{"" : "55-02","first" : "Zac","last" : "Bendrick","year" : "2011"}
 		]
 	},
 	{"event" : "Javelin", "eventGroup" : "FT",	"list"  :
