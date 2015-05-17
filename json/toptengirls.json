@@ -68,9 +68,10 @@
 			{"performance" : "5:11.6","first" : "Sally","last" : "Arthur","year" : "1973"},
 			{"performance" : "5:24.6","first" : "Jana","last" : "Muir","year" : "1979"},
 			{"performance" : "5:26.19","first" : "Lauren","last" : "McCarthy","year" : "2011"},
+			{"performance" : "5:27.50","first" : "Karynn","last" : "Carroll","year" : "2015"},
 			{"performance" : "5:28.62","first" : "Lindsey","last" : "Brown","year" : "2009"},
 			{"performance" : "5:29.8","first" : "Dana","last" : "Schoulis","year" : "&nbsp;"},
-			{"performance" : "5:29.92","first" : "Allie","last" : "Antrim","year" : "1992"}
+			{"" : "5:29.92","first" : "Allie","last" : "Antrim","year" : "1992"}
 		]
 	},
 
@@ -143,8 +144,8 @@
 			{"performance" : "37-08" , "video" : "/video/bwebb37-08.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Bethany","last" : "Webb","year" : "2012"},
 			{"performance" : "36-08","first" : "Whitney","last" : "Loe","year" : "2006"},
 			{"performance" : "36-03","first" : "Tara","last" : "Hacker","year" : "2000"},
+			{"performance" : "36-02","first" : "Ashlie","last" : "Fischer","year" : "2015"},
 			{"performance" : "36-01","first" : "Clara","last" : "Sitas","year" : "2014"},
-			{"performance" : "35-09.75","first" : "Ashlie","last" : "Fischer","year" : "2015"},
 			{"performance" : "35-09","first" : "Danielle","last" : "McCray","year" : "2003"},
 			{"" : "35-02","first" : "Jennifer","last" : "May","year" : "1995"},
 			{"" : "35-02","first" : "Jennifer","last" : "May","year" : "1995"},
@@ -195,10 +196,11 @@
 			{"performance" : "17-02","first" : "Hillary","last" : "Hoffman","year" : "2007"},
 			{"performance" : "16-11","first" : "Jody","last" : "Manson","year" : "&nbsp;"},
 			{"performance" : "16-10","first" : "Stacy","last" : "Bombaars","year" : "1985"},
+			{"performance" : "16-10","first" : "Gretchen","last" : "Fiebig","year" : "2015"},
 			{"performance" : "16-08","first" : "Tina","last" : "Niu","year" : "1984"},
 			{"performance" : "16-08","first" : "Kelly","last" : "Turner","year" : "1992"},
 			{"performance" : "16-07","first" : "Meg","last" : "Ryan","year" : "2004"},
-			{"performance" : "16-07","first" : "Annie","last" : "Drinane","year" : "2001"}
+			{"" : "16-07","first" : "Annie","last" : "Drinane","year" : "2001"}
 		]
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",    "list"   : 
@@ -212,8 +214,9 @@
 			{"performance" : "33-09","first" : "Laura","last" : "Pummill","year" : "1997"},
 			{"performance" : "33-10","first" : "Ashley","last" : "Robinson","year" : "2006"},
 			{"performance" : "33-09","first" : "Danielle","last" : "McCray","year" : "2003"},
-			{"performance" : "33-03","first" : "Jocelyn","last" : "Cummings","year" : "2009"},
-			{"performance" : "33-01","first" : "Danielle","last" : "Scott","year" : "1998"}
+			{"performance" : "33-05.75","first" : "Gretchen","last" : "Fiebig","year" : "2015"},
+			{"" : "33-03","first" : "Jocelyn","last" : "Cummings","year" : "2009"},
+			{"" : "33-01","first" : "Danielle","last" : "Scott","year" : "1998"}
 		]
 	},
 	{"event" : "Pole Vault", "eventGroup" : "FVJ", "list"   : 
