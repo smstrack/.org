@@ -53,9 +53,9 @@
 			{"performance" : "2:19.1","first" : "Lisa","last" : "Avery","year" : "1995"},
 			{"performance" : "2:19.3","first" : "Leeann","last" : "Conway","year" : "1989"},
 			{"performance" : "2:20.6","first" : "Leah","last" : "Honeycutt","year" : "1987"},
+			{"performance" : "2:21.68","first" : "Karynn","last" : "Carroll","year" : "2015"},
 			{"performance" : "2:23.0","first" : "Laura","last" : "Friederich","year" : "2001"},
 			{"performance" : "2:24.9","first" : "Tamra","last" : "Vogel","year" : "1981"},
-			{"performance" : "2:25.33","first" : "Karynn","last" : "Carroll","year" : "2015"},
 			{"performance" : "2:26.53","first" : "Megan","last" : "Murray","year" : "2007"}
 		]
 	},
@@ -113,7 +113,7 @@
 			{"performance" : "47.02","first" : "Nora","last" : "Bingaman","year" : "2012"},
 			{"performance" : "47.0","first" : "Wendy","last" : "Deering","year" : "1987"},
 			{"performance" : "47.14","first" : "Kylie","last" : "Holliman","year" : "2014"},
-			{"performance" : "47.79","first" : "Nicole","last" : "Sanchez","year" : "2014"},
+			{"performance" : "47.24","first" : "Nicole","last" : "Sanchez","year" : "2015"},
 			{"performance" : "48.1","first" : "Marianne","last" : "Tremblay","year" : "1995"},
 			{"performance" : "48.4","first" : "Sara","last" : "Jadlow","year" : "1990"},
 			{"" : "49.1","first" : "Olivia","last" : "Thompson","year" : "1993"},
@@ -231,7 +231,8 @@
 			{"performance" : "10-00","first" : "Rachel","last" : "Distefano","year" : "2009"},
 			{"performance" : "10-00","first" : "Alana","last" : "Steward","year" : "2011"},
 			{"performance" : "9-06","first" : "Abbey","last" : "Baslock-Bechler","year" : "2008"},
-			{"performance" : "9-06","first" : "Kristina","last" : "Tolson","year" : "2014"}
+			{"performance" : "9-06","first" : "Kristina","last" : "Tolson","year" : "2014"},
+			{"performance" : "9-06","first" : "Sara","last" : "Wilkerson","year" : "2015"}
 		]
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",    "list"   : 
