@@ -196,7 +196,12 @@ function formatJSON(jsonData)
 			// add video link if present
 			if (performance.video != null && performance.video.length > 0)
 			{
-				tableStr += ' <a href="' + performance.video + '"><img border=0 src="' + performance.videoIcon + '"/></a>';
+				target = "";
+				if (performance.target != null){
+					target = 'target="' + performance.target + '"';
+				}
+
+				tableStr += ' <a href="' + performance.video + '"'+target+'><img border=0 height="16px" src="' + performance.videoIcon + '"/></a>';
 			}
 			tableStr += '</td>';
 			tableStr += '<td>';

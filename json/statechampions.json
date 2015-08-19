@@ -128,6 +128,17 @@
         },
         {
             "year": 1974,
+            "event": "1 Mile (i)",
+            "eventGroup": "TD",
+            "eventCom" : "1600",
+            "last": "Nicolay",
+            "first": "Jim",
+			"gender":"m",
+            "season":"i",
+            "performance": "04:19.6"
+        },
+        {
+            "year": 1974,
             "event": "880yd",
             "eventGroup": "TS",
             "eventCom" : "800",
@@ -166,12 +177,12 @@
         },
         {
             "year": 1975,
-            "event": "180yd H (i)",
+            "event": "180yd H",
             "eventGroup": "TH",
             "last": "Parrette",
             "first": "Vincent",
 			"gender":"m",
-            "season":"i",
+            "season":"o",
             "performance": "19.7"
         },
         {
@@ -1035,6 +1046,28 @@
 			"video":"http://www.youtube.com/watch?v=-v7rzcTw9wk&feature=share&list=UUDls5EMmbOt_am92sQJtbRw",
             "videoIcon": "../images/YouTube-social-icon_red_24px.png",
             "performance": "37-09.25"
+        },
+        {
+            "year": 2015,
+            "event": "Discus",
+            "eventGroup": "FT",
+            "last": "Flagler",
+            "first": "Trent",
+			"gender":"m",
+			"video":"https://youtu.be/icSUrXTgn4c",
+            "videoIcon": "../images/YouTube-social-icon_red_24px.png",
+            "performance": "162-02"
+        },
+        {
+            "year": 2015,
+            "event": "Shot",
+            "eventGroup": "FT",
+            "last": "Lewallen",
+            "first": "Dalton",
+			"gender":"m",
+			"video":"https://youtu.be/RE03Z1EQPdY",
+            "videoIcon": "../images/YouTube-social-icon_red_24px.png",
+            "performance": "56-09"
         }
     ]
 }

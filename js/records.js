@@ -65,7 +65,11 @@ function formatJSON(data)
         // add video link if present
         if (row.video != null && row.video.length > 0)
         {
-            tableStr += ' <a href="' + row.video + '"><img border=0 src="' + row.videoIcon + '"/></a>';
+			target = "";
+			if (row.target != null){
+				target = 'target="' + row.target + '"';
+			}
+            tableStr += ' <a href="' + row.video + '"' + target +'><img border=0 height="16px" src="' + row.videoIcon + '"/></a>';
         }
         
         tableStr += '</td>';
