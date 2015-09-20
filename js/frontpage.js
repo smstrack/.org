@@ -8,7 +8,7 @@ var NEWS = modes[2];
 var CUSTOM = modes[3];
 var AUTO = modes[4];
 
-var displayMode = COUNTDOWN;
+var displayMode = AUTO;
 
 var today = new Date();
 var scheduleYear = today.getFullYear();
