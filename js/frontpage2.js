@@ -1,3 +1,4 @@
+/*globals MSDAY */
 var modes = ["COUNTDOWN","SCHEDULE","NEWS","CUSTOM", "AUTO"];
 
 var COUNTDOWN = modes[0];

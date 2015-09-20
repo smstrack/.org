@@ -1,3 +1,5 @@
+/*globals MSDAY */
+/*eslint-env jquery */
 var modes = ["COUNTDOWN","SCHEDULE","NEWS","CUSTOM", "AUTO"];
 
 var COUNTDOWN = modes[0];
@@ -11,10 +13,10 @@ var displayMode = AUTO;
 var today = new Date();
 var scheduleYear = today.getFullYear();
 
-var COUNTDOWN_TITLE = "The 2014 Season Begins";   
-var COUNTDOWN_YEAR = today.getFullYear();   
-var COUNTDOWN_MONTH = 2;   // 0-jan - 11-dec
-var COUNTDOWN_DAY = 3;     // 1 - 31
+var COUNTDOWN_TITLE = "The " + scheduleYear + " Season Begins";   
+var COUNTDOWN_YEAR = scheduleYear;   
+var COUNTDOWN_MONTH = 1;   // 0-jan - 11-dec
+var COUNTDOWN_DAY = 29;     // 1 - 31
 var COUNTDOWN_HOUR = 15;   // 0 - 23
 var COUNTDOWN_MINUTES = 0; // 0 - 59
 
@@ -124,7 +126,7 @@ function updateScroller(startItem)
 		title = newsItems[iNum].title;
 		subTitle = newsItems[iNum].content;
 		link = newsItems[iNum].url;
-		if (subTitle.trim().search('<a') == 0)
+		if (subTitle.trim().search('<a') == 0 || subTitle.trim().length == 0)
 		{
 			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">'+subTitle+'</span></p>';
 		}

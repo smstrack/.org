@@ -1,4 +1,5 @@
 // needs events.js and records.css
+/*globals tableStr:true EVENT_GROUPS*/
 function formatJSON(data)
 {
     var date = new Date();
@@ -49,7 +50,7 @@ function formatJSON(data)
         }
         
         // don't list event more than once for co-record holders
-        if (currentEvent != row.event)
+        if (currentEvent !== row.event)
         {
             currentEvent = row.event;
         } else
@@ -65,7 +66,7 @@ function formatJSON(data)
         // add video link if present
         if (row.video != null && row.video.length > 0)
         {
-			target = "";
+			var target = "";
 			if (row.target != null){
 				target = 'target="' + row.target + '"';
 			}
