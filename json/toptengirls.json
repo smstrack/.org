@@ -122,7 +122,7 @@
 	},
 	{"event" : "Discus", "eventGroup" : "FT",  "list"   :
 		[
-			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "all-time-kansas" : "26" },
+			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "all-time-kansas" : "26"},
 			{"performance" : "133-02", "video" : "/video/krichards133-02.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Korbin","last" : "Richards","year" : "2011"},
 			{"performance" : "130-08","first" : "Carol","last" : "Bennett","year" : "1981"},
 			{"performance" : "125-03", "video" : "/video/mlong125-3.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Maggie","last" : "Long","year" : "2004"},
