@@ -63,11 +63,11 @@
 	},
 	{"event" : "1600", "eventGroup" : "TD",	"list" : 
 		[
-			{"performance" : "4:05.96**","first" : "Steve","last" : "Smith","year" : "1980"},
-			{"performance" : "4:09.5**","first" : "Brent","last" : "Steiner","year" : "1979"},
-			{"performance" : "4:11.6**","first" : "Kevin","last" : "Kenny","year" : "1976"},
-			{"performance" : "4:11.8**","first" : "Reed","last" : "Eichner","year" : "1976"},
-			{"performance" : "4:12.6**","first" : "Dave","last" : "Anderson","year" : "1969"},
+			{"performance" : "4:05.96**","first" : "Steve","last" : "Smith","year" : "1980", "all-time-kansas" : "2"},
+			{"performance" : "4:09.5**","first" : "Brent","last" : "Steiner","year" : "1979", "all-time-kansas" : "7"},
+			{"performance" : "4:11.6**","first" : "Kevin","last" : "Kenny","year" : "1976", "all-time-kansas" : "12"},
+			{"performance" : "4:11.8**","first" : "Reed","last" : "Eichner","year" : "1976", "all-time-kansas" : "13"},
+			{"performance" : "4:12.6**","first" : "Dave","last" : "Anderson","year" : "1969", "all-time-kansas" : "16"},
 			{"performance" : "4:14.9**","first" : "Ryan","last" : "Eichner","year" : "1970"},
 			{"performance" : "4:15.1**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "4:17.0**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
@@ -77,9 +77,9 @@
 	},
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
 		[
-			{"performance" : "8:43.59**","first" : "Brent","last" : "Steiner","year" : "1979"},
-			{"performance" : "8:57.6**","first" : "Reed","last" : "Eichner","year" : "1976"},
-			{"performance" : "9:00.0**","first" : "Dave","last" : "Anderson","year" : "1969"},
+			{"performance" : "8:43.59**","first" : "Brent","last" : "Steiner","year" : "1979", "all-time-kansas" : "1"},
+			{"performance" : "8:57.6**","first" : "Reed","last" : "Eichner","year" : "1976", "all-time-kansas" : "4"},
+			{"performance" : "9:00.0**","first" : "Dave","last" : "Anderson","year" : "1969", "all-time-kansas" : "6"},
 			{"performance" : "9:09.7**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "9:14.9**","first" : "Ryan","last" : "Eichner","year" : "1970"},
 			{"performance" : "9:16.1","first" : "Steve","last" : "Smith","year" : "1980"},
@@ -91,7 +91,7 @@
 	},
 	{"event" : "110 Hurdles*", "eventGroup" : "TH",	"list" :
 		[
-			{"performance" : "13.8","first" : "Darren","last" : "Nutt","year" : "1989"},
+			{"performance" : "13.8","first" : "Darren","last" : "Nutt","year" : "1989", "all-time-kansas" : "12"},
 			{"performance" : "14.0","first" : "Vincent","last" : "Parrette","year" : "1976"},
 			{"performance" : "14.4","first" : "Mike","last" : "Miller","year" : "1984"},
 			{"performance" : "14.5","first" : "Phil","last" : "Saunders","year" : "1979"},
@@ -105,7 +105,7 @@
 	},
 	{"event" : "300 Hurdles*", "eventGroup" : "TH",	"list"  :
 		[
-			{"performance" : "37.6","first" : "Darren","last" : "Nutt","year" : "1988"},
+			{"performance" : "37.6","first" : "Darren","last" : "Nutt","year" : "1988", "all-time-kansas" : "17"},
 			{"performance" : "38.0","first" : "Dave","last" : "Henderson","year" : "1995"},
 			{"performance" : "38.2","first" : "Mike","last" : "Miller","year" : "1984"},
 			{"performance" : "38.6","first" : "Phil","last" : "Saunders","year" : "1978"},
@@ -119,9 +119,9 @@
 	},
 	{"event" : "Discus", "eventGroup" : "FT",	"list"  :
 		[
-			{"performance" : "213-06","first" : "Clint","last" : "Johnson","year" : "1980"},
-			{"performance" : "202-03","first" : "Mark","last" : "Sutherland","year" : "1977"},
-			{"performance" : "200-00","first" : "Scott","last" : "Lofquist","year" : "1978"},
+			{"performance" : "213-06","first" : "Clint","last" : "Johnson","year" : "1980", "all-time-kansas" : "1"},
+			{"performance" : "202-03","first" : "Mark","last" : "Sutherland","year" : "1977", "all-time-kansas" : "5"},
+			{"performance" : "200-00","first" : "Scott","last" : "Lofquist","year" : "1978", "all-time-kansas" : "7"},
 			{"performance" : "186-02","first" : "Jim","last" : "Bell","year" : "1978"},
 			{"performance" : "185-10","first" : "Floyd","last" : "Dorsey","year" : "1974"},
 			{"performance" : "180-10","first" : "Justin","last" : "Holmes","year" : "2007"},
@@ -133,8 +133,8 @@
 	},
 	{"event" : "Shot Put", "eventGroup" : "FT",	"list"  :
 		[
-			{"performance" : "69-01.25", "video" : "/video/c_johnson69-1.wmv", "videoIcon" : "/images/wms.bmp","first" : "Clint","last" : "Johnson","year" : "1980"},
-			{"performance" : "67-05.5(i)","first" : "Mark","last" : "Sutherland","year" : "1977"},
+			{"performance" : "69-01.25", "video" : "/video/c_johnson69-1.wmv", "videoIcon" : "/images/wms.bmp","first" : "Clint","last" : "Johnson","year" : "1980", "all-time-kansas" : "2"},
+			{"performance" : "67-05.5(i)","first" : "Mark","last" : "Sutherland","year" : "1977", "all-time-kansas" : "4"},
 			{"performance" : "61-04.5","first" : "Scott","last" : "Lofquist","year" : "1978"},
 			{"performance" : "60-07.5(i)","first" : "Jim","last" : "Bell","year" : "1978"},
 			{"performance" : "60-01.5","first" : "George","last" : "Curts","year" : "1997"},
@@ -148,8 +148,8 @@
 	},
 	{"event" : "Javelin", "eventGroup" : "FT",	"list"  :
 		[
-			{"performance" : "238-04" , "video" : "/video/jswanepoel238-04.wmv", "videoIcon" : "/images/wms.bmp","first" : "Johannes","last" : "Swanepoel","year" : "2010"},
-			{"performance" : "206-07","first" : "Kyle","last" : "Komarek","year" : "2005"},
+			{"performance" : "238-04" , "video" : "/video/jswanepoel238-04.wmv", "videoIcon" : "/images/wms.bmp","first" : "Johannes","last" : "Swanepoel","year" : "2010", "all-time-kansas" : "1"},
+			{"performance" : "206-07","first" : "Kyle","last" : "Komarek","year" : "2005", "all-time-kansas" : "20"},
 			{"performance" : "176-07","first" : "Marcus","last" : "Reynolds","year" : "2008"},
 			{"performance" : "175-03","first" : "Alex","last" : "Brown","year" : "2012"},
 			{"performance" : "173-09","first" : "Taylor","last" : "Huhn","year" : "2010"},
@@ -195,7 +195,7 @@
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",	"list"  : 
 		[
-			{"performance" : "51-06.75","first" : "Vincent","last" : "Parrett","year" : "1976"},
+			{"performance" : "51-06.75","first" : "Vincent","last" : "Parrett","year" : "1976", "all-time-kansas" : "2"},
 			{"performance" : "48-02","first" : "Jay","last" : "Shouse","year" : "1979"},
 			{"performance" : "46-05","first" : "Ken","last" : "Berry","year" : "2000"},
 			{"performance" : "45-03","first" : "Steve","last" : "Casto","year" : "1988"},
@@ -259,7 +259,7 @@
 	},
 	{"event" : "4 x 400", "eventGroup" : "TRS",	"list"  : 
 		[
-			{"performance" : "03:17.4","first" : "Rodney Olsen, Mark Graham,","last" : "Bill Bucher, Rodger Stewart","year" : "1972"},
+			{"performance" : "03:17.4","first" : "Rodney Olsen, Mark Graham,","last" : "Bill Bucher, Rodger Stewart","year" : "1972", "all-time-kansas" : "6"},
 			{"performance" : "03:20.3","first" : "","last" : "","year" : "1969"},
 			{"performance" : "03:20.4","first" : "Jason Catlett, BJ Cribbs, ","last" : "Dave Henderson, Ryan Stanley","year" : "1995"},
 			{"performance" : "03:20.6","first" : "Craig Adams, Bob Bates, ","last" : "Randy Leighton, Mike Miller","year" : "1984"},
@@ -273,7 +273,7 @@
 	},
 	{"event" : "4 x 800", "eventGroup" : "TRS",	"list"  : 
 		[
-			{"performance" : "07:50.7","first" : "Brent Steiner, Chris Bentson,","last" : "Mark Lauterbach, Steve Smith","year" : "1980"},
+			{"performance" : "07:50.7","first" : "Brent Steiner, Chris Bentson,","last" : "Mark Lauterbach, Steve Smith","year" : "1980", "all-time-kansas" : "5"},
 			{"performance" : "07:52.0","first" : "","last" : "","year" : "1968"},
 			{"performance" : "07:54.5","first" : "","last" : "","year" : "1975"},
 			{"performance" : "07:55.0","first" : "","last" : "","year" : "1969"},
@@ -287,12 +287,12 @@
 	},
 	{"event" : "400 Hurdles", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "53.25","first" : "Mike","last" : "Miller","year" : "1984"}
+            {"performance" : "53.25","first" : "Mike","last" : "Miller","year" : "1984", "all-time-kansas" : "4"}
         ]
     },
 	{"event" : "2000 Steeple", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010"}
+            {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010", "all-time-kansas" : "12" }
         ]
     },
 	{"event" : "Distance Medley", "eventGroup" : "NS", "list"   : 
