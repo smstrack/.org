@@ -292,7 +292,7 @@
     },
 	{"event" : "2000 Steeple", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010", "all-time-kansas" : "12"}
+            {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010", "all-time-kansas" : "12" }
         ]
     },
 	{"event" : "Distance Medley", "eventGroup" : "NS", "list"   : 
