@@ -299,7 +299,7 @@
     
 	{"event" : "5000", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002", , "all-time-kansas" : "4"}
+            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002", "all-time-kansas" : "4"}
         ]
     },
     
