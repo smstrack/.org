@@ -63,6 +63,13 @@ function formatJSON(data)
         tableStr += '<td>';
         tableStr += row.performance;
         
+        var allTimeKansas = row.allTimeKansas;
+        
+        if (allTimeKansas != null)
+        {
+        	tableStr += '[' + allTimeKansas + ']';
+        }
+        
         // add video link if present
         if (row.video != null && row.video.length > 0)
         {

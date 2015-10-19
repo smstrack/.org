@@ -103,8 +103,9 @@
             "first": "Korbin",
             "last": "Richards",
             "performance": "128-00",
-            "video" : "http://smstrack.org/video/k_richards128-00.wmv",
-            "videoIcon" : "http://smstrack.org/images/wms.bmp",
+            "video" : "https://youtu.be/9OtbWMNYezw",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank",
             "year": 2008
         },
         {
@@ -113,8 +114,9 @@
             "first": "Laura",
             "last": "Meschke",
             "performance": "113-03",
-            "video" : "http://smstrack.org/video/l_Meschke113-03.wmv",
-            "videoIcon" : "http://smstrack.org/images/wms.bmp",
+            "video" : "https://youtu.be/rGohYxp-2aI",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank",
             "year": 2008
         },
         {

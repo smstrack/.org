@@ -1,6 +1,8 @@
 // needs events.js and records.css
 //var hideListChar = '&#x25be;';
 //var hideListChar = '&#9662;';
+/*eslint-env jquery */
+/*globals tableStr:true EVENT_GROUPS*/
 var hideListChar = '-';
 //var showListChar = '&#x25b9';
 //var showListChar = '&#9656;';
@@ -193,10 +195,17 @@ function formatJSON(jsonData)
 			tableStr += '<td>';
 			tableStr += performance.performance;
 
+            var allTimeKansas = performance.allTimeKansas;
+			
+	        if (allTimeKansas != null)
+	        {
+	        	tableStr += '<sup><span class="atkrank" title="All Time Kansas Ranking">[' + allTimeKansas + ']</span></sup>';
+	        }
+
 			// add video link if present
 			if (performance.video != null && performance.video.length > 0)
 			{
-				target = "";
+				var target = "";
 				if (performance.target != null){
 					target = 'target="' + performance.target + '"';
 				}

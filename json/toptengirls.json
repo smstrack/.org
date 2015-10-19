@@ -2,7 +2,7 @@
 [
 	{"event" : "100*", "eventGroup" : "TS", "list"  :
 		[
-			{"performance" : "12.12", "video" : "/video/cbingaman12.12.wmv", "videoIcon" : "/images/wms.bmp","first" : "Clare", "last" : "Bingaman","year" : "2012"},
+			{"performance" : "12.12", "video" : "https://youtu.be/MqgNRSVtOi0", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Clare", "last" : "Bingaman","year" : "2012"},
 			{"performance" : "12.21","first" : "Meg","last" : "Ryan","year" : "2004"},
 			{"performance" : "12.1","first" : "Churee","last" : "Robinson","year" : "1993", "record" : "true"},
 			{"performance" : "12.53","first" : "Nora","last" : "Bingaman","year" : "2012"},
@@ -18,7 +18,7 @@
 	},
 	{"event" : "200*", "eventGroup" : "TS", "list"   :
 		[
-			{"performance" : "25.40", "video" : "/video/cbingaman25.40.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Clare", "last" : "Bingaman", "year" : "2012"},
+			{"performance" : "25.40", "video" : "https://youtu.be/Q6I9C_-AQWI", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Clare", "last" : "Bingaman", "year" : "2012"},
 			{"performance" : "25.3","first" : "Churee","last" : "Robinson","year" : "1993", "record" : "true"},
 			{"performance" : "25.3","first" : "Jessica","last" : "Tyre","year" : "1997", "record" : "true"},
 			{"performance" : "25.3","first" : "Meg","last" : "Ryan","year" : "2004", "record" : "true"},
@@ -47,8 +47,8 @@
 	},
 	{"event" : "800", "eventGroup" : "TS", "list"   :
 		[
-			{"performance" : "2:13.62","first" : "Kristen","last" : "Gillespie","year" : "2008", "all-time-kansas" : "15"},
-			{"performance" : "2:13.7**","first" : "Sally","last" : "Arthur","year" : "1973", "all-time-kansas" : "18"},
+			{"performance" : "2:13.62","first" : "Kristen","last" : "Gillespie","year" : "2008", "allTimeKansas" : "15"},
+			{"performance" : "2:13.7**","first" : "Sally","last" : "Arthur","year" : "1973", "allTimeKansas" : "18"},
 			{"performance" : "2:16.2","first" : "Dede","last" : "Lawless","year" : "1981"},
 			{"performance" : "2:19.1","first" : "Lisa","last" : "Avery","year" : "1995"},
 			{"performance" : "2:19.3","first" : "Leeann","last" : "Conway","year" : "1989"},
@@ -61,7 +61,7 @@
 	},
 	{"event" : "1600", "eventGroup" : "TD", "list"   : 
 		[
-			{"performance" : "4:53.2","first" : "Dede","last" : "Lawless","year" : "1980", "all-time-kansas" : "8"},
+			{"performance" : "4:53.2","first" : "Dede","last" : "Lawless","year" : "1980", "allTimeKansas" : "8"},
 			{"performance" : "5:07.0","first" : "Leeann","last" : "Conway","year" : "1989"},
 			{"performance" : "5:08.6","first" : "Connie","last" : "Abbott","year" : "2003"},
 			{"performance" : "5:11.3","first" : "Jenny","last" : "Marien","year" : "1989"},
@@ -122,10 +122,10 @@
 	},
 	{"event" : "Discus", "eventGroup" : "FT",  "list"   :
 		[
-			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "all-time-kansas" : "26" },
-			{"performance" : "133-02", "video" : "/video/krichards133-02.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Korbin","last" : "Richards","year" : "2011"},
+			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "allTimeKansas" : "26" },
+			{"performance" : "133-02", "video" : "https://youtu.be/_xtbCecyUcE", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
 			{"performance" : "130-08","first" : "Carol","last" : "Bennett","year" : "1981"},
-			{"performance" : "125-03", "video" : "/video/mlong125-3.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Maggie","last" : "Long","year" : "2004"},
+			{"performance" : "125-03", "video" : "https://youtu.be/-bSPCe6eiOk", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Maggie","last" : "Long","year" : "2004"},
 			{"performance" : "124-09","first" : "Tara","last" : "Hacker","year" : "2000"},
 			{"performance" : "120-10","first" : "Jennifer","last" : "Anderson","year" : "2006"},
 			{"performance" : "118-03","first" : "Julie","last" : "Dermeyer","year" : "1986"},
@@ -138,10 +138,10 @@
 	{"event" : "Shot Put", "eventGroup" : "FT",    "list"   :
 		[
 			{"performance" : "40-10","first" : "Alix","last" : "Richards","year" : "2009"},
-			{"performance" : "39-08.75", "video" : "/video/janderson39-8.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Jennifer","last" : "Anderson","year" : "2006"},
-			{"performance" : "39-06" ,"video" : "/video/dolsen39-6.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Dana","last" : "Olsen","year" : "2006"},
-			{"performance" : "39-03" , "video" : "/video/krichards39-03.wmv", "videoIcon" : "/images/wms.bmp", "first" : "Korbin","last" : "Richards","year" : "2011"},
-			{"performance" : "37-08" , "video" : "/video/bwebb37-08.wmv", "videoIcon" : "/images/wms.bmp" ,"first" : "Bethany","last" : "Webb","year" : "2012"},
+			{"performance" : "39-08.75", "video" : "https://youtu.be/ns2A9eBFzCY", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png" ,"first" : "Jennifer","last" : "Anderson","year" : "2006"},
+			{"performance" : "39-06" ,"video" : "https://youtu.be/_tkZIZ2ooPw", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Dana","last" : "Olsen","year" : "2006"},
+			{"performance" : "39-03" , "video" : "https://youtu.be/vpsQC4nMOR8", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
+			{"performance" : "37-08" , "video" : "https://youtu.be/-_SkuYf3j8k", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Bethany","last" : "Webb","year" : "2012"},
 			{"performance" : "36-08","first" : "Whitney","last" : "Loe","year" : "2006"},
 			{"performance" : "36-03","first" : "Tara","last" : "Hacker","year" : "2000"},
 			{"performance" : "36-02","first" : "Ashlie","last" : "Fischer","year" : "2015", "video":"https://youtu.be/CaUrhptXFbA", "target":"_blank",  "videoIcon":"../images/YouTube-social-icon_red_24px.png"},
@@ -205,7 +205,7 @@
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",    "list"   : 
 		[
-			{"performance" : "39-01.75", "first" : "Brooke","last" : "Holmes","year" : "2014", "all-time-kansas" : "19"},
+			{"performance" : "39-01.75", "first" : "Brooke","last" : "Holmes","year" : "2014", "allTimeKansas" : "19"},
 			{"performance" : "34-09","first" : "Kelly","last" : "Turner","year" : "1992"},
 			{"performance" : "34-04.5","first" : "Annie","last" : "Drinane","year" : "2001"},
 			{"performance" : "34-02","first" : "Dana","last" : "Drinane","year" : "1995"},
@@ -221,7 +221,7 @@
 	},
 	{"event" : "Pole Vault", "eventGroup" : "FVJ", "list"   : 
 		[
-			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003", "all-time-kansas" : "14"},
+			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003", "allTimeKansas" : "14"},
 			{"performance" : "11-07","first" : "Julia","last" : "Cummings","year" : "2006"},
 			{"performance" : "11-00","first" : "Claire","last" : "Christy","year" : "2008"},
 			{"performance" : "11-00","first" : "Kendra","last" : "Martiny","year" : "2011"},
@@ -279,7 +279,7 @@
 	},
 	{"event" : "4 x 800", "eventGroup" : "TRS",    "list"   : 
 		[
-			{"performance" : "9:20.63","first" : "Elizabeth Dedon, Kelsey Goebel, ","last" : "Megan Murray, Kristen Gillespie","year" : "2007", "all-time-kansas" : "1"},
+			{"performance" : "9:20.63","first" : "Elizabeth Dedon, Kelsey Goebel, ","last" : "Megan Murray, Kristen Gillespie","year" : "2007", "allTimeKansas" : "1"},
 			{"performance" : "9:30.3","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
 			{"performance" : "9:35.5","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
 			{"performance" : "9:41.78","first" : "Murray-Dedon-Beggs-Gillespie","last" : "","year" : "2008"},
@@ -293,13 +293,13 @@
 	},
 	{"event" : "3000", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "10:02.84","first" : "Connie","last" : "Abbott","year" : "2003", "all-time-kansas" : "6"}
+            {"performance" : "10:02.84","first" : "Connie","last" : "Abbott","year" : "2003", "allTimeKansas" : "6"}
         ]
     },
     
 	{"event" : "5000", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002", "all-time-kansas" : "4"}
+            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002", "allTimeKansas" : "4"}
         ]
     },
     

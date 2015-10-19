@@ -583,8 +583,9 @@
             "first": "Clint",
 			"gender":"m",
             "performance": "69-01.25",
-            "video": "../video/c_johnson69-1.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/STGzgUQ6Pkc",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 1981,
@@ -933,8 +934,9 @@
             "first": "Justin",
 			"gender":"m",
             "performance": "172-04",
-            "video": "../video/j_holmes172-04.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/-Wy6jKAdxAg",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 2007,
@@ -962,8 +964,9 @@
             "first": "Justin",
 			"gender":"m",
             "performance": "180-09",
-            "video": "../video/j_holmes180-09-2.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/IFGA36N8Z6g",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 2008,
@@ -973,8 +976,9 @@
             "first": "Johannes",
 			"gender":"m",
             "performance": "221-02",
-            "video": "../video/j_swanepoel221-02.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/fxTfJcXHkjY",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 2008,
@@ -984,8 +988,9 @@
             "first": "Justin",
 			"gender":"m",
             "performance": "53-07",
-            "video": "../video/j_holmes53-07.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/KLeIKC0GQXM",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 2009,
@@ -1004,8 +1009,9 @@
             "first": "Johannes",
 			"gender":"m",
             "performance": "238-04",
-            "video": "../video/jswanepoel238-04.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/fU4blEddQAk",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
         },
         {
             "year": 2011,
@@ -1024,8 +1030,10 @@
             "first": "Zac",
 			"gender":"m",
             "performance": "159-00",
-            "video": "../video/zbendrick159-00.wmv",
-            "videoIcon": "../images/wms.bmp"
+            "video": "https://youtu.be/Ad60QgT0O5Q",
+            "videoIcon":"../images/YouTube-social-icon_red_24px.png",
+            "target":"_blank"
+
         },
         {
             "year": 2013,
