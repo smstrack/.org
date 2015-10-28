@@ -259,7 +259,7 @@
 	},
 	{"event" : "4 x 400", "eventGroup" : "TRS",	"list"  : 
 		[
-			{"performance" : "03:17.4","first" : "Rodney Olsen, Mark Graham,","last" : "Bill Bucher, Rodger Stewart","year" : "1972", "allTimeKansas" : "6"},
+			{"performance" : "03:17.4","first" : "Rodney Olson, Mark Graham,","last" : "Bill Bucher, Rodger Stewart","year" : "1972", "allTimeKansas" : "6"},
 			{"performance" : "03:20.3","first" : "","last" : "","year" : "1969"},
 			{"performance" : "03:20.4","first" : "Jason Catlett, BJ Cribbs, ","last" : "Dave Henderson, Ryan Stanley","year" : "1995"},
 			{"performance" : "03:20.6","first" : "Craig Adams, Bob Bates, ","last" : "Randy Leighton, Mike Miller","year" : "1984"},
