@@ -80,13 +80,6 @@
             "year": "1985"
         },
         {
-            "event": "4 x 200",
-            "eventGroup" : "DT", 
-            "performance": "1:28.8",
-            "school": "Schlagle",
-            "year": "1993"
-        },
-        {
             "event": "4 x 400",
             "eventGroup" : "TRS", 
             "performance": "3:22.9",
@@ -106,41 +99,6 @@
             "performance": "18:07.2",
             "school": "SM South",
             "year": "1976"
-        },
-        {
-            "event": "800 Sprint Medley",
-            "eventGroup" : "DT", 
-            "performance": "1:34.7",
-            "school": "SM South",
-            "year": "1995"
-        },
-        {
-            "event": "800 Sprint Medley",
-            "eventGroup" : "DT", 
-            "performance": "1:34.7",
-            "school": "Schlagle",
-            "year": "1993"
-        },
-        {
-            "event": "1600 Sprint Medley",
-            "eventGroup" : "DT", 
-            "performance": "3:40.45",
-            "school": "SM Northwest",
-            "year": "2011"
-        },
-        {
-            "event": "Distance Medley",
-            "eventGroup" : "DT", 
-            "performance": "10:39.0",
-            "school": "St. Thomas Aquinas",
-            "year": "1996"
-        },
-        {
-            "event": "Shuttle Hurdles",
-            "eventGroup" : "DT", 
-            "performance": "1:00.1",
-            "school": "Wyandotte",
-            "year": "1988"
         },
         {
             "event": "4 x 100 HOG**",
@@ -211,6 +169,57 @@
             "last": "Stubblefield",
             "school": "Wyandotte",
             "year": "1980"
+        },
+        {
+            "event": "4 x 200",
+            "eventGroup" : "DT", 
+            "performance": "1:28.8",
+            "school": "Schlagle",
+            "year": "1993"
+        },
+        {
+            "event": "800 Sprint Medley",
+            "eventGroup" : "DT", 
+            "performance": "1:34.7",
+            "school": "Schlagle",
+            "year": "1993"
+        },
+        {
+            "event": "800 Sprint Medley",
+            "eventGroup" : "DT", 
+            "performance": "1:34.7",
+            "school": "SM South",
+            "year": "1995"
+        },
+        {
+            "event": "1600 Sprint Medley",
+            "eventGroup" : "DT", 
+            "performance": "3:40.45",
+            "school": "SM Northwest",
+            "year": "2011"
+        },
+        {
+            "event": "Distance Medley",
+            "eventGroup" : "DT", 
+            "performance": "10:39.0",
+            "school": "St. Thomas Aquinas",
+            "year": "1996"
+        },
+        {
+            "event": "Shuttle Hurdles",
+            "eventGroup" : "DT", 
+            "performance": "1:00.1",
+            "school": "Wyandotte",
+            "year": "1988"
+        },
+        {
+            "event": "Hammer",
+            "eventGroup" : "DT", 
+            "performance": "157-08",
+            "first": "Scott",
+            "last": "Lofquist",
+            "school": "SM South",
+            "year": "1978"
         }
     ]
 }
