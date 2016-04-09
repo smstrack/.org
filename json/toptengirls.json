@@ -128,10 +128,11 @@
 			{"performance" : "125-03", "video" : "https://youtu.be/-bSPCe6eiOk", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Maggie","last" : "Long","year" : "2004"},
 			{"performance" : "124-09","first" : "Tara","last" : "Hacker","year" : "2000"},
 			{"performance" : "120-10","first" : "Jennifer","last" : "Anderson","year" : "2006"},
+			{"performance" : "118-06","first" : "Clara","last" : "Sitas","year" : "2016"},
 			{"performance" : "118-03","first" : "Julie","last" : "Dermeyer","year" : "1986"},
 			{"performance" : "117-06","first" : "Julie","last" : "Weisman","year" : "1979"},
 			{"performance" : "116-02","first" : "Chris","last" : "Bivona","year" : "1975"},
-			{"performance" : "115-00","first" : "Zoee","last" : "Berry","year" : "2014"},
+			{"" : "115-00","first" : "Zoee","last" : "Berry","year" : "2014"},
 			{"" : "114-05","first" : "Karen","last" : "Keith","year" : "1978"}
 		]
 	},
@@ -230,9 +231,7 @@
 			{"performance" : "10-00","first" : "Nicola","last" : "Tutera","year" : "2001"},
 			{"performance" : "10-00","first" : "Rachel","last" : "Distefano","year" : "2009"},
 			{"performance" : "10-00","first" : "Alana","last" : "Steward","year" : "2011"},
-			{"performance" : "9-06","first" : "Abbey","last" : "Baslock-Bechler","year" : "2008"},
-			{"performance" : "9-06","first" : "Kristina","last" : "Tolson","year" : "2014"},
-			{"performance" : "9-06","first" : "Sara","last" : "Wilkerson","year" : "2015"}
+			{"performance" : "9-09","first" : "Sara","last" : "Wilkerson","year" : "2016"}
 		]
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",    "list"   : 
