@@ -231,8 +231,10 @@
 			{"performance" : "10-00","first" : "Nicola","last" : "Tutera","year" : "2001"},
 			{"performance" : "10-00","first" : "Rachel","last" : "Distefano","year" : "2009"},
 			{"performance" : "10-00","first" : "Alana","last" : "Steward","year" : "2011"},
-			{"performance" : "9-09","first" : "Sara","last" : "Wilkerson","year" : "2016"}
-		]
+			{"performance" : "9-09","first" : "Sara","last" : "Wilkerson","year" : "2016"},
+            {"" : "9-06","first" : "Abbey","last" : "Baslock-Bechler","year" : "2008"},
+			{"" : "9-06","first" : "Kristina","last" : "Tolson","year" : "2014"}	
+        ]
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",    "list"   : 
 		[
