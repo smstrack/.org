@@ -66,6 +66,14 @@
             "year": 1997
         },
         {
+            "event": "300 Hurdles",
+            "eventGroup":"TH",
+            "first": "Gabriel",
+            "last": "Smith",
+            "performance": "43.49",
+            "year": 2016
+        },
+        {
             "event": "High Jump",
             "eventGroup":"FVJ",
             "first": "Eric",
