@@ -147,7 +147,7 @@
 			{"performance" : "38-10" , "first" : "Desirae","last" : "Upton","year" : "2016"},
 			{"performance" : "37-08" , "video" : "https://youtu.be/-_SkuYf3j8k", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Bethany","last" : "Webb","year" : "2012"},
 			{"performance" : "36-08","first" : "Whitney","last" : "Loe","year" : "2006"},
-			{"performance" : "36-04","first" : "Clara","last" : "Sitas","year" : "2016"},
+			{"performance" : "36-04", "video" : "https://youtu.be/8UUXixD8nts", "target": "_blank", "videoIcon" :  "../images/YouTube-social-icon_red_24px.png", "first" : "Clara","last" : "Sitas","year" : "2016"},
 			{"performance" : "36-03","first" : "Tara","last" : "Hacker","year" : "2000"},
 			{"performance" : "36-02","first" : "Ashlie","last" : "Fischer","year" : "2015", "video":"https://youtu.be/CaUrhptXFbA", "target":"_blank",  "videoIcon":"../images/YouTube-social-icon_red_24px.png"},
 			{"" : "35-09","first" : "Danielle","last" : "McCray","year" : "2003"},
