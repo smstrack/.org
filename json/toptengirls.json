@@ -249,8 +249,9 @@
 			{"performance" : "50.1","first" : "Leslie Ain, Tina Webster, ","last" : "Dalene Zimmerman, Melissa Church","year" : "1989"},
 			{"performance" : "50.2","first" : "Beth Olsen, Jessica Bargas, ","last" : "Jordan Johnson, Hillary Hoffman","year" : "2006"},
 			{"performance" : "50.2","first" : "Brandy Sellmeyer, Sarah Jadlow, ","last" : "Susan Nagorski, Sheri Robinson","year" : "1993"},
+			{"performance" : "50.53","first" : "Subreedia Lewis, Danielle Reichart, ","last" : "Tegan Goodson, Desirae Upton","year" : "2016"},
 			{"performance" : "50.5","first" : "","last" : "","year" : "1980"},
-			{"performance" : "50.7","first" : "","last" : "","year" : "1992"}
+			{"" : "50.7","first" : "","last" : "","year" : "1992"}
 		]
 	},
 	{"event" : "4 x 200", "eventGroup" : "TRS",    "list"   : 
