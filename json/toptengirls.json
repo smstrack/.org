@@ -10,10 +10,11 @@
 			{"performance" : "12.3","first" : "Jessica","last" : "Tyre","year" : "1997"},
 			{"performance" : "12.4","first" : "Sue","last" : "Scardino","year" : "1979"},
 			{"performance" : "12.6","first" : "Hillary","last" : "Hoffman","year" : "2006"},
+			{"performance" : "12.87","first" : "Suby","last" : "Lewis","year" : "2016"},
 			{"performance" : "12.7","first" : "Marvita","last" : "Oliver","year" : "1978"},
-			{"performance" : "12.8","first" : "Kasandra","last" : "Johnson","year" : "1998"},
-			{"performance" : "12.8","first" : "Tina","last" : "Niu","year" : "1985"},
-			{"performance" : "12.8","first" : "Jessica","last" : "Niecamp","year" : "&nbsp;"}
+			{"" : "12.8","first" : "Kasandra","last" : "Johnson","year" : "1998"},
+			{"" : "12.8","first" : "Tina","last" : "Niu","year" : "1985"},
+			{"" : "12.8","first" : "Jessica","last" : "Niecamp","year" : "&nbsp;"}
 		]
 	},
 	{"event" : "200*", "eventGroup" : "TS", "list"   :
