@@ -1,5 +1,5 @@
-/*globals MSDAY */
-/*eslint-env jquery */
+/*globals MSDAY eventsFound firstEventDate singletext:true link:true gapi displayUpcomingEvents returnStr:true*/
+/*eslint-env jquery, qunit, browser*/
 var modes = ["COUNTDOWN","SCHEDULE","NEWS","CUSTOM", "AUTO"];
 
 var COUNTDOWN = modes[0];
@@ -16,7 +16,7 @@ var scheduleYear = today.getFullYear();
 var COUNTDOWN_TITLE = "The " + scheduleYear + " Season Begins";   
 var COUNTDOWN_YEAR = scheduleYear;   
 var COUNTDOWN_MONTH = 1;   // 0-jan - 11-dec
-var COUNTDOWN_DAY = 29;     // 1 - 31
+var COUNTDOWN_DAY = 27;     // 1 - 31
 var COUNTDOWN_HOUR = 15;   // 0 - 23
 var COUNTDOWN_MINUTES = 0; // 0 - 59
 
@@ -50,15 +50,15 @@ function setFrontPage()
 {
 	var newsItemDate;
 	
-	if (fpNewsItem != null)
+	if (fpNewsItem !== null)
 	{
 		var stringStrArray = fpNewsItem.published.split(/[- T:]/);
 		newsItemDate = new Date(stringStrArray[0], stringStrArray[1]-1, stringStrArray[2], stringStrArray[3], stringStrArray[4], stringStrArray[5]);
 	}	
 	
-	if (displayMode == AUTO || displayMode == null)
+	if (displayMode === AUTO || displayMode === null)
 	{
-		if (newsItemDate != null && ((today.getTime() - newsItemDate.getTime()) < 1*MSDAY))
+		if (newsItemDate !== null && ((today.getTime() - newsItemDate.getTime()) < Number(MSDAY)))
 		{	
 				displayMode = NEWS;
 		}
@@ -70,7 +70,7 @@ function setFrontPage()
 			}
 			else
 			{
-				if (eventsFound > 0 && newsItemDate != null && (today.getTime() - newsItemDate.getTime() > firstEventDate.getTime() - today.getTime()))
+				if (eventsFound > 0 && newsItemDate !== null && (today.getTime() - newsItemDate.getTime() > firstEventDate.getTime() - today.getTime()))
 				{
 					displayMode = SCHEDULE;
 				}	
@@ -107,9 +107,7 @@ function setFrontPage()
 		break;
 		
 	default:
-		;
 	}
-	
 }
 
 
@@ -126,7 +124,7 @@ function updateScroller(startItem)
 		title = newsItems[iNum].title;
 		subTitle = newsItems[iNum].content;
 		link = newsItems[iNum].url;
-		if (subTitle.trim().search('<a') == 0 || subTitle.trim().length == 0)
+		if (subTitle.trim().search('<a') === 0 || subTitle.trim().length === 0)
 		{
 			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">'+subTitle+'</span></p>';
 		}
@@ -149,7 +147,7 @@ function handleResponse(response)
 	
 	var startItem = 0;  // 0 is first item
 	
-	if (newsItems != null)
+	if (newsItems !== null)
 	{
 		fpNewsItem = newsItems[0];
 		// update front page
@@ -160,7 +158,7 @@ function handleResponse(response)
 		
 		// update main page with latest blog entry
 		data += "<p class='style37'>"+fpNewsItem.title+"</p>";
-		if (content.trim().search('<a') != 0)
+		if (content.trim().search('<a') !== 0)
 		{
 			content = "[<a target='_blank' href='"+url+"'>Read More...</a>]";
 		}
@@ -182,15 +180,15 @@ function loadGoogleData()
 {
 	var date = new Date();
 
-	var scheduleYear = date.getFullYear();
+	var gdataScheduleYear = date.getFullYear();
 
 //		if (date.getMonth() > 6)
 //		{
 //			scheduleYear += 1;
 //		}
 
-	var timeStart = new Date(scheduleYear, 0, 1, 8);
-	var timeEnd = new Date(scheduleYear, 11, 31, 8);
+	var timeStart = new Date(gdataScheduleYear, 0, 1, 8);
+	var timeEnd = new Date(gdataScheduleYear, 11, 31, 8);
 	gapi.client.setApiKey('AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE');
 	gapi.client.load('calendar', 'v3', function()
 	{
