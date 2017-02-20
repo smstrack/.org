@@ -139,7 +139,7 @@ function displayThrowsHeader()
 	document.write("<table class='menubar' border='0' cellpadding='0' style='border-collapse: collapse' width='100%' id='table1'>");
 	document.write("<tr class='menubar'>");
 	document.write("<td><a href='/index.htm'>Track Home</a></td>");
-	document.write("<td><a href='formchart.htm'>Form Chart</a></td>");
+	document.write("<td><a href='formchart.htm'>Meet Sheets</a></td>");
 	document.write("<td><a href='videos.htm'>Videos</a></td>");
 	document.write("<td><a href='links.htm'>Links</a></td>");
 	document.write("<td><a href='/team.htm'>Team</a></td>");
