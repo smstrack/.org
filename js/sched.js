@@ -1,3 +1,4 @@
+/*eslint-env jquery */
 var EVENT_SPLIT = "|";
 var SUMMARY_SPLIT = "-";
 
@@ -20,7 +21,7 @@ function displaySchedule(entries)
 		var eventTitle = eventEntry.summary;
 		// var eventDate = (eventEntry.getTimes())[0].getStartTime().getDate();
 		var eventDate = eventEntry.start.dateTime;
-		if (eventDate == null){
+		if (eventDate === null){
 			eventDate = eventEntry.start.date;
 		}
 		eventDate = dateFromISO8601(eventDate);
@@ -42,16 +43,13 @@ function displaySchedule(entries)
 		// eventEntry.getContent().getText().split(EVENT_SPLIT);
 		
 		var eventDesc = eventEntry.description;
-		if (eventDesc == null)
+		if (eventDesc === null)
 		{
 			eventDesc = "SMS";
 		}
 		
-		
 		var eventSummary = eventDesc.split(EVENT_SPLIT);
 		var shortLocation = eventSummary[0];
-		var infoUrl = "";
-		var resultsUrl = "";
 		var infoLinks = "";
 
 		for (var summarySplitIndex = 1; summarySplitIndex < eventSummary.length; summarySplitIndex++)
@@ -61,10 +59,10 @@ function displaySchedule(entries)
 			var aText = anchor[0];
 			var aHref;
 
-			if (anchor.length == 1)
+			if (anchor.length === 1)
 			{
 				aHref = aText;
-			} else if (anchor.length == 2)
+			} else if (anchor.length === 2)
 			{
 				aHref = anchor[1];
 			} else
@@ -76,7 +74,7 @@ function displaySchedule(entries)
 
 			if (summarySplitIndex + 1 < eventSummary.length)
 			{
-				infoLinks += "  "
+				infoLinks += "  ";
 			}
 		}
 
@@ -84,21 +82,21 @@ function displaySchedule(entries)
 
 		var locationString = $.trim(eventLocation);
 
-		if (locationString != null && locationString.length != 0)
+		if (locationString !== null && locationString.length !== 0)
 		{
 			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ ">"+shortLocation+"</a>"
+					+ ">"+shortLocation+"</a>";
 		} 
 		else 
 		{
 			mapLink = shortLocation;
 		}
 
-		eventTime = eventHours + ":" + ((eventMinutes < 10) ? "0" + eventMinutes : eventMinutes) + timeMod;
+		eventTime = eventHours + ":" + (eventMinutes < 10 ? "0" + eventMinutes : eventMinutes) + timeMod;
 		htmlStr += "<tr class='row" + rowClass + "'><td>" + eventDateStr + "</td><td>" + eventTitle + "</td><td>"
 				+ eventTime + "</td><td>" + mapLink + "</td><td>" + infoLinks + "</td>";
 	}
-	htmlStr += "</table>"
+	htmlStr += "</table>";
 	$('#sched').html(htmlStr);
 
 }
