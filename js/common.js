@@ -141,6 +141,7 @@ function displayThrowsHeader()
 	document.write("<td><a href='/index.htm'>Track Home</a></td>");
 	document.write("<td><a href='formchart.htm'>Meet Sheets</a></td>");
 	document.write("<td><a href='videos.htm'>Videos</a></td>");
+	document.write("<td><a href='practice.htm'>Practice</a></td>");
 	document.write("<td><a href='links.htm'>Links</a></td>");
 	document.write("<td><a href='/team.htm'>Team</a></td>");
 	document.write("</tr>");
