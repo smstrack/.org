@@ -70,7 +70,7 @@ function displaySchedule(entries)
 				aHref = summary.substring(summary.indexOf(SUMMARY_SPLIT) + 1);
 			}
 
-			infoLinks += "<a target='_blank' href='" + aHref + "'>" + aText + "</a>";
+			infoLinks += "<a target='_blank' href='" + aHref + "'>" + aText + "<i class='material-icons' style='font-size:16px'>open_in_new</i></a>";
 
 			if (summarySplitIndex + 1 < eventSummary.length)
 			{
@@ -79,13 +79,13 @@ function displaySchedule(entries)
 		}
 
 		var mapLink = "";
-
+//#2e4d47
 		var locationString = $.trim(eventLocation);
 
 		if (locationString !== null && locationString.length !== 0)
 		{
 			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ ">"+shortLocation+"</a>";
+					+ ">"+shortLocation+"<i class='material-icons' style='font-size:16px'>place</i></a>";
 		} 
 		else 
 		{
