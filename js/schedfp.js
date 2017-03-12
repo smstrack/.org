@@ -19,7 +19,7 @@ function displayUpcomingEvents(entries)
 	// var htmlStr = '<table border="1" class="style19" align="center"
 	// width="850px">';
 	var today = new Date();
-	var htmlStr = '<div style="margin:auto"><h4>Upcoming...</h4>';
+	var htmlStr = '<div class="schedlink" style="margin:auto"><h4>Upcoming...</h4>';
 	var rowClass;
 
 	for (var i = 0; i < entries.length; i++)
@@ -28,7 +28,7 @@ function displayUpcomingEvents(entries)
 		var eventEntry = entries[i];
 		var eventTitle = eventEntry.summary;
 		var eventDate = eventEntry.start.dateTime;
-		if (eventDate == null){
+		if (eventDate === null){
 			eventDate = eventEntry.start.date;
 		}
 		
@@ -39,12 +39,12 @@ function displayUpcomingEvents(entries)
 		// 		no events found yet or 
 		//			event date - first event date < look ahead days   
 		if (eventDate.getTime() >= today.getTime() && 
-				(eventsFound == 0	||	(eventDate.getTime() - firstEventDate.getTime() < lookAheadTime)
+				(eventsFound === 0	||	(eventDate.getTime() - firstEventDate.getTime() < lookAheadTime)
 				)
 			)
 		{
 			eventsFound++;
-			if (eventsFound == 1)
+			if (eventsFound === 1)
 			{
 				firstEventDate = eventDate;
 			}	
@@ -63,7 +63,7 @@ function displayUpcomingEvents(entries)
 			var eventMinutes = eventDate.getMinutes();
 			
 			var eventDesc = eventEntry.description;
-			if (eventDesc == null)
+			if (eventDesc === null)
 			{
 				eventDesc = "SMS";
 			}
@@ -81,11 +81,11 @@ function displayUpcomingEvents(entries)
 				var aText = anchor[0];
 				var aHref;
 				
-				if (anchor.length == 1)
+				if (anchor.length === 1)
 				{
 					aHref = aText;
 				}
-				else if (anchor.length == 2)
+				else if (anchor.length === 2)
 				{
 					aHref = anchor[1];
 				}
@@ -94,11 +94,11 @@ function displayUpcomingEvents(entries)
 					aHref = summary.substring(summary.indexOf(SUMMARY_SPLIT)+1);
 				}
 
-				infoLinks += "<a target='_blank' href='" + aHref + "'>" + aText + "</a>";
+				infoLinks += "<a target='_blank' href='" + aHref + "'>" + aText + "<i class='material-icons' style='font-size:16px'>open_in_new</i></a>";
 
 				if (summarySplitIndex + 1 < eventSummary.length)
 				{
-					infoLinks += "  "
+					infoLinks += "  ";
 				}
 			}
 
@@ -108,10 +108,10 @@ function displayUpcomingEvents(entries)
 
 			var content = '<div class="style1m">';
 			
-			if (locationString != null && locationString.length != 0)
+			if (locationString !== null && locationString.length !== 0)
 			{
 				content += '<a target="_blank" href='
-						+ encodeURI('https://maps.google.com/maps?hl=en&q=' + locationString) + '>'+shortLocation+'</a>';
+						+ encodeURI('https://maps.google.com/maps?hl=en&q=' + locationString) + '>'+shortLocation+'<i class="material-icons" style="font-size:16px">place</i></a>';
 			}	
 			else
 			{
@@ -120,7 +120,7 @@ function displayUpcomingEvents(entries)
 			
 			content += '</div>';
 
-			eventTime = eventHours + ":" + ((eventMinutes < 10) ? "0" + eventMinutes : eventMinutes) + timeMod;
+			eventTime = eventHours + ":" + (eventMinutes < 10 ? "0" + eventMinutes : eventMinutes) + timeMod;
 
 			var titleString = '<h3 class="style1h">' + eventTitle + '</h3>';
 			var dateString = '<div class="byline">' + eventDateStr + '</div>';
@@ -128,12 +128,12 @@ function displayUpcomingEvents(entries)
 
 			htmlStr += titleString + dateString + timeStr + content;
 			
-			if (infoLinks != null && infoLinks.length > 0)
+			if (infoLinks !== null && infoLinks.length > 0)
 			{
 				htmlStr += infoLinks;
 			}	
 		}
 	}
-	htmlStr += "</div>"
+	htmlStr += "</div>";
 	$('#scheduleDisplay').html(htmlStr);
 }

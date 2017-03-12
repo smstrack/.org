@@ -260,3 +260,40 @@ ul.o {
 .style99 {
 	background-image: url('/images/throws1st.jpg');
 }
+
+.schedlink a:link {
+	color: #2e4d47;
+}
+
+/* visited link */
+.schedlink a:visited {
+	color: #2e4d47;
+}
+
+/* mouse over link */
+.schedlink a:hover {
+	color: black;
+}
+
+/* selected link */
+.schedlink a:active {
+	color: black;
+}
+
+.schedlink a:link {
+	text-decoration: none;
+}
+
+.schedlink a:visited {
+	text-decoration: none;
+}
+
+.schedlink a:hover {
+	text-decoration: none;
+}
+
+.schedlink a:active {
+	color: white;
+	background-color: #2e4d47;
+	text-decoration: none;
+}
