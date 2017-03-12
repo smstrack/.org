@@ -79,7 +79,6 @@ function displaySchedule(entries)
 		}
 
 		var mapLink = "";
-//#2e4d47
 		var locationString = $.trim(eventLocation);
 
 		if (locationString !== null && locationString.length !== 0)
