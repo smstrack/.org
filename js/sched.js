@@ -84,7 +84,7 @@ function displaySchedule(entries)
 		if (locationString !== null && locationString.length !== 0)
 		{
 			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ ">"+shortLocation+"<i class='material-icons' style='font-size:16px'>place</i></a>";
+					+ "><i class='material-icons' style='font-size:16px'>place</i>"+shortLocation+"</a>";
 		} 
 		else 
 		{
