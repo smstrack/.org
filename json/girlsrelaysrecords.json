@@ -21,11 +21,11 @@
         {
             "event": "200*",
             "eventGroup": "TS",
-            "performance": "26.00",
+            "performance": "25.90",
             "first": "Destiny",
             "last": "Ray",
             "school": "SM East",
-            "year": "2016"
+            "year": "2017"
         },
         {
             "event": "400*",
@@ -39,20 +39,20 @@
         {
             "event": "800*",
             "eventGroup": "TS",
-            "performance": "2:18.78",
-            "first": "Alli",
-            "last": "Cash",
-            "school": "SM West",
-            "year": "2012"
+            "performance": "2:18.00",
+            "first": "Molly",
+            "last": "Born",
+            "school": "SM Northwest",
+            "year": "2017"
         },
         {
             "event": "1600*",
             "eventGroup": "TD",
-            "performance": "5:16.80",
-            "first": "Leah",
-            "last": "Wellman",
-            "school": "Olathe Nortwest",
-            "year": "2016"
+            "performance": "5:16.10",
+            "first": "Amber",
+            "last": "Reed",
+            "school": "SM North",
+            "year": "2017"
         },
         {
             "event": "3200",
@@ -98,9 +98,9 @@
         {
             "event": "4 x 400",
             "eventGroup": "TRS",
-            "performance": "4:07.06",
-            "school": "Gardner-Edgerton",
-            "year": "2011"
+            "performance": "4:06.86",
+            "school": "Nerinx Hall",
+            "year": "2017"
         },
         {
             "event": "4 x 800",
@@ -193,11 +193,11 @@
         {
             "event": "Triple Jump",
             "eventGroup": "FHJ",
-            "performance": "37-02",
-            "first": "Jalisa",
-            "last": "Brice",
-            "school": "Gardner-Edgerton",
-            "year": "2010"
+            "performance": "37-03.5",
+            "first": "Jessie",
+            "last": "Stindt",
+            "school": "SM East",
+            "year": "2017"
         },
         {
             "event": "High Jump",
