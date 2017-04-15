@@ -218,9 +218,10 @@
 			{"performance" : "34-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
 			{"performance" : "34-01","first" : "Casey","last" : "Gilbert","year" : "1998"},
 			{"performance" : "33-09","first" : "Laura","last" : "Pummill","year" : "1997"},
+			{"performance" : "33-10.75","first" : "Faith","last" : "Ndavi","year" : "2017"},
 			{"performance" : "33-10","first" : "Ashley","last" : "Robinson","year" : "2006"},
 			{"performance" : "33-09","first" : "Danielle","last" : "McCray","year" : "2003"},
-			{"performance" : "33-05.75","first" : "Gretchen","last" : "Fiebig","year" : "2015"},
+			{"" : "33-05.75","first" : "Gretchen","last" : "Fiebig","year" : "2015"},
 			{"" : "33-03","first" : "Jocelyn","last" : "Cummings","year" : "2009"},
 			{"" : "33-01","first" : "Danielle","last" : "Scott","year" : "1998"}
 		]
