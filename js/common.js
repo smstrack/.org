@@ -1,4 +1,5 @@
 /*eslint-env browser */
+/*eslint-disable no-unused-vars */
 function displayHeader()
 {
 	document.write("<div id='banner' class='style1'>");
