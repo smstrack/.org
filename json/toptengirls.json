@@ -9,8 +9,8 @@
 			{"performance" : "12.3","first" : "Melissa","last" : "Church","year" : "1988"},
 			{"performance" : "12.3","first" : "Jessica","last" : "Tyre","year" : "1997"},
 			{"performance" : "12.4","first" : "Sue","last" : "Scardino","year" : "1979"},
+			{"performance" : "12.68","first" : "Suby","last" : "Lewis","year" : "2017"},
 			{"performance" : "12.6","first" : "Hillary","last" : "Hoffman","year" : "2006"},
-			{"performance" : "12.87","first" : "Suby","last" : "Lewis","year" : "2016"},
 			{"performance" : "12.7","first" : "Marvita","last" : "Oliver","year" : "1978"},
 			{"" : "12.8","first" : "Kasandra","last" : "Johnson","year" : "1998"},
 			{"" : "12.8","first" : "Tina","last" : "Niu","year" : "1985"},
@@ -28,7 +28,8 @@
 			{"performance" : "26.3","first" : "Dalene","last" : "Zimmerman","year" : "1988"},
 			{"performance" : "26.4","first" : "Pam","last" : "Warfield","year" : "1981"},
 			{"performance" : "26.4","first" : "Leslie","last" : "Thompson","year" : "1985"},
-			{"performance" : "26.8","first" : "Tina","last" : "Webster","year" : "1990"}
+			{"performance" : "26.78","first" : "Suby","last" : "Lewis","year" : "2017"},
+			{"" : "26.8","first" : "Tina","last" : "Webster","year" : "1990"}
 		]
 	},
 	{"event" : "400*", "eventGroup" : "TS", "list"   :
@@ -57,7 +58,8 @@
 			{"performance" : "2:21.68","first" : "Karynn","last" : "Carroll","year" : "2015"},
 			{"performance" : "2:23.0","first" : "Laura","last" : "Friederich","year" : "2001"},
 			{"performance" : "2:24.9","first" : "Tamra","last" : "Vogel","year" : "1981"},
-			{"performance" : "2:26.53","first" : "Megan","last" : "Murray","year" : "2007"}
+			{"performance" : "2:26.29","first" : "Hannah","last" : "Underwood ","year" : "2017"},
+			{"" : "2:26.53","first" : "Megan","last" : "Murray","year" : "2007"}
 		]
 	},
 	{"event" : "1600", "eventGroup" : "TD", "list"   : 
@@ -71,7 +73,8 @@
 			{"performance" : "5:26.19","first" : "Lauren","last" : "McCarthy","year" : "2011"},
 			{"performance" : "5:27.50","first" : "Karynn","last" : "Carroll","year" : "2015"},
 			{"performance" : "5:28.62","first" : "Lindsey","last" : "Brown","year" : "2009"},
-			{"performance" : "5:29.8","first" : "Dana","last" : "Schoulis","year" : "&nbsp;"},
+			{"performance" : "5:28.99","first" : "Hannah","last" : "Underwood ","year" : "2017"},
+			{"" : "5:29.8","first" : "Dana","last" : "Schoulis","year" : "&nbsp;"},
 			{"" : "5:29.92","first" : "Allie","last" : "Antrim","year" : "1992"}
 		]
 	},
@@ -163,6 +166,7 @@
 			{"performance" : "139-09","first" : "Lauren","last" : "Busch","year" : "2007"},
 			{"performance" : "126-07","first" : "Laura","last" : "Meschke","year" : "2011"},
 			{"performance" : "118-11","first" : "Holly","last" : "Myers","year" : "2006"},
+			{"performance" : "107-09","first" : "Dottie","last" : "Powell","year" : "2017"},
 			{"performance" : "106-10","first" : "Dottie","last" : "Powell","year" : "2016"},
 			{"performance" : "106-06","first" : "Cori","last" : "Komarek","year" : "2007"},
 			{"performance" : "106-00","first" : "Jennifer","last" : "Anderson","year" : "2006"},
@@ -170,7 +174,7 @@
 			{"performance" : "123-06","first" : "Ashely","last" : "Weeks","year" : "1999"},
 			{"performance" : "114-02","first" : "Jennifer","last" : "House","year" : "1995"},
 			{"performance" : "112-04","first" : "Jessie","last" : "Barger","year" : "2002"},
-			{"performance" : "111-03","first" : "Lauren","last" : "Myers","year" : "2001"},
+			{"" : "111-03","first" : "Lauren","last" : "Myers","year" : "2001"},
 			{"" : "111-02","first" : "Kristi","last" : "Singleton","year" : "1993"},
 			{"" : "110-10","first" : "Jill","last" : "Bornkessel","year" : "1993"}
 		]
@@ -252,8 +256,9 @@
 			{"performance" : "50.1","first" : "Leslie Ain, Tina Webster, ","last" : "Dalene Zimmerman, Melissa Church","year" : "1989"},
 			{"performance" : "50.2","first" : "Beth Olsen, Jessica Bargas, ","last" : "Jordan Johnson, Hillary Hoffman","year" : "2006"},
 			{"performance" : "50.2","first" : "Brandy Sellmeyer, Sarah Jadlow, ","last" : "Susan Nagorski, Sheri Robinson","year" : "1993"},
+			{"performance" : "50.48","first" : "Suby Lewis, Danielle Reichart, ","last" : "Jadyn Smith, Desi Upton","year" : "2017"},
 			{"performance" : "50.53","first" : "Subreedia Lewis, Danielle Reichart, ","last" : "Tegan Goodson, Desirae Upton","year" : "2016"},
-			{"performance" : "50.5","first" : "","last" : "","year" : "1980"},
+			{"" : "50.5","first" : "","last" : "","year" : "1980"},
 			{"" : "50.7","first" : "","last" : "","year" : "1992"}
 		]
 	},
