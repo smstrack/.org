@@ -146,10 +146,10 @@
 	{"event" : "Shot Put", "eventGroup" : "FT",    "list"   :
 		[
 			{"performance" : "40-10","first" : "Alix","last" : "Richards","year" : "2009"},
+			{"performance" : "40-05.5" , "first" : "Desirae","last" : "Upton","year" : "2017"},
 			{"performance" : "39-08.75", "video" : "https://youtu.be/ns2A9eBFzCY", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png" ,"first" : "Jennifer","last" : "Anderson","year" : "2006"},
 			{"performance" : "39-06" ,"video" : "https://youtu.be/_tkZIZ2ooPw", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Dana","last" : "Olsen","year" : "2006"},
 			{"performance" : "39-03" , "video" : "https://youtu.be/vpsQC4nMOR8", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
-			{"performance" : "38-11.5" , "video":"https://youtu.be/Cul82kZ3G0o", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Desirae","last" : "Upton","year" : "2016"},
 			{"performance" : "37-08" , "video" : "https://youtu.be/-_SkuYf3j8k", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Bethany","last" : "Webb","year" : "2012"},
 			{"performance" : "36-08","first" : "Whitney","last" : "Loe","year" : "2006"},
 			{"performance" : "36-04", "video" : "https://youtu.be/8UUXixD8nts", "target": "_blank", "videoIcon" :  "../images/YouTube-social-icon_red_24px.png", "first" : "Clara","last" : "Sitas","year" : "2016"},
@@ -252,12 +252,12 @@
 			{"performance" : "48.97","first" : "Kailey Zvosec, Nora Bingaman,","last" : "Brooke Holmes, Clare Bingaman","year" : "2012"},
 			{"performance" : "49.11","first" : "Emily Brock, Nora Bingaman, ","last" : "Justine Podvin, Clare Bingaman","year" : "2010"},
 			{"performance" : "49.54","first" : "Emily Brock, Nora Bingaman, ","last" : "Alana Steward, Clare Bingaman","year" : "2011"},
+			{"performance" : "49.76","first" : "Suby Lewis, Danielle Reichart, ","last" : "Jadyn Smith, Desi Upton","year" : "2017"},
 			{"performance" : "49.8","first" : "Mattie Rhodes, Andrea Chambers, ","last" : "Sarah Jordan, Kassandra Johnson","year" : "2000"},
 			{"performance" : "50.0","first" : "","last" : "","year" : "1995"},
 			{"performance" : "50.1","first" : "Leslie Ain, Tina Webster, ","last" : "Dalene Zimmerman, Melissa Church","year" : "1989"},
 			{"performance" : "50.2","first" : "Beth Olsen, Jessica Bargas, ","last" : "Jordan Johnson, Hillary Hoffman","year" : "2006"},
 			{"performance" : "50.2","first" : "Brandy Sellmeyer, Sarah Jadlow, ","last" : "Susan Nagorski, Sheri Robinson","year" : "1993"},
-			{"performance" : "50.48","first" : "Suby Lewis, Danielle Reichart, ","last" : "Jadyn Smith, Desi Upton","year" : "2017"},
 			{"performance" : "50.53","first" : "Subreedia Lewis, Danielle Reichart, ","last" : "Tegan Goodson, Desirae Upton","year" : "2016"},
 			{"" : "50.5","first" : "","last" : "","year" : "1980"},
 			{"" : "50.7","first" : "","last" : "","year" : "1992"}
