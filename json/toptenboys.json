@@ -237,12 +237,13 @@
 			{"performance" : "42.9","first" : "Mike Novak, Alvin Chambers","last" : "Matt Ryan, AJ Sims","year" : "1999"},
 			{"performance" : "42.9","first" : "Josh Mott, Alvin Chambers, ","last" : "Matt Ryan, AJ Sims ","year" : "2000"},
 			{"performance" : "43.0","first" : "&nbsp;","last" : "","year" : "1976"},
+			{"performance" : "43.20","first" : "Maicel Smith, Huseyin Bilgen,","last" : "Trenton Holliman, Cameron Union","year" : "2017"},
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
 			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
 			{"performance" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
-			{"performance" : "43.4","first" : "&nbsp;","last" : "","year" : "1973"}
+			{"" : "43.4","first" : "&nbsp;","last" : "","year" : "1973"}
 		]
 	},
 	{"event" : "4 x 200", "eventGroup" : "TRS",	"list"  : 
