@@ -184,19 +184,20 @@
 		[
 			{"performance" : "5-05","first" : "Lisa","last" : "Plummer","year" : "1977"},
 			{"performance" : "5-05","first" : "Sara","last" : "Dickey","year" : "1982", "record":"true"},
-			{"performance" : "5-04","first" : "Jocelyn","last" : "Cummings","year" : "2008"},
-			{"performance" : "5-04","first" : "Lisa","last" : "Avery","year" : "1994"},
 			{"performance" : "5-04","first" : "Beth","last" : "Olson","year" : "1982"},
-			{"performance" : "5-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
+			{"performance" : "5-04","first" : "Lisa","last" : "Avery","year" : "1994"},
+			{"performance" : "5-04","first" : "Jocelyn","last" : "Cummings","year" : "2008"},
 			{"performance" : "5-02","first" : "Rachel","last" : "Compton","year" : "1994"},
+			{"performance" : "5-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
 			{"performance" : "5-01","first" : "Stacy","last" : "Bombaars","year" : "1985"},
-			{"performance" : "5-00","first" : "Ariel","last" : "Marasuk","year" : "2006"},
-			{"performance" : "5-00","first" : "Kyle","last" : "Washington","year" : "2006"},
-			{"performance" : "5-00","first" : "Andrea","last" : "Chambers","year" : "2000"},
+			{"performance" : "5-00","first" : "Leah","last" : "Honeycutt","year" : "1986"},
+			{"performance" : "5-00","first" : "Tria","last" : "Chomyak","year" : "1987"},
 			{"performance" : "5-00","first" : "Amy","last" : "Ogden","year" : "1989"},
 			{"performance" : "5-00","first" : "Wanda","last" : "Smith","year" : "1996"},
-			{"performance" : "5-00","first" : "Tria","last" : "Chomyak","year" : "1987"},
-			{"performance" : "5-00","first" : "Leah","last" : "Honeycutt","year" : "1986"}
+			{"performance" : "5-00","first" : "Andrea","last" : "Chambers","year" : "2000"},
+			{"performance" : "5-00","first" : "Ariel","last" : "Marasuk","year" : "2006"},
+			{"performance" : "5-00","first" : "Kyle","last" : "Washington","year" : "2006"},
+			{"performance" : "5-00","first" : "Liz (Elisabeth)","last" : "Crawford","year" : "2017"}
 		]
 	},
 	{"event" : "Long Jump", "eventGroup" : "FHJ",  "list"   : 
