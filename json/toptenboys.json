@@ -185,14 +185,15 @@
 			{"performance" : "23-08","first" : "Vincent","last" : "Parrett","year" : "1975"},
 			{"performance" : "22-09","first" : "Greg","last" : "Krokstrom","year" : "1977"},
 			{"performance" : "22-08","first" : "Alvin","last" : "Chambers","year" : "2000"},
+			{"performance" : "22-05","first" : "Samuel","last" : "Macklin","year" : "2018"},
 			{"performance" : "22-03","first" : "Jim","last" : "Hunter","year" : "1977"},
 			{"performance" : "22-01","first" : "Steve","last" : "Casto","year" : "1988"},
 			{"performance" : "22-01","first" : "Jay","last" : "Shouse","year" : "1979"},
 			{"performance" : "22-00","first" : "Jim","last" : "Wehrwein","year" : "1978"},
 			{"performance" : "21-11","first" : "Shawn","last" : "Laurent","year" : "2012"},
 			{"performance" : "21-08","first" : "Dan","last" : "Gordon","year" : "&nbsp;"},
-			{"performance" : "21-06","first" : "Nick","last" : "Hoffman","year" : "1971"},
-			{"performance" : "21-06","first" : "Kevin","last" : "Cole","year" : "2008"}
+			{"" : "21-06","first" : "Nick","last" : "Hoffman","year" : "1971"},
+			{"" : "21-06","first" : "Kevin","last" : "Cole","year" : "2008"}
 		]
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",	"list"  : 
