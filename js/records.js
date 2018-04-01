@@ -49,16 +49,19 @@ function formatJSON(data)
             tableStr += '<tr>';
         }
         
+        var eventName = "";
         // don't list event more than once for co-record holders
         if (currentEvent !== row.event)
         {
             currentEvent = row.event;
+            eventName = currentEvent;
+            
         } else
         {
-            currentEvent = "";
+            eventName = "";
         }
         tableStr += '<td>';
-        tableStr += currentEvent;
+        tableStr += eventName;
         tableStr += '</td>';
         tableStr += '<td>';
         tableStr += row.performance;
