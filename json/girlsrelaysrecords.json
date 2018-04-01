@@ -193,11 +193,11 @@
         {
             "event": "Triple Jump",
             "eventGroup": "FHJ",
-            "performance": "37-03.5",
+            "performance": "37-09",
             "first": "Jessie",
             "last": "Stindt",
             "school": "SM East",
-            "year": "2017"
+            "year": "2018"
         },
         {
             "event": "High Jump",
@@ -225,6 +225,15 @@
             "last": "Mitchell",
             "school": "Gardner-Edgerton",
             "year": "2012"
+        },
+        {
+            "event": "Pole Vault",
+            "eventGroup": "FVJ",
+            "performance": "11-06",
+            "first": "Abigail",
+            "last": "Kelly-Salo",
+            "school": "SM Northwest",
+            "year": "2018"
         }
     ]
 }

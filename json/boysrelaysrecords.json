@@ -21,11 +21,11 @@
         {
             "event": "400*",
             "eventGroup" : "TS", 
-            "performance": "49.67",
-            "first": "Troy",
-            "last": "Wilkens",
-            "school": "SM East",
-            "year": "2013"
+            "performance": "49.42",
+            "first": "Hayden",
+            "last": "Goodpaster",
+            "school": "SM Northwest",
+            "year": "2018"
         },
         {
             "event": "800*",
@@ -155,11 +155,11 @@
         {
             "event": "High Jump",
             "eventGroup" : "FVJ", 
-            "performance": "6-09",
-            "first": "Sheldon",
-            "last": "Carpenter",
-            "school": "SM East",
-            "year": "1992"
+            "performance": "6-10",
+            "first": "Jack",
+            "last": "Durst",
+            "school": "SM West",
+            "year": "2018"
         },
         {
             "event": "Pole Vault",
