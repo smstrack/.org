@@ -1076,6 +1076,15 @@
 			"video":"https://youtu.be/RE03Z1EQPdY",
             "videoIcon": "../images/YouTube-social-icon_red_24px.png",
             "performance": "56-09"
+        },
+        {
+            "year": 2018,
+            "event": "Long Jump",
+            "eventGroup": "FHJ",
+            "last": "Macklin",
+            "first": "Samuel",
+			"gender":"m",
+            "performance": "22-09.25"
         }
     ]
 }
