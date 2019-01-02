@@ -75,7 +75,7 @@ function displayFooter()
 	document.write("<td>");
 	document.write("<p align='center'>");
 	document.write("<font face='Arial' size='2'>");
-	document.write("<a href='http://www.smsd.org/schools/smsouth'>Shawnee Mission South High School</a><br>");
+	document.write("<a href='https://smsouth.smsd.org'>Shawnee Mission South High School</a><br>");
 	document.write("</font>");
 	document.write("<font face='Arial' size='-1'>5800 West 107th Street<br> Overland Park, KS 66207</font>");
 	document.write("</p>");
