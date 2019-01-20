@@ -182,11 +182,6 @@ function loadGoogleData()
 
 	var gdataScheduleYear = date.getFullYear();
 
-//		if (date.getMonth() > 6)
-//		{
-//			scheduleYear += 1;
-//		}
-
 	var timeStart = new Date(gdataScheduleYear, 0, 1, 8);
 	var timeEnd = new Date(gdataScheduleYear, 11, 31, 8);
 	gapi.client.setApiKey('AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE');

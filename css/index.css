@@ -1,0 +1,96 @@
+.style22 {
+    border-width: 0;
+}
+
+.style24 {
+    border-left: 1px solid #2E4D47;
+    border-top: 1px solid #2E4D47;
+    border-right: 1px solid #2E4D47;
+    border-bottom: 1px solid #2E4D47;
+}
+
+.style27 {
+    text-align: center;
+    border: 1px solid #2E4D47;
+    background-color: #2E4D47;
+}
+
+.style28 {
+    text-align: center;
+    color: #FFFF66;
+}
+
+.style72 {
+    text-align: center;
+    border: 1px solid #FFFF66;
+    background-color: #FFFF66;
+}
+
+.style82 {
+    text-align: center;
+    color: #2E4D47;
+}
+
+.smstf {
+    border: 1px solid #FFFF66;
+    color: #2E4D47;
+    background-color: #FFFF66;
+}
+
+.smstf a:link {
+    text-decoration: none;
+    color: #2E4D47;
+}
+
+.smstf a:visited {
+    color: #2E4D47;
+}
+
+.style28 a:link {
+    text-decoration: none;
+    color: #FFFF66;
+}
+
+.style28 a:visited {
+    color: #FFFF66;
+}
+
+.style82 a:link {
+    text-decoration: none;
+    color: #2E4D47;
+}
+
+.style82 a:visited {
+    color: #2E4D47;
+}
+
+.style30 {
+    background-image: url('../images/southrelaysback.jpg');
+    height: 315px;
+}
+
+.style34 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF66;
+    font-size: larger;
+}
+
+.style35 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFAA;
+    font-size: smaller;
+}
+
+.style36 {
+    position: absolute;
+    margin-top: 63px;
+    text-align: center;
+    width: 180px;
+}
+
+.style37 {
+    font-size: 24pt;
+    color: #1C5E52;
+}
