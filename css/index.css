@@ -2,13 +2,6 @@
     border-width: 0;
 }
 
-.style23 {
-    border-color: #2E4D47;
-    text-align: center;
-    border-width: 0;
-    border-collapse: collapse;
-}
-
 .style24 {
     border-left: 1px solid #2E4D47;
     border-top: 1px solid #2E4D47;
@@ -72,7 +65,7 @@
 }
 
 .style30 {
-    background-image: url('images/southrelaysback.jpg');
+    background-image: url('../images/southrelaysback.jpg');
     height: 315px;
 }
 

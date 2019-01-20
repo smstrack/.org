@@ -254,6 +254,13 @@ ul.o {
 	border-width: 0;
 }
 
+.style23 {
+    border-color: #2E4D47;
+    text-align: center;
+    border-width: 0;
+    border-collapse: collapse;
+}
+
 .byline {
 	font-family: sans-serif;
 	font-size: 75%;

@@ -39,9 +39,9 @@ function displayHeader()
 
 function displayFooter()
 {
-	document.write("<tr>");
+	document.write("<tr class='style23'>");
 	document.write("<td>");
-	document.write("<p class='style23'><em>Home of the Shawnee Mission South Raiders Track & ");
+	document.write("<p><em>Home of the Shawnee Mission South Raiders Track & ");
 	document.write("Field Team</em></p>");
 	document.write("</td>");
 	document.write("</tr>");
@@ -67,7 +67,7 @@ function displayFooter()
 	document.write("</tr>");
 	document.write("<tr align='center'>");
 	document.write("<td valign='bottom'>");
-	document.write("<a href='http://www.smsd.org/schools/smsouth'>");
+	document.write("<a href='https://smsouth.smsd.org'>");
 	document.write("<img border='0' src='/images/sms_tr2.jpg' width='83' height='101'></a>");
 	document.write("</td>");
 	document.write("</tr>");
