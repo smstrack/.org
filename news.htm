@@ -1,74 +1,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- #BeginTemplate "smstrack.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<title>News</title>
-
-
-	<!-- #EndEditable -->
-	<link rel="stylesheet" type="text/css" href="sms.css">
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 	<style type="text/css">
 		.style23 {
 			text-align: center;
 		}
 	</style>
-	<script src="js/common.js"></script>
 </head>
 
 <body>
-
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-
-			<script language="javascript">
-				displayHeader();
-			</script>
-
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%">
-							<!-- MSCellType="ContentBody" -->
-							<!-- #BeginEditable "content" -->
-
-
-							<p>&nbsp;</p>
-
-
-							<h1 class="style1h">Shawnee Mission South Track &amp; Field News</h1>
-
-							<div id="newsList"></div>
-
-							<script src="js/blogger.js">
-							</script>
-							<script src="https://www.googleapis.com/blogger/v3/blogs/484182122543119585/posts?callback=handleResponse&key=AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE">
-							</script>
-
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script language="javascript">
-						displayFooter();
-					</script>
-				</table>
-			</div>
-		</div>
+	<div class="header"></div>
+	<div class="maindiv">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%">
+					<p>&nbsp;</p>
+					<h1 class="style1h">Shawnee Mission South Track &amp; Field News</h1>
+					<div id="newsList"></div>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
+	<div class="footer"></div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/js/blogger.js"></script>
+	<script src="https://www.googleapis.com/blogger/v3/blogs/484182122543119585/posts?callback=handleResponse&key=AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE"></script>
+	<script>
+		$(".header").load("/header.html");
+		$(".footer").load("/footer.html");
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
 		var sc_project = 3895026;
@@ -76,14 +48,10 @@
 		var sc_security = "c1dd7cc1";
 	</script>
 	<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-alt="web stats"></a></div></noscript>
+	<noscript>
+		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
+				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
+	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
-
-<!-- #EndTemplate -->
-
 </html>

@@ -2,73 +2,61 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- #BeginTemplate "smstrack.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 
 	<style type="text/css">
 		@import "css/jquery.countdown.css";
+
 		#defaultCountdown {
 			width: 250px;
 			height: 80px;
 		}
 	</style>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 	<title>South Relays</title>
-	<!-- #EndEditable -->
-	<link rel="stylesheet" type="text/css" href="sms.css">
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 	<style type="text/css">
 		.style23 {
 			text-align: center;
 		}
 	</style>
-	<script src="/js/common.js"></script>
 </head>
 
 <body>
-
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-
-			<script>
-				displayHeader();
-			</script>
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%">
-							<!-- MSCellType="ContentBody" -->
-							<p>&nbsp;</p>
-							<p class="style1h">Shawnee Mission South Relays<br>2019</p>
-							<p class="style15">Saturday, March 30th</p>
-							<div style="margin:auto; display:none" id="defaultCountdown"></div>
-							<p style="display:none" class="style15">
-								<a target="_blank" href="https://drive.google.com/file/d/0B4e6HoJZumBwc3VYUFBFTk5IM1Z1Q2IyRHNrWEtSZlJMRk5z/view?usp=sharing">Results</a> </p>
-							<p class="style15">
-								<a href="records/smsrelaysboys.htm">Meet Records</a></p>
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script>
-						displayFooter();
-					</script>
-				</table>
-			</div>
-		</div>
+	<div class="header"></div>
+	<div class="content">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%">
+					<p>&nbsp;</p>
+					<p class="style1h">Shawnee Mission South Relays<br>2019</p>
+					<p class="style15">Saturday, March 30th</p>
+					<div style="margin:auto; display:none" id="defaultCountdown"></div>
+					<p style="display:none" class="style15">
+						<a target="_blank" href="https://drive.google.com/file/d/0B4e6HoJZumBwc3VYUFBFTk5IM1Z1Q2IyRHNrWEtSZlJMRk5z/view?usp=sharing">Results</a>
+					</p>
+					<p class="style15">
+						<a href="records/smsrelaysboys.htm">Meet Records</a></p>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
+	<div class="footer"></div>
+	<script src="/js/jquery-latest.js"></script>
+	<script>
+		$(".header").load("/header.html");
+		$(".recordsheader").load("/recordsheader.html");
+		$(".footer").load("/footer.html");
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
 		var sc_project = 3895026;
@@ -76,11 +64,10 @@
 		var sc_security = "c1dd7cc1";
 	</script>
 	<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-alt="web stats"></a></div></noscript>
+	<noscript>
+		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
+				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
+	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
 

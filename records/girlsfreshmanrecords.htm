@@ -1,84 +1,61 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<!-- #BeginTemplate "records.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<title>Girls Freshman Records</title>
 	<link rel="stylesheet" type="text/css" href="/css/records.css">
-	<!-- #EndEditable -->
-	<link rel="stylesheet" type="text/css" href="../sms.css">
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 	<style type="text/css">
 		.style23 {
 			text-align: center;
 		}
 	</style>
-	<script src="/js/common.js"></script>
 </head>
 
 <body>
-
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-			<script>
-				displayHeader();
-			</script>
-
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%">
-							<!-- MSCellType="ContentBody" -->
-							<script>
-								displayRecordsHeader1()
-							</script>
-							<script>
-								displayRecordsHeader2()
-							</script>
-							<!-- #BeginEditable "content" -->
-							<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-							<script src="/js/events.js"></script>
-							<script src="/js/records.js"></script>
-							<script type="text/javascript">
-								$(document).ready(function()
-								{
-									$.getJSON('/json/girlsfreshmanrecords.json', function callback(data)
-									{
-										tableStr = formatJSON(data);
-										$('#recordTable').html(tableStr);
-									});
-								});
-							</script>
-
-							<div>
-								<p align="center">
-									<span class="style1h">Records - Freshman Girls </span><span style="font-size: large;">(<a href="boysfreshmanrecords.htm">Boys</a>)</span><br>
-								</p>
-								<div id="recordTable"></div>
-							</div>
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script>
-						displayFooter();
-					</script>
-				</table>
-			</div>
-		</div>
+	<div class="header"></div>
+	<div class="recordsheader"></div>
+	<div class="recordsheader2"></div>
+	<div class="content">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%">
+					<div>
+						<p align="center">
+							<span class="style1h">Records - Freshman Girls </span><span style="font-size: large;">(<a href="boysfreshmanrecords.htm">Boys</a>)</span><br>
+						</p>
+						<div id="recordTable"></div>
+					</div>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
+	<div class="footer"></div>
+	<script src="/js/jquery-latest.js"></script>
+	<script src="/js/records.js"></script>
+	<script src="/js/events.js"></script>
+	<script>
+		$(".header").load("/header.html");
+		$(".recordsheader").load("/recordsheader.html");
+		$(".recordsheader2").load("/recordsheader2.html");
+		$(".footer").load("/footer.html");
+	</script>
+	<script>
+		$(document).ready(function () {
+			$.getJSON('/json/girlsfreshmanrecords.json', function callback(data) {
+				tableStr = formatJSON(data);
+				$('#recordTable').html(tableStr);
+			});
+		});
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
 		var sc_project = 3895026;
@@ -86,14 +63,10 @@
 		var sc_security = "c1dd7cc1";
 	</script>
 	<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-alt="web stats"></a></div></noscript>
+	<noscript>
+		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
+				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
+	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
-
-<!-- #EndTemplate -->
-
 </html>

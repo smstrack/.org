@@ -19,8 +19,23 @@ h4 {
 	max-height: 200px;
 }
 
+.content {
+	margin:25 auto;
+	max-width:1250px;
+	width: 100%
+}
+
 .scrollLine img {
 	width: 150px;
+}
+
+.maindiv{
+	margin:0 auto;
+	max-width:1250px;
+}
+
+.bodydiv {
+    width:100%
 }
 
 .center {
@@ -185,7 +200,7 @@ ul.o {
 }
 
 .style2 {
-	background-image: url('images/smsbbt.jpg');
+	background-image: url('../images/smsbbt.jpg');
 }
 
 .style3 {
@@ -277,7 +292,7 @@ ul.o {
 }
 
 .style99 {
-	background-image: url('/images/throws1st.jpg');
+	background-image: url('../images/throws1st.jpg');
 }
 
 .schedlink a:link {

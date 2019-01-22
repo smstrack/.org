@@ -1,59 +1,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- #BeginTemplate "throws.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field, mike naster, ">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<title>SMS Track Throws</title>
-	<link rel="stylesheet" type="text/css" href="/sms.css">
-	<script src="/js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 </head>
 
-<body onload="/*eslint-env qunit */
-start()">
-
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-			<script>
-				displayThrowsHeader();
-			</script>
-			<div  style="max-width:1597px" id="contenttable">
-				<table class="style101" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%" align="center">
-							<!-- MSCellType="ContentBody" -->
-							<!-- #BeginEditable "content" --><br>
-							<a href="Top%20Ten%20Reasons%20to%20Throw%20the%20Discus.htm">Top 
-			ten reasons to throw the discus at SMS</a><br>
-							<br>
-							<a href="Top%20Ten%20Reasons%20to%20Throw%20the%20Shot.htm">Top ten 
-			reasons to throw the shot at SMS</a>
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script>
-						displayFooter();
-					</script>
-				</table>
-			</div>
-
-		</div>
+<body>
+	<div class="throwsheader"></div>
+	<div class="content">
+		<table class="style101" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%" align="center">
+					<a href="Top%20Ten%20Reasons%20to%20Throw%20the%20Discus.htm">Top
+						ten reasons to throw the discus at SMS</a><br>
+					<br>
+					<a href="Top%20Ten%20Reasons%20to%20Throw%20the%20Shot.htm">Top ten
+						reasons to throw the shot at SMS</a>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
-
-</body>
-
-<!-- #EndTemplate -->
-
+	<div class="footer"></div>
+	<script src="/js/jquery-latest.js"></script>
+	<script>
+		$(".throwsheader").load("/throws/throwsheader.html");
+		$(".footer").load("/footer.html");
+	</script>
+	</body>
 </html>

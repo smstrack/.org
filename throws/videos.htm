@@ -1,67 +1,48 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- #BeginTemplate "throws.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field, mike naster, ">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<title>Shot and Disc Video Page</title>
-	<link rel="stylesheet" type="text/css" href="/sms.css">
-	<script src="/js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 </head>
 
-<body onload="/*eslint-env qunit */
-/*globals displayFooter displayThrowsHeader*/
-start()">
+<body>
+	<div class="throwsheader"></div>
+	<div class="content">
+		<table class="style101" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%" align="center">
+					<p>&nbsp;</p>
+					<p align="center" class="style1h">&nbsp;Videos</p>
+					<p align="center" class="style15">
+						<a target="_blank" href="/throws/videos2017.htm">2017</a>
+					</p>
+					<p align="center" class="style15">
+						<a target="_blank" href="https://drive.google.com/folderview?id=0B4e6HoJZumBwWEVpTE1qSzNxY0k&usp=sharing">2016</a>
+					</p>
 
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-			<script>
-				displayThrowsHeader();
-			</script>
-			<div style="max-width:1597px" id="contenttable">
-				<table class="style101" border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%" align="center">
-							<!-- MSCellType="ContentBody" -->
-							<!-- #BeginEditable "content" -->
-							<p>&nbsp;</p>
-							<p align="center" class="style1h">&nbsp;Videos</p>
-							<p align="center" class="style15">
-								<a target="_blank" href="/throws/videos2017.htm">2017</a>
-							</p>
-							<p align="center" class="style15">
-								<a target="_blank" href="https://drive.google.com/folderview?id=0B4e6HoJZumBwWEVpTE1qSzNxY0k&usp=sharing">2016</a>
-							</p>
-
-							<p class="style25"><span class="style17">[<a class="style1m" target="_blank" href="video_links.htm">Selected Videos</a>]</span></p>
-							<p class="style25"><a target="_blank" href="video_archives.htm">
-			Archives</a></p>
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script>
-						displayFooter();
-					</script>
-				</table>
-			</div>
-
-		</div>
+					<p class="style25"><span class="style17">[<a class="style1m" target="_blank" href="video_links.htm">Selected
+								Videos</a>]</span></p>
+					<p class="style25"><a target="_blank" href="video_archives.htm">
+							Archives</a></p>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
-
+	<div class="footer"></div>
+	<script src="/js/jquery-latest.js"></script>
+	<script>
+		$(".throwsheader").load("/throws/throwsheader.html");
+		$(".footer").load("/footer.html");
+	</script>
 </body>
-
-<!-- #EndTemplate -->
 
 </html>
