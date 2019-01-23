@@ -9,6 +9,13 @@
     border-bottom: 1px solid #2E4D47;
 }
 
+.indexscroll {
+    border-left: 1px solid #2E4D47;
+    border-top: 0;
+    border-right: 1px solid #2E4D47;
+    border-bottom: 1px solid #2E4D47;
+}
+
 .style27 {
     text-align: center;
     border: 1px solid #2E4D47;

@@ -47,126 +47,113 @@
                 
 		}	
 	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/js/jquery.countdown.min.js"></script>
+	<script src="http://www.google.com/jsapi"></script>
+
+	<script src="/js/schedfp.js"></script>
+	<script src="/js/frontpage.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=loadGoogleData"></script>
+
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
-	<link href="sms.css" rel="stylesheet">
-	<link href="css/jquery.countdown.css" rel="stylesheet">
+	<link href="/css/index.css" rel="stylesheet">
+	<link href="/css/sms.css" rel="stylesheet">
+	<link href="/css/jquery.countdown.css" rel="stylesheet">
 
 	<link href="http://smstrack.org/feed.xml" rel="alternate" title="RSS" type="application/rss+xml">
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script src="js/jquery.countdown.min.js"></script>
-	<script src="http://www.google.com/jsapi"></script>
-	
-	<script src="js/schedfp.js"></script>
-	<script src="js/frontpage.js"></script>
-	<script src="js/common.js"></script>
-	<script src="https://apis.google.com/js/client.js?onload=loadGoogleData"></script>
-
 	<title>Shawnee Mission South Track and Field</title>
 </head>
 
 <body>
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-			<script>
-				/*globals displayHeader displayFooter*/
-				displayHeader();
-			</script>
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<tr>
-						<td valign="top" width="100%">
-							<table border="0" cellpadding="0" cellspacing="0" width="100%">
-								<tr>
-									<td valign="top" width="150" style="height: 55px">
-										<table id="table5" border="0" cellpadding="0" cellspacing="0" width="180" class="style30">
-											<tr style="cursor:pointer; height: 315px" onmouseover="" onclick="document.location.href='south_relays.htm'">
-												<td>
-													<div class="style36">
-														<span class="style34"><strong>South Relays</strong></span>
-														<span class="style35"><strong><br>Saturday<br>March 30th<br>2019</strong></span>
-													</div>
-												</td>
-											</tr>
-											<tr style="display:none">
-												<td class="style24" style="background: #0c6e45;">
-													<div style="text-align:center; font-family:sans-serif;font-weight:bold">
-														<span class="style28">
-															<a target="_blank" href="https://smsouthtrack18.itemorder.com/sale?read_message=true"><img title="Team Store"
-																 width="178px" border="0" src="https://assetly.ordermygear.com/images/w_180,h_100,c_limit/5a71513f1d9d9268258b467c.png"
-																 alt="Team Store"></a>
-															<a target="_blank" href="https://smsouthtrack18.itemorder.com/sale?read_message=true">Team Store</a>
-														</span>
-													</div>
-												</td>
-											</tr>
-											<tr style="display:none">
-												<td class="style27">
-													<p><span class="style28">
-															<a target="_blank" href="sponsors/index.htm">Visit Our Sponsors</a></span></p>
-												</td>
-											</tr>
-										</table>
-									</td>
-									<td valign="top" align="center" style="height: 55px">
-										<p>&nbsp;</p>
-										<div id="newsDisplay" style="display: none;"></div>
-										<div id="countdownDisplay" style="display: none;" class="style37">
-											<div id="countdownDisplayTitle"></div><br>
-											<div id="defaultCountdown"></div>
-										</div>
-										<div id="scheduleDisplay" style="display: none;"></div>
-									</td>
-									<td valign="top" width="125" style="height: 55px">
-										<!-- MSCellType="ContentBody" -->
-										<table cellpadding="0" cellspacing="0" width="182" class="style23">
-											<tr>
-												<td cellpadding="0" cellspacing="0" valign="top" class="style24 scrollLine">
-											<tr>
-												<td cellpadding="0" cellspacing="0" valign="top" class="style24 scrollLine">
-													<script src="js/vscroll.js">
-													</script>
-												</td>
-											</tr>
-											<tr>
-												<td cellpadding="0" cellspacing="0" valign="top">
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
-							<div align="center">
-								<p style="margin-top: 0;"></p>
-							</div>
+	<div class="header"></div>
+	<div class="maindiv">
+		<div class="bodydiv">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td valign="top" width="100%">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td valign="top" width="150" style="height: 55px">
+									<table id="table5" border="0" cellpadding="0" cellspacing="0" width="180" class="style30">
+										<tr style="cursor:pointer; height: 315px" onmouseover="" onclick="document.location.href='south_relays.htm'">
+											<td>
+												<div class="style36">
+													<span class="style34"><strong>South Relays</strong></span>
+													<span class="style35"><strong><br>Saturday<br>March 30th<br>2019</strong></span>
+												</div>
+											</td>
+										</tr>
+										<tr style="display:none">
+											<td class="style24" style="background: #0c6e45;">
+												<div style="text-align:center; font-family:sans-serif;font-weight:bold">
+													<span class="style28">
+														<a target="_blank" href="https://smsouthtrack18.itemorder.com/sale?read_message=true"><img title="Team Store"
+															 width="178px" border="0" src="https://assetly.ordermygear.com/images/w_180,h_100,c_limit/5a71513f1d9d9268258b467c.png"
+															 alt="Team Store"></a>
+														<a target="_blank" href="https://smsouthtrack18.itemorder.com/sale?read_message=true">Team Store</a>
+													</span>
+												</div>
+											</td>
+										</tr>
+										<tr style="display:none">
+											<td class="style27">
+												<p><span class="style28">
+														<a target="_blank" href="sponsors/index.htm">Visit Our Sponsors</a></span></p>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td valign="top" align="center" style="height: 55px">
+									<p>&nbsp;</p>
+									<div id="newsDisplay" style="display: none;"></div>
+									<div id="countdownDisplay" style="display: none;" class="style37">
+										<div id="countdownDisplayTitle"></div><br>
+										<div id="defaultCountdown"></div>
+									</div>
+									<div id="scheduleDisplay" style="display: none;"></div>
+								</td>
+								<td valign="top" width="125" style="height: 55px">
+									<table cellpadding="0" cellspacing="0" width="182" class="style23">
+										</tr>
+											<td cellpadding="0" cellspacing="0" valign="top" class="indexscroll scrollLine">
+												<script src="js/vscroll.js"></script>
+											</td>
+										</tr>
+										<tr>
+											<td cellpadding="0" cellspacing="0" valign="top">
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<div align="center">
+							<p style="margin-top: 0;"></p>
+						</div>
 
-							<script src="https://www.googleapis.com/blogger/v3/blogs/484182122543119585/posts?callback=handleResponse&key=AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE">
-							</script>
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-
-					<script>
-						displayFooter();
-					</script>
-
-				</table>
-			</div>
+						<script src="https://www.googleapis.com/blogger/v3/blogs/484182122543119585/posts?callback=handleResponse&key=AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE">
+						</script>
+					</td>
+					<td height="273"></td>
+				</tr>
+				<tr>
+					<td>
+						<p>&nbsp;</p>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
+	<div class="footer"></div>
+	<script>
+		$(".header").load("/header.html");
+		$(".footer").load("/footer.html");
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
 		var sc_project = 3895026;
@@ -180,7 +167,5 @@
 	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
-
-<!-- #EndTemplate -->
 
 </html>

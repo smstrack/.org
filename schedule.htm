@@ -1,22 +1,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- #BeginTemplate "smstrack.dwt" -->
-
 <head>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<title>Schedule &amp; Results</title>
 	<style type="text/css">
 		.row0 {
 			background-color: #a2d5a1;
 		}
-		
+
 		.row1 {
 			background-color: #ffffff;
 		}
@@ -29,75 +24,60 @@
 
 	<script src="http://www.google.com/jsapi"></script>
 
-	<script src="js/gcal.js"></script>
+	<script src="/js/gcal.js"></script>
 	<script src="https://apis.google.com/js/client.js?onload=loadGoogleData"></script>
-	<script src="js/sched.js"></script>
+	<script src="/js/sched.js"></script>
 	<script>
 		/*globals scheduleYear displayHeader displayFooter*/
 		/*eslint-env jquery */
-		$(document).ready(function()
-		{
+		$(document).ready(function () {
 			$("#title").html('Shawnee Mission South Track Schedule<br>' + scheduleYear);
 		});
 	</script>
-	<!-- #EndEditable -->
-	<link rel="stylesheet" type="text/css" href="sms.css">
+	<link rel="stylesheet" type="text/css" href="css/sms.css">
 	<style type="text/css">
 		.style23 {
 			text-align: center;
 		}
 	</style>
-	<script src="js/common.js"></script>
 </head>
 
 <body>
+	<div class="header"></div>
+	<div class="maindiv">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%">
+					<p>&nbsp;</p>
 
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
+					<h3 id="title" class="style1h"></h3>
 
+					<p id="sched" class="schedlink" align="center"></p>
 
-			<script language="javascript">
-				displayHeader();
-			</script>
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%">
-							<!-- MSCellType="ContentBody" -->
-							<!-- #BeginEditable "content" -->
-							<p>&nbsp;</p>
-
-							<h3 id="title" class="style1h"></h3>
-
-							<p id="sched" class="schedlink" align="center"></p>
-
-							<p class="schedlink" align="center">Open in Google Calendar
-								<a href="https://www.google.com/calendar/embed?src=smsraidertrack%40gmail.com&ctz=America/Chicago" target="_blank"><i class="material-icons">open_in_new</i></a>
-							</p>
-							<p class="schedlink" align="center">Outlook Import
-								<a href="https://www.google.com/calendar/ical/smsraidertrack%40gmail.com/public/basic.ics" target="_blank"><i class="material-icons">file_download</i></a>
-							</p>
-							<p>&nbsp;</p>
-
-
-
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script language="javascript">
-						displayFooter();
-					</script>
-				</table>
-			</div>
-		</div>
+					<p class="schedlink" align="center">Open in Google Calendar
+						<a href="https://www.google.com/calendar/embed?src=smsraidertrack%40gmail.com&ctz=America/Chicago" target="_blank"><i
+							 class="material-icons">open_in_new</i></a>
+					</p>
+					<p class="schedlink" align="center">Outlook Import
+						<a href="https://www.google.com/calendar/ical/smsraidertrack%40gmail.com/public/basic.ics" target="_blank"><i
+							 class="material-icons">file_download</i></a>
+					</p>
+					<p>&nbsp;</p>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
+	<div class="footer"></div>
+	<script>
+		$(".header").load("/header.html");
+		$(".footer").load("/footer.html");
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
 		var sc_project = 3895026;
@@ -105,11 +85,10 @@
 		var sc_security = "c1dd7cc1";
 	</script>
 	<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-alt="web stats"></a></div></noscript>
+	<noscript>
+		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
+				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
+	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
 

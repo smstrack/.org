@@ -1,203 +1,70 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<!-- #BeginTemplate "../stats.dwt" -->
-
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<!-- #BeginEditable "doctitle" -->
 	<link rel="stylesheet" type="text/css" href="/css/ts.css">
 	<title>State Champions</title>
 	<link rel="stylesheet" type="text/css" href="/css/records.css">
-	<!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
-	<!-- #EndEditable -->
-	<link rel="stylesheet" type="text/css" href="../sms.css">
-	<style type="text/css">
-		.style23 {
-			text-align: center;
-		}
-	</style>
-	<script src="/js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/sms.css">
 </head>
 
 <body>
-
-	<div style="margin:0 auto;max-width:1250px">
-		<div style="width:100%">
-			<script>
-				displayHeader();
-			</script>
-			<div id="contenttable">
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-					<!-- MSTableType="layout" -->
-					<tr>
-						<td valign="top" width="100%">
-							<!-- MSCellType="ContentBody" -->
-							<script>
-								displayRecordsHeader1();
-							</script>
-							<!-- #BeginEditable "content" -->
-							<script src="/js/jquery-latest.js"></script>
-							<script src="/js/jquery.tablesorter.js"></script>
-							<script src="/js/events.js"></script>
-							<script src="/js/statechamps.js"></script>
-							<script type="text/javascript">
-								var genderFilter = '.male, .female';
-								var seasonFilter = '.outdoor, .indoor';
-								$(document).ready(function()
-								{
-									$.getJSON('/json/statechampions.json', function callback(data)
-									{
-										tableStr = formatJSON(data);
-										$.tablesorter.addWidget(getCustomZebraWidget());
-										$.tablesorter.addParser(
-										{
-											// set a unique id
-											id: "events",
-											is: function(s)
-											{
-												// return false so this parser is not auto detected
-												return false;
-											},
-											format: function(s)
-											{
-												// format your data for normalization
-												var sortStr = s.substring(0, s.indexOf("-"));
-												return sortStr;
-											},
-											// set type, either numeric or text
-											type: "text"
-										});
-										$('#champs').html(tableStr);
-										$("#scTable").tablesorter(
-										{
-											widgets: ['scZebra'],
-											sortList: [
-												[0, 1]
-											],
-											headers:
-											{
-												2:
-												{
-													sorter: false
-												},
-												3:
-												{
-													sorter: 'events'
-												},
-												4:
-												{
-													sorter: false
-												}
-											}
-										});
-									});
-								});
-
-								function applyFilters()
-								{
-									$('.indoor, .outdoor, .female, .male').hide();
-									var s1 = $(genderFilter);
-									$(seasonFilter).filter(genderFilter).show();
-
-									$("#scTable").trigger('update');
-									$("#scTable").trigger("applyWidgets");
-								}
-
-								function changeGender(gender)
-								{
-									if (gender == 'both')
-									{
-										genderFilter = '.female, .male';
-									}
-
-									if (gender == 'male')
-									{
-										genderFilter = '.male';
-									}
-
-									if (gender == 'female')
-									{
-										genderFilter = '.female';
-									}
-
-									applyFilters();
-
-								}
-
-								function changeSeason(season)
-								{
-									if (season == 'both')
-									{
-										seasonFilter = '.indoor, .outdoor';
-									}
-
-									if (season == 'outdoor')
-									{
-										seasonFilter = '.outdoor';
-									}
-
-									if (season == 'indoor')
-									{
-										seasonFilter = '.indoor';
-									}
-
-									applyFilters();
-
-								}
-							</script>
-							<p class="style1h">Individual Kansas State Champions<br>
-							</p>
-							<div class="style1m">
-								<p style="font-size: 10pt;">Click on column headers to sort by year, last name or event (shift click for multi-sort)</p>
-								<p>
-									<input type="radio" name="gender" onclick="javascript:changeGender('both')" checked="checked">Combined
-									<input type="radio" name="gender" onclick="javascript:changeGender('male')">Boys
-									<input type="radio" name="gender" onclick="javascript:changeGender('female')">Girls
-									<br>
-									<input type="radio" name="season" onclick="javascript:changeSeason('both')" checked="checked">Combined
-									<input type="radio" name="season" onclick="javascript:changeSeason('indoor')">Indoor
-									<input type="radio" name="season" onclick="javascript:changeSeason('outdoor')">Outdoor
-							</div>
-							<div id="champs">
-							</div>
-							<p class="style20">(i) - denotes indoor performance</p>
-
-							<!-- #EndEditable -->
-						</td>
-						<td height="273"></td>
-					</tr>
-					<tr>
-						<td>
-							<p>&nbsp;</p>
-						</td>
-					</tr>
-					<script>
-						displayFooter();
-					</script>
-				</table>
-			</div>
-		</div>
+	<div class="header"></div>
+	<div class="recordsheader"></div>
+	<div class="content">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top" width="100%">
+					<p class="style1h">Individual Kansas State Champions<br>
+					</p>
+					<div class="style1m">
+						<p style="font-size: 10pt;">Click on column headers to sort by year, last name or event (shift click for
+							multi-sort)</p>
+						<p>
+							<input type="radio" name="gender" onclick="javascript:changeGender('both')" checked="checked">Combined
+							<input type="radio" name="gender" onclick="javascript:changeGender('male')">Boys
+							<input type="radio" name="gender" onclick="javascript:changeGender('female')">Girls
+							<br>
+							<input type="radio" name="season" onclick="javascript:changeSeason('both')" checked="checked">Combined
+							<input type="radio" name="season" onclick="javascript:changeSeason('indoor')">Indoor
+							<input type="radio" name="season" onclick="javascript:changeSeason('outdoor')">Outdoor
+					</div>
+					<div id="champs"></div>
+					<p class="style20">(i) - denotes indoor performance</p>
+				</td>
+				<td height="273"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+		</table>
 	</div>
+	<div class="footer"></div>
+	<script src="/js/jquery-latest.js"></script>
+	<script src="/js/jquery.tablesorter.js"></script>
+	<script src="/js/events.js"></script>
+	<script src="/js/statechamps.js"></script>
+	<script>
+		$(".header").load("/header.html");
+		$(".recordsheader").load("/recordsheader.html");
+		$(".footer").load("/footer.html");
+	</script>
 	<!-- Start of StatCounter Code for Default Guide -->
-	<script type="text/javascript">
+	<script>
 		var sc_project = 3895026;
 		var sc_invisible = 1;
 		var sc_security = "c1dd7cc1";
 	</script>
-	<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-alt="web stats"></a></div></noscript>
+	<script src="http://www.statcounter.com/counter/counter.js"></script>
+	<noscript>
+		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
+				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
+	</noscript>
 	<!-- End of StatCounter Code for Default Guide -->
 </body>
-
-<!-- #EndTemplate -->
 
 </html>
