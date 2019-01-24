@@ -1,10 +1,12 @@
 // needs events.js and records.css
+import { EVENT_GROUPS } from "/js/events.js";
+
 var colSorted = -1;
 function formatJSON(data) {
    var date = new Date(),
    currentYear = date.getFullYear(),
    x;
-   tableStr = '<table id="scTable" class="tablesorter recordTable">';
+   var tableStr = '<table id="scTable" class="tablesorter recordTable">';
    tableStr += '<thead><th>Year</th><th>Last</th><th>First</th><th>Event</th><th>Performance</th></thead><tbody>';
    for (x = 0; x < data.champs.length; x++) {
       var row = data.champs[x];
@@ -52,7 +54,8 @@ function getCustomZebraWidget() {
          var $tr,
          row = -1,
          odd = true;
-         var h = headers = [];
+         var headers = [];
+         var h = headers;
          $("thead th").each(function () {
             h.push(this);
          });
@@ -190,7 +193,7 @@ $(document).ready(function()
 {
    $.getJSON('/json/statechampions.json', function callback(data)
    {
-      tableStr = formatJSON(data);
+      var tableStr = formatJSON(data);
       $.tablesorter.addWidget(getCustomZebraWidget());
       $.tablesorter.addParser(
       {

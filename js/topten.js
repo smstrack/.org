@@ -1,16 +1,9 @@
-// needs events.js and records.css
-//var hideListChar = '&#x25be;';
-//var hideListChar = '&#9662;';
-/*eslint-env jquery */
-/*globals tableStr:true EVENT_GROUPS*/
-var hideListChar = '-';
-//var showListChar = '&#x25b9';
-//var showListChar = '&#9656;';
-var showListChar = '+';
-// var hideListChar = '';
-// var showListChar = '';
-var hideAllListsText = 'Collapse All';
-var showAllListsText = 'Expand All';
+import { EVENT_GROUPS } from "/js/events.js";
+
+export var hideListChar = '-';
+export var hideAllListsText = 'Collapse All';
+export var showListChar = '+';
+export var showAllListsText = 'Expand All';
 var data;
 
 function hideEventPerformances(event)
@@ -69,7 +62,7 @@ function showEventPerformances(event)
 	$(headerId).removeClass('collapsed');
 }
 
-function togglePerformances(event)
+export function togglePerformances(event)
 {
 	var headerId = '#headerevent' + event;
 	if ($(headerId).hasClass('collapsed'))
@@ -81,7 +74,7 @@ function togglePerformances(event)
 	}
 }
 
-function toggleAll()
+export function toggleAll()
 {
 	// loop through the events
 	for (var x = 0; x < data.Events.length; x++)
@@ -104,16 +97,16 @@ function toggleAll()
 	}
 }
 
-function formatJSON(jsonData)
+export function formatJSON(jsonData)
 {
 	data = jsonData;
 	var date = new Date();
 	var currentYear = date.getFullYear();
 
-	tableStr = '<table class="recordTable">';
+	var tableStr = '<table class="recordTable">';
 	tableStr += '<tr><td colspan="3" style="border-color:white;">'+
 	'<span style="font-size: 11pt;">'+ showListChar + ' </span> <span style="font-size: 10pt;">Top Ten - Click event name to expand/collapse</span>'
-	+'</td><td colspan="1" style="border-color:white; text-align:right; font-size: 10pt;">[<a style="text-decoration:none;" href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</td></tr>';
+	+'</td><td colspan="1" style="border-color:white; text-align:right; font-size: 10pt;">[<span id="toggleAll"></span>]</td></tr>';
 	data.Events.sort(function(a, b)
 	{
 		// sorts on event group then by event name
@@ -231,4 +224,22 @@ function formatJSON(jsonData)
 	}
 	tableStr += '</table>';
 	return tableStr;
+}
+
+export function initialize(data) {    
+	var tableStr = formatJSON(data);
+    $("#topTenTable").html(tableStr);
+
+    $(".eventClick").click(function() {
+      togglePerformances($(this).attr("event"));
+    });
+
+    $("#toggleAll").html(hideAllListsText);
+    $(".eventHeader").html(hideListChar);
+    toggleAll();
+
+    $("#toggleAll").click(function () {
+      toggleAll();
+    });
+    $("#toggleAll").css('cursor', 'pointer');
 }
