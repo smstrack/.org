@@ -1,103 +1,254 @@
 .style22 {
-    border-width: 0;
+  border-width: 0;
 }
 
 .style24 {
-    border-left: 1px solid #2E4D47;
-    border-top: 1px solid #2E4D47;
-    border-right: 1px solid #2E4D47;
-    border-bottom: 1px solid #2E4D47;
+  border-left: 1px solid #2e4d47;
+  border-top: 1px solid #2e4d47;
+  border-right: 1px solid #2e4d47;
+  border-bottom: 1px solid #2e4d47;
 }
 
 .indexscroll {
-    border-left: 1px solid #2E4D47;
-    border-top: 0;
-    border-right: 1px solid #2E4D47;
-    border-bottom: 1px solid #2E4D47;
+  border-left: 1px solid #2e4d47;
+  border-top: 0;
+  border-right: 1px solid #2e4d47;
+  border-bottom: 1px solid #2e4d47;
 }
 
 .style27 {
-    text-align: center;
-    border: 1px solid #2E4D47;
-    background-color: #2E4D47;
+  text-align: center;
+  border: 1px solid #2e4d47;
+  background-color: #2e4d47;
 }
 
 .style28 {
-    text-align: center;
-    color: #FFFF66;
+  text-align: center;
+  color: #ffff66;
 }
 
 .style72 {
-    text-align: center;
-    border: 1px solid #FFFF66;
-    background-color: #FFFF66;
+  text-align: center;
+  border: 1px solid #ffff66;
+  background-color: #ffff66;
 }
 
 .style82 {
-    text-align: center;
-    color: #2E4D47;
+  text-align: center;
+  color: #2e4d47;
 }
 
 .smstf {
-    border: 1px solid #FFFF66;
-    color: #2E4D47;
-    background-color: #FFFF66;
+  border: 1px solid #ffff66;
+  color: #2e4d47;
+  background-color: #ffff66;
 }
 
 .smstf a:link {
-    text-decoration: none;
-    color: #2E4D47;
+  text-decoration: none;
+  color: #2e4d47;
 }
 
 .smstf a:visited {
-    color: #2E4D47;
+  color: #2e4d47;
 }
 
 .style28 a:link {
-    text-decoration: none;
-    color: #FFFF66;
+  text-decoration: none;
+  color: #ffff66;
 }
 
 .style28 a:visited {
-    color: #FFFF66;
+  color: #ffff66;
 }
 
 .style82 a:link {
-    text-decoration: none;
-    color: #2E4D47;
+  text-decoration: none;
+  color: #2e4d47;
 }
 
 .style82 a:visited {
-    color: #2E4D47;
+  color: #2e4d47;
 }
 
-.style30 {
-    background-image: url('../images/southrelaysback.jpg');
-    height: 315px;
+.relaysbanner {
+  background-image: url("../images/southrelaysback.jpg");
+  height: 315px;
+  width: 180px;
+  cursor: pointer;
+  height: 315px;
 }
 
 .style34 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFF66;
-    font-size: larger;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff66;
+  font-size: larger;
 }
 
 .style35 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFAA;
-    font-size: smaller;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffaa;
+  font-size: smaller;
 }
 
 .style36 {
-    position: absolute;
-    margin-top: 63px;
-    text-align: center;
-    width: 180px;
+  position: absolute;
+  margin-top: 63px;
+  text-align: center;
+  width: 180px;
 }
 
 .style37 {
-    font-size: 24pt;
-    color: #1C5E52;
+  font-size: 24pt;
+  color: #1c5e52;
+  text-align: center;
+}
+
+table {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  text-align: center;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header header header header"
+    "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
+    "left middle middle middle middle middle middle middle right"
+    "footer footer footer footer footer footer footer footer footer";
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+.menu1 {
+  grid-area: menu1;
+}
+
+.menu2 {
+  grid-area: menu2;
+}
+
+.menu3 {
+  grid-area: menu3;
+}
+
+.menu4 {
+  grid-area: menu4;
+}
+
+.menu5 {
+  grid-area: menu5;
+}
+
+.menu6 {
+  grid-area: menu6;
+}
+
+.menu7 {
+  grid-area: menu7;
+}
+
+.menu8 {
+  grid-area: menu8;
+}
+
+.menu9 {
+  grid-area: menu9;
+}
+
+@media only screen and (min-width: 600px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+      "header header header header header header header header header"
+      "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
+      "left middle middle middle middle middle middle middle right"
+      "footer footer footer footer footer footer footer footer footer";
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .left,
+  .right {
+    display: block;
+  }
+  .grid-container {
+    grid-template-areas:
+      "header header header header header header header header header"
+      "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
+      "left middle middle middle middle middle middle middle right"
+      "footer footer footer footer footer footer footer footer footer";
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+      "header header header header header header header header header"
+      "menu1 menu1 menu1 menu1 menu1 menu1 menu1 menu1 menu1"
+      "menu2 menu2 menu2 menu2 menu2 menu2 menu2 menu2 menu2"
+      "menu3 menu3 menu3 menu3 menu3 menu3 menu3 menu3 menu3"
+      "menu4 menu4 menu4 menu4 menu4 menu4 menu4 menu4 menu4"
+      "menu5 menu5 menu5 menu5 menu5 menu5 menu5 menu5 menu5"
+      "menu6 menu6 menu6 menu6 menu6 menu6 menu6 menu6 menu6"
+      "menu7 menu7 menu7 menu7 menu7 menu7 menu7 menu7 menu7"
+      "menu8 menu8 menu8 menu8 menu8 menu8 menu8 menu8 menu8"
+      "menu9 menu9 menu9 menu9 menu9 menu9 menu9 menu9 menu9"
+      "left left left left left left left left left"
+      "middle middle middle middle middle middle middle middle middle"
+      "right right right right right right right right right"
+      "footer footer footer footer footer footer footer footer footer";
+  }
 }
