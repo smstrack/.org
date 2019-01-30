@@ -125,7 +125,7 @@ if (document.layers) {
 }
 if (document.getElementById || document.all) {
   document.write(
-    '<div style="position:relative;overflow:hidden;width:' +
+    '<div style="margin:auto;position:relative;overflow:hidden;width:' +
       swidth +
       "px;height:" +
       sheight +
