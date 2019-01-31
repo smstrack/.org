@@ -1,0 +1,20 @@
+.row0 {
+  background-color: #a2d5a1;
+}
+
+.row1 {
+  background-color: #ffffff;
+}
+
+td {
+    padding: 0px 7px 0px 1px;
+}
+
+.schedtable {
+	border-style: solid;
+	border-width: 1px;
+	text-align: left;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
