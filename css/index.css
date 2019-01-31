@@ -14,6 +14,7 @@
   border-top: 0;
   border-right: 1px solid #2e4d47;
   border-bottom: 1px solid #2e4d47;
+  padding: 0px 20px;
 }
 
 .style27 {
@@ -72,11 +73,11 @@
 }
 
 .relaysbanner {
-  background-image: url("../images/southrelaysback.jpg");
-  height: 315px;
-  width: 180px;
+  background-image: url("/images/southrelaysback.jpg");
+  background-repeat: no-repeat;
+  /* height: 315px;
+  width: 180px; */
   cursor: pointer;
-  height: 315px;
 }
 
 .style34 {
@@ -93,17 +94,27 @@
   font-size: smaller;
 }
 
-.style36 {
-  position: absolute;
-  margin-top: 63px;
+.relaysbannertext {
+  margin: auto;
+  float: left;
+  /* position: absolute; */
+  /* margin-top: 63px; */
+  padding: 220px 0px 10px 20px;
   text-align: center;
-  width: 180px;
+  /* width: 180px; */
 }
 
 .style37 {
   font-size: 24pt;
   color: #1c5e52;
   text-align: center;
+}
+
+.vscroll {
+  margin:auto;
+  float:right;
+  position:relative;
+  overflow:hidden;
 }
 
 table {
@@ -121,134 +132,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
-.header {
-  grid-area: header;
-  text-align: center;
-}
-
-/* The grid container */
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "header header header header header header header header header"
-    "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
-    "left middle middle middle middle middle middle middle right"
-    "footer footer footer footer footer footer footer footer footer";
-}
-
-.left,
-.middle,
-.right {
-  padding: 10px;
-}
-
-/* Style the left column */
-.left {
-  grid-area: left;
-}
-
-/* Style the middle column */
-.middle {
-  grid-area: middle;
-}
-
-/* Style the right column */
-.right {
-  grid-area: right;
-}
-
-/* Style the footer */
-.footer {
-  grid-area: footer;
-  text-align: center;
-}
-
-.menu1 {
-  grid-area: menu1;
-}
-
-.menu2 {
-  grid-area: menu2;
-}
-
-.menu3 {
-  grid-area: menu3;
-}
-
-.menu4 {
-  grid-area: menu4;
-}
-
-.menu5 {
-  grid-area: menu5;
-}
-
-.menu6 {
-  grid-area: menu6;
-}
-
-.menu7 {
-  grid-area: menu7;
-}
-
-.menu8 {
-  grid-area: menu8;
-}
-
-.menu9 {
-  grid-area: menu9;
-}
-
-@media only screen and (min-width: 600px) {
-  .left,
-  .right {
-    display: none;
-  }
-  .grid-container {
-    grid-template-areas:
-      "header header header header header header header header header"
-      "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
-      "left middle middle middle middle middle middle middle right"
-      "footer footer footer footer footer footer footer footer footer";
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .left,
-  .right {
-    display: block;
-  }
-  .grid-container {
-    grid-template-areas:
-      "header header header header header header header header header"
-      "menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9"
-      "left middle middle middle middle middle middle middle right"
-      "footer footer footer footer footer footer footer footer footer";
-  }
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media only screen and (max-width: 600px) {
-  .left,
-  .right {
-    display: none;
-  }
-  .grid-container {
-    grid-template-areas:
-      "header header header header header header header header header"
-      "menu1 menu1 menu1 menu1 menu1 menu1 menu1 menu1 menu1"
-      "menu2 menu2 menu2 menu2 menu2 menu2 menu2 menu2 menu2"
-      "menu3 menu3 menu3 menu3 menu3 menu3 menu3 menu3 menu3"
-      "menu4 menu4 menu4 menu4 menu4 menu4 menu4 menu4 menu4"
-      "menu5 menu5 menu5 menu5 menu5 menu5 menu5 menu5 menu5"
-      "menu6 menu6 menu6 menu6 menu6 menu6 menu6 menu6 menu6"
-      "menu7 menu7 menu7 menu7 menu7 menu7 menu7 menu7 menu7"
-      "menu8 menu8 menu8 menu8 menu8 menu8 menu8 menu8 menu8"
-      "menu9 menu9 menu9 menu9 menu9 menu9 menu9 menu9 menu9"
-      "left left left left left left left left left"
-      "middle middle middle middle middle middle middle middle middle"
-      "right right right right right right right right right"
-      "footer footer footer footer footer footer footer footer footer";
-  }
-}

@@ -66,19 +66,23 @@ li a:hover {
 
 .menubar {
 	background-color: #2e4d47;
-	text-align: center
+	text-align: center;
+	grid-area: menubar;
+	padding: 5px;
+}
+
+.menubar a {
+	padding: 2%;
 }
 
 .menubar a:link {
 	font-family: Arial;
-	font-size: 10pt;
 	color: #FFFFAA;
 	text-decoration: none
 }
 
 .menubar a:visited {
 	font-family: Arial;
-	font-size: 10pt;
 	color: #FFFFAA;
 	text-decoration: none
 }
@@ -86,6 +90,7 @@ li a:hover {
 .menubar a:hover {
 	color: #FFFFFF
 }
+
 
 .menuleaf a {
 	display: block
@@ -340,4 +345,112 @@ ul.o {
 	color: white;
 	background-color: #2e4d47;
 	text-decoration: none;
+}
+
+
+/* Style the header */
+.header {
+	grid-area: header;
+	text-align: center;
+  }
+  
+/* Style the footer */
+.footer {
+	grid-area: footer;
+	text-align: center;
+  }
+  
+  .menuicon {
+	display: none;
+  }
+  
+  .left,
+.middle,
+.right {
+  padding: 0px 5px 0px 5px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  padding: 20px 10px;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+.schoollogo {
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px 0px 0px;
+  }
+  
+  .schooladdress a {
+	text-decoration: none;
+	color: #2e4d47;
+	font-size: smaller;
+  }
+  
+  
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "menubar menubar menubar menubar"
+    "left middle middle right"
+    "footer footer footer footer";
+}
+
+@media only screen and (min-width: 600px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+    "header header header header"
+    "menubar menubar menubar menubar"
+    "left middle middle right"
+    "footer footer footer footer";
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .left,
+  .right {
+    display: block;
+  }
+  .grid-container {
+    grid-template-areas:
+    "header header header header"
+    "menubar menubar menubar menubar"
+    "left middle middle right"
+    "footer footer footer footer";
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+    "header header header"
+    "menubar menubar menubar"
+    "left middle right"
+    "footer footer footer";
+  }
 }

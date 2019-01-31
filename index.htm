@@ -64,17 +64,9 @@
 <body>
 	<div class="maindiv grid-container">
 		<div class="header"></div>
-		<div class="menu1 menubar"><a href="/index.htm">Home</a></div>
-		<div class="menu2 menubar"><a href="/news.htm">News</a></div>
-		<div class="menu3 menubar"><a href="/schedule.htm">Schedule</a></div>
-		<div class="menu4 menubar"><a href="/team.htm">Team</a></div>
-		<div class="menu5 menubar"><a href="/coaches.htm">Coaches</a></div>
-		<div class="menu6 menubar"><a href="/archives/state_champion_teams.htm">Records</a></div>
-		<div class="menu7 menubar"><a href="/honors.htm">Honors</a></div>
-		<div class="menu8 menubar"><a href="/pictures.htm">Pictures</a></div>
-		<div class="menu9 menubar"><a href="/links.htm">Links</a></div>
+		<div class="menubar"></div>
 		<div class="left relaysbanner" onmouseover="" onclick="document.location.href='south_relays.htm'">
-			<div class="style36">
+			<div class="relaysbannertext">
 				<span class="style34"><strong>South Relays</strong></span>
 				<span class="style35"><strong><br>Saturday<br>March 30th<br>2019</strong></span>
 			</div>
@@ -88,7 +80,7 @@
 			<div id="scheduleDisplay" style="display: none;"></div>
 		</div>
 		<div class="right">
-			<div valign="top" width="125" style="height: 55px" class="style23 indexscroll scrollLine">
+			<div valign="top" class="style23 indexscroll scrollLine">
 				<script src="/js/vscroll.js"></script>
 			</div>
 			<div class="style24 style28" style="display:none; background: #0c6e45; text-align:center; font-family:sans-serif;font-weight:bold">
@@ -111,6 +103,7 @@
 	<script src="https://www.googleapis.com/blogger/v3/blogs/484182122543119585/posts?callback=handleResponse&key=AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE"></script>
 	<script>
 		$(".header").load("/header.html");
+		$(".menubar").load("/mainmenu.html");
 		$(".footer").load("/footer.html");
 	</script>
 	<!-- Start of StatCounter Code for Default Guide -->

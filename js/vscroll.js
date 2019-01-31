@@ -4,9 +4,9 @@
  **************************************/
 //-- Begin Scroller's Parameters and messages -->
 //scroller's width
-var swidth = 178;
+var swidth = 150;
 //scroller's height
-var sheight = 150;
+var sheight = 300;
 //scroller's speed
 var sspeed = 4;
 var restart = sspeed;
@@ -125,7 +125,7 @@ if (document.layers) {
 }
 if (document.getElementById || document.all) {
   document.write(
-    '<div style="margin:auto;position:relative;overflow:hidden;width:' +
+    '<div class="vscroll" style="width:' +
       swidth +
       "px;height:" +
       sheight +
