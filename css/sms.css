@@ -67,12 +67,12 @@ li a:hover {
 .menubar {
   background-color: #2e4d47;
   text-align: center;
-  grid-area: menubar;
   padding: 5px;
 }
 
 .menubar a {
   padding: 2%;
+  white-space: nowrap;
 }
 
 .menubar a:link {
@@ -113,49 +113,49 @@ li a:hover {
   text-decoration: none;
 }
 
-.menubar2 {
+.mainmenu2 {
   background-color: #1c5e52;
   text-align: center;
 }
 
-.menubar2 a:link {
+.mainmenu2 a:link {
   font-family: Arial;
   font-size: 10pt;
   color: #ffffaa;
   text-decoration: none;
 }
 
-.menubar2 a:visited {
+.mainmenu2 a:visited {
   font-family: Arial;
   font-size: 10pt;
   color: #ffffaa;
   text-decoration: none;
 }
 
-.menubar2 a:hover {
+.mainmenu2 a:hover {
   color: #ffffff;
 }
 
-.menubar3 {
+.mainmenu3 {
   background-color: #1c5e52;
   text-align: center;
 }
 
-.menubar3 a:link {
+.mainmenu3 a:link {
   font-family: Arial;
   font-size: 10pt;
   color: #ffffaa;
   text-decoration: none;
 }
 
-.menubar3 a:visited {
+.mainmenu3 a:visited {
   font-family: Arial;
   font-size: 10pt;
   color: #ffffaa;
   text-decoration: none;
 }
 
-.menubar3 a:hover {
+.mainmenu3 a:hover {
   color: #ffffff;
 }
 
@@ -325,6 +325,19 @@ ul.o {
   padding: 0px 5px 0px 5px;
 }
 
+.mainmenu {
+  grid-area: mainmenu;
+}
+
+.recordsmenu {
+  grid-area: recordsmenu;
+}
+
+.recordsmenu2 {
+  grid-area: recordsmenu2;
+}
+
+
 /* Style the left column */
 .left {
   grid-area: left;
@@ -360,7 +373,9 @@ ul.o {
   display: grid;
   grid-template-areas:
     "header header header header"
-    "menubar menubar menubar menubar"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "records2menu records2menu records2menu records2menu"
     "left middle middle right"
     "footer footer footer footer";
 }
@@ -373,7 +388,9 @@ ul.o {
   .grid-container {
     grid-template-areas:
       "header header header header"
-      "menubar menubar menubar menubar"
+      "mainmenu mainmenu mainmenu mainmenu"
+      "recordsmenu recordsmenu recordsmenu recordsmenu"
+      "records2menu records2menu records2menu records2menu"
       "left middle middle right"
       "footer footer footer footer";
   }
@@ -387,7 +404,9 @@ ul.o {
   .grid-container {
     grid-template-areas:
       "header header header header"
-      "menubar menubar menubar menubar"
+      "mainmenu mainmenu mainmenu mainmenu"
+      "recordsmenu recordsmenu recordsmenu recordsmenu"
+      "records2menu records2menu records2menu records2menu"
       "left middle middle right"
       "footer footer footer footer";
   }
@@ -401,7 +420,9 @@ ul.o {
   .grid-container {
     grid-template-areas:
       "header header header header"
-      "menubar menubar menubar menubar"
+      "mainmenu mainmenu mainmenu mainmenu"
+      "recordsmenu recordsmenu recordsmenu recordsmenu"
+      "records2menu records2menu records2menu records2menu"
       "left middle middle right"
       "footer footer footer footer";
   }
