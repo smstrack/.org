@@ -7,7 +7,12 @@
 }
 
 td {
-    padding: 0px 7px 0px 1px;
+		padding: 0px 7px 0px 1px;
+}
+
+/* don't display the results column unles there are results */
+td:nth-child(5) {
+	display:none;
 }
 
 .schedlink {
@@ -48,5 +53,13 @@ td {
 	text-align: left;
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-}
+	border-collapse: collapse;
+	}
+
+	.schedicons {
+		font-size: 18px;
+	}
+
+	i {
+		vertical-align: middle;
+	}
