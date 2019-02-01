@@ -10,7 +10,7 @@ function dateFromISO8601(isostr)
 
 function displaySchedule(entries)
 {
-	var htmlStr = '<table border="1" class="schedtable" align="center" width="100%">';
+	var htmlStr = '<table border="1" class="schedlink schedtable" align="center" width="100%">';
 	var rowClass;
 
 	for (var i = 0; i < entries.length; i++)
