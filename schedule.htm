@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="/css/sms.css" />
 	<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
-	<title>Schedule &amp; Results</title>
+	<title>Shawnee Mission South Track Schedule And Results</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
 		<div class="header"></div>
 		<div class="mainmenu menubar"></div>
 		<div class="left"></div>
-		<div class="middle" >
-			<h3 id="title" class="stylmee1h"></h3>
+		<div class="middle">
+			<div id="title" class="contentheader"></div>
 			<div id="sched"></div>
 			<div class="schedlink">
 				Open in Google Calendar
@@ -48,7 +48,7 @@
 		$(".footer").load("/footer.html");
 		$(document).ready(function () {
 			$("#title").html(
-				"Shawnee Mission South Track Schedule<br>" + scheduleYear
+				scheduleYear + " Schedule"
 			);
 		});
 	</script>

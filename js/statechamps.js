@@ -5,7 +5,7 @@ function formatJSON(data) {
    currentYear = date.getFullYear(),
    x;
    tableStr = '<table id="scTable" class="tablesorter recordTable">';
-   tableStr += '<thead><th>Year</th><th>Last</th><th>First</th><th>Event</th><th>Performance</th></thead><tbody>';
+   tableStr += '<thead><th>Year</th><th>Last</th><th class="firstname">First</th><th>Event</th><th>Performance</th></thead><tbody>';
    for (x = 0; x < data.champs.length; x++) {
       var row = data.champs[x];
       var rowClass = ((row.gender == 'm') ? "male" : "female") + " " + 
@@ -22,7 +22,7 @@ function formatJSON(data) {
       tableStr += '<td>';
       tableStr += row.last;
       tableStr += '</td>';
-      tableStr += '<td>';
+      tableStr += '<td class="firstname">';
       tableStr += row.first;
       tableStr += '</td>';
       // add a hidden prefix to the event name (or eventCom) for tablesorter

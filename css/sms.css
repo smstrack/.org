@@ -24,6 +24,10 @@ h4 {
   color: #2e4d47;
 }
 
+h5 {
+	text-align: center;
+}
+
 .content {
   margin: 25 auto;
   max-width: 1250px;
@@ -186,11 +190,45 @@ ul.o {
   text-align: left;
 }
 
-.style1h {
+.contentheader {
   text-align: center;
   color: #2e4d47;
   font-size: x-large;
+  padding: 0px 0px 10px 0px;
 }
+
+.subcontentheader {
+	text-align: center;
+	color: #2e4d47;
+	font-size: medium;
+  }
+
+.subcontentheader a {
+	color: #6a9990;
+	text-decoration: none;
+}
+
+
+.subcontentheader a:link {
+	/* color: #2e4d47; */
+	text-decoration: none;
+}
+
+.subcontentheader a:visted {
+	color: #2e4d47;
+	text-decoration: none;
+}
+
+.subcontentheader a:hover {
+	color:black;
+	/* background-color: #1c5e52; */
+	text-decoration: none;
+}
+
+i {
+	vertical-align: middle;
+}
+
 
 .style1m {
   text-align: center;
@@ -331,10 +369,12 @@ ul.o {
 
 .recordsmenu {
   grid-area: recordsmenu;
+  background-color: #1c5e52;
 }
 
 .recordsmenu2 {
-  grid-area: recordsmenu2;
+	grid-area: recordsmenu2;
+	background-color: #2e6e63;
 }
 
 
@@ -426,4 +466,39 @@ ul.o {
       "left middle middle right"
       "footer footer footer footer";
   }
+}
+
+@media only screen and (max-width: 450px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .runnerup {
+    display: none;
+  }
+  
+  .firstname {
+    display: none;
+  }
+/* 
+  table.tablesorter thead tr .header {
+    background-image: none;
+  }
+  table.tablesorter thead tr .headerSortUp {
+    background-image: none;
+  }
+  table.tablesorter thead tr .headerSortDown {
+    background-image: none;
+  }
+   */
+}
+
+.grid-container {
+  grid-template-areas:
+  "header header header header"
+  "mainmenu mainmenu mainmenu mainmenu"
+  "recordsmenu recordsmenu recordsmenu recordsmenu"
+  "records2menu records2menu records2menu records2menu"
+  "left middle middle right"
+  "footer footer footer footer";
 }
