@@ -248,7 +248,7 @@ i {
 
 .hero {
   background-image: url("/images/run.png"), url("/images/smsbb.jpg");
-  background-position: right, left;
+  background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
   max-height: 200px;
   z-index: 0;
@@ -337,9 +337,10 @@ i {
   background-image: url("/images/throws1st.jpg");
 }
 
-/* Style the header */
-.header {
-  grid-area: header;
+/* Style the mainheader */
+.mainheader {
+  height: 157px;
+  grid-area: mainheader;
   text-align: center;
 }
 
@@ -386,7 +387,7 @@ i {
 /* Style the middle column */
 .middle {
   grid-area: middle;
-  padding: 20px 10px;
+  padding: 20px 5px;
 }
 
 /* Style the right column */
@@ -411,8 +412,11 @@ i {
 /* The grid container */
 .grid-container {
   display: grid;
+}
+
+.grid-container {
   grid-template-areas:
-    "header header header header"
+    "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
     "records2menu records2menu records2menu records2menu"
@@ -420,59 +424,65 @@ i {
     "footer footer footer footer";
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 850px) {
   .left,
   .right {
     display: none;
   }
   .grid-container {
     grid-template-areas:
-      "header header header header"
+      "mainheader mainheader mainheader mainheader"
       "mainmenu mainmenu mainmenu mainmenu"
       "recordsmenu recordsmenu recordsmenu recordsmenu"
       "records2menu records2menu records2menu records2menu"
-      "left middle middle right"
+      "middle middle middle middle"
       "footer footer footer footer";
   }
 }
 
-@media only screen and (min-width: 800px) {
-  .left,
-  .right {
-    display: block;
-  }
-  .grid-container {
-    grid-template-areas:
-      "header header header header"
-      "mainmenu mainmenu mainmenu mainmenu"
-      "recordsmenu recordsmenu recordsmenu recordsmenu"
-      "records2menu records2menu records2menu records2menu"
-      "left middle middle right"
-      "footer footer footer footer";
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .left,
-  .right {
-    display: none;
-  }
-  .grid-container {
-    grid-template-areas:
-      "header header header header"
-      "mainmenu mainmenu mainmenu mainmenu"
-      "recordsmenu recordsmenu recordsmenu recordsmenu"
-      "records2menu records2menu records2menu records2menu"
-      "left middle middle right"
-      "footer footer footer footer";
-  }
-}
 
 @media only screen and (max-width: 450px) {
   .left,
   .right {
     display: none;
   }
+  
+  .runnerup {
+    display: none;
+  }
+
+  .middle {
+    padding: 20px 1px;
+  }
+  
+  .firstname {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-areas:
+    "mainheader mainheader mainheader mainheader"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "records2menu records2menu records2menu records2menu"
+    "middle middle middle middle"
+    "footer footer footer footer";
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .left,
+  .right {
+    display: none;
+  }
+
+  .middle {
+    padding: 20px 1px;
+  }
+
   .runnerup {
     display: none;
   }
@@ -480,25 +490,23 @@ i {
   .firstname {
     display: none;
   }
-/* 
-  table.tablesorter thead tr .header {
-    background-image: none;
+
+  .performance {
+    display: none;
   }
-  table.tablesorter thead tr .headerSortUp {
-    background-image: none;
+
+  .grid-container {
+    grid-template-areas:
+    "mainheader mainheader mainheader mainheader"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "records2menu records2menu records2menu records2menu"
+    "middle middle middle middle"
+    "footer footer footer footer";
   }
-  table.tablesorter thead tr .headerSortDown {
-    background-image: none;
-  }
-   */
+  
 }
 
-.grid-container {
-  grid-template-areas:
-  "header header header header"
-  "mainmenu mainmenu mainmenu mainmenu"
-  "recordsmenu recordsmenu recordsmenu recordsmenu"
-  "records2menu records2menu records2menu records2menu"
-  "left middle middle right"
-  "footer footer footer footer";
-}
+
+
+

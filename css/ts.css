@@ -24,7 +24,7 @@ table.tablesorter tbody td {
 	color: #000000;
 	padding: 0px 7px 0px 1px;
 	background-color: #FFF;
-	vertical-align: top;
+	vertical-align: middle;
 	/* min-width: 60px; */
 }
 table.tablesorter tbody tr.odd td {

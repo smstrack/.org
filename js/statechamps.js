@@ -5,7 +5,7 @@ function formatJSON(data) {
    currentYear = date.getFullYear(),
    x;
    tableStr = '<table id="scTable" class="tablesorter recordTable">';
-   tableStr += '<thead><th>Year</th><th>Last</th><th class="firstname">First</th><th>Event</th><th>Performance</th></thead><tbody>';
+   tableStr += '<thead><th>Year</th><th>Last</th><th class="firstname">First</th><th>Event</th><th class="performance">Performance</th></thead><tbody>';
    for (x = 0; x < data.champs.length; x++) {
       var row = data.champs[x];
       var rowClass = ((row.gender == 'm') ? "male" : "female") + " " + 
@@ -31,7 +31,7 @@ function formatJSON(data) {
        + ((row.eventCom == undefined) ? row.event : row.eventCom) + '-</span>';
       tableStr += row.event;
       tableStr += '</td>';
-      tableStr += '<td>';
+      tableStr += '<td class="performance">';
       tableStr += row.performance;
       if (row.video != null && row.video.length > 0) {
          tableStr += ' <a href="' + row.video + '" target="_blank" ><img border="0" height="16px" src="' + row.videoIcon + '"/></a>';

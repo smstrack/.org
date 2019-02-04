@@ -30,6 +30,7 @@ table.recordTable td {
 	border-collapse: collapse;
 	border-color: gray;
 	padding: 0px 7px 0px 1px;
+	vertical-align: middle;
 	/* word-wrap : break-word; */
 	/* padding-left: 5px;
 	padding-right: 5px;
@@ -98,8 +99,4 @@ table.recordTable td.eventClick{
 
 table.recordTable tr.currentYear {
 	font-weight: bold
-}
-
-table.recordTable td span.atkrank {
-	
 }
