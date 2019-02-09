@@ -71,11 +71,11 @@ li a:hover {
 .menubar {
   background-color: #2e4d47;
   text-align: center;
-  padding: 5px;
+  padding: 7px;
 }
 
 .menubar a {
-  padding: 2%;
+  padding: 0% 3%;
   white-space: nowrap;
 }
 
