@@ -37,7 +37,7 @@ function hideEventPerformances(event)
 		$(this).removeClass('recordHeader');
 	});
 
-	$(headerId).html(showListChar);
+	$(headerId).html("arrow_drop_down");
 
 	$(headerId).addClass('collapsed');
 }
@@ -65,7 +65,7 @@ function showEventPerformances(event)
 		$(this).addClass('recordHeader');
 	});
 
-	$(headerId).html(hideListChar);
+	$(headerId).html("arrow_drop_up");
 	$(headerId).removeClass('collapsed');
 }
 
@@ -110,10 +110,8 @@ function formatJSON(jsonData)
 	var date = new Date();
 	var currentYear = date.getFullYear();
 
-	tableStr = '<table class="recordTable">';
-	tableStr += '<tr><td colspan="3" style="border-color:white;">'+
-	'<span style="font-size: 11pt;">'+ showListChar + ' </span> <span style="font-size: 10pt;">Top Ten - Click event name to expand/collapse</span>'
-	+'</td><td colspan="1" style="border-color:white; text-align:right; font-size: 10pt;">[<a style="text-decoration:none;" href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</td></tr>';
+	tableStr = '<div class="toptentableheader"><i class="material-icons">arrow_drop_down</i><span>Click to expand/collapse</span><span class="expandall">[<a href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</span></div>';
+	tableStr += '<table class="recordTable" width="100%">';
 	data.Events.sort(function(a, b)
 	{
 		// sorts on event group then by event name
@@ -181,7 +179,7 @@ function formatJSON(jsonData)
 				if (performanceList.length > 1)
 				{
 					tableStr += '<td class="eventClick" event="' + x + '">';
-					tableStr += '<span id="headerevent' + x + '" class="eventHeader" class="collapsed"></span>';
+					tableStr += '<i id="headerevent' + x + '" class="eventHeader material-icons" class="collapsed"></i>';
 					tableStr += '<span class="eventName">' + row.event + '</span>';
 				} else
 				{
@@ -218,7 +216,7 @@ function formatJSON(jsonData)
 			tableStr += " ";
 			tableStr += (performance.last != undefined) ? performance.last : "";
 			tableStr += '</td>';
-			tableStr += '<td>';
+			tableStr += '<td class="toptenyear">';
 			tableStr += (performance.year != undefined ? performance.year : "");
 			tableStr += '</td>';
 			tableStr += '</tr>';
@@ -230,5 +228,37 @@ function formatJSON(jsonData)
 		tableStr += "</tbody>";
 	}
 	tableStr += '</table>';
+	tableStr += '<p class="style23">\
+	Note: Only FAT times are listed to the 100th of a second.&nbsp; All\
+	other times are considered hand timed.\
+  </p>\
+  <p class="style23">\
+	*FAT times may appear out of order relative to hand times because of\
+	the following:<br>\
+	<em>100 and 200 meters:</em> FAT times are considered .24 seconds\
+	faster than the equivalent hand time<br>\
+	<em>300 and 400 meters:</em> FAT times are considered .14 seconds\
+	faster than the equivalent hand time<br>\
+	<sup>[n]</sup>All-Time Kansas ranking as of August 2015 \
+	(<a href="https://drive.google.com/file/d/0B4e6HoJZumBwSm5jR0NTVWlLMzg/view?usp=sharing" target="_blank">\
+	see all-time bests</a>).<br>\
+	**Performance converted from yards<br>\
+	&#134;IAAF javelin adopted in 2002\
+  </p>'
 	return tableStr;
 }
+
+
+
+  function toptencallback(data) {
+	tableStr = formatJSON(data);
+	$("#topTenTable").html(tableStr);
+
+	$(".eventClick").click(function () {
+	  togglePerformances($(this).attr("event"));
+	});
+
+	$("#toggleAll").html(hideAllListsText);
+	$(".eventHeader").html(hideListChar);
+	toggleAll();
+  }

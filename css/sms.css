@@ -419,7 +419,7 @@ i {
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
-    "records2menu records2menu records2menu records2menu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "left middle middle right"
     "footer footer footer footer";
 }
@@ -434,7 +434,7 @@ i {
       "mainheader mainheader mainheader mainheader"
       "mainmenu mainmenu mainmenu mainmenu"
       "recordsmenu recordsmenu recordsmenu recordsmenu"
-      "records2menu records2menu records2menu records2menu"
+      "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
       "middle middle middle middle"
       "footer footer footer footer";
   }
@@ -464,7 +464,7 @@ i {
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
-    "records2menu records2menu records2menu records2menu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "middle middle middle middle"
     "footer footer footer footer";
   }
@@ -491,7 +491,7 @@ i {
     display: none;
   }
 
-  .performance {
+  .stateperformance {
     display: none;
   }
 
@@ -500,13 +500,9 @@ i {
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
-    "records2menu records2menu records2menu records2menu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "middle middle middle middle"
     "footer footer footer footer";
   }
   
 }
-
-
-
-

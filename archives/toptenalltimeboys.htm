@@ -1,115 +1,63 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="description"
-      content="Shawnee Mission South High School Track &amp; Field"
-    />
-    <meta
-      name="keywords"
-      content="shawnee mission south track, south track, sms track, south track &amp; field"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link rel="stylesheet" href="/css/sms.css" />
-    <link rel="stylesheet" type="text/css" href="/css/records.css" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Shawnee Mission South High School Track &amp; Field" />
+  <meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Boys Varsity Records</title>
-  </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="/css/sms.css" />
+  <link rel="stylesheet" type="text/css" href="/css/records.css" />
 
-  <body>
-    <div class="maindiv grid-container">
-      <div class="mainheader"></div>
-      <div class="recordsheader"></div>
-      <div class="recordsheader2"></div>
-      <div class="middle">
-        <div class="contentheader">
-          Records - Varsity Boys<br />
-          <span class="subcontentheader"><a href="toptenalltimegirls.htm">Girls</a></span>
-        </div>
-        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-          <tr>
-            <td valign="top" width="100%">
-              <span id="topTenTable"></span>
-            </td>
-          </tr>
-        </table>
-        <p class="style23">
-          Note: Only FAT times are listed to the 100th of a second.&nbsp; All
-          other times are considered hand timed.
-        </p>
-        <p class="style23">
-          *FAT times may appear out of order relative to hand times because of
-          the following:<br />
-          <em>100 and 200 meters:</em> FAT times are considered .24 seconds
-          faster than the equivalent hand time<br />
-          <em>300 and 400 meters:</em> FAT times are considered .14 seconds
-          faster than the equivalent hand time<br />
-          <sup>[n]</sup>All-Time Kansas ranking as of August 2015 (<a
-            href="https://drive.google.com/file/d/0B4e6HoJZumBwSm5jR0NTVWlLMzg/view?usp=sharing"
-            target="_blank"
-            >see all-time bests</a
-          >).<br />
-          **Performance converted from yards<br />
-          &#134;IAAF javelin adopted in 2002
-        </p>
-	  </div>
-	  <div class="right"></div>
-      <div class="footer"></div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/topten.js"></script>
-    <script src="/js/events.js"></script>
-    <script>
-	  $(".mainheader").load("/header.html");
-	  $(".mainmenu").load("/mainmenu.html");
-	  $(".recordsmenu2").load("/recordsmenu2.html");
-    $(".footer").load("/footer.html");
-    </script>
-    <script>
-      $(document).ready(function() {
-        $.getJSON("/json/toptenboys.json", function callback(data) {
-          tableStr = formatJSON(data);
-          $("#topTenTable").html(tableStr);
+  <title>Boys Varsity Records</title>
+</head>
 
-          $(".eventClick").click(function() {
-            togglePerformances($(this).attr("event"));
-          });
-
-          $("#toggleAll").html(hideAllListsText);
-          $(".eventHeader").html(hideListChar);
-          toggleAll();
-        });
-      });
-    </script>
-    <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
-      var sc_project = 3895026;
-      var sc_invisible = 1;
-      var sc_security = "c1dd7cc1";
-    </script>
-    <script
-      type="text/javascript"
-      src="http://www.statcounter.com/counter/counter.js"
-    ></script>
-    <noscript>
-      <div class="statcounter">
-        <a
-          title="web stats"
-          href="http://statcounter.com/free-web-stats/"
-          target="_blank"
-          ><img
-            class="statcounter"
-            src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
-            alt="web stats"
-        /></a>
+<body>
+  <div class="maindiv grid-container">
+    <div class="mainheader"></div>
+    <div class="mainmenu menubar"></div>
+    <div class="recordsmenu menubar"></div>
+    <div class="recordsmenu2 menubar"></div>
+    <div class="left"></div>
+    <div class="middle">
+      <div class="contentheader">
+        All-Time Top Ten Boys<br />
+        <span class="subcontentheader"><a href="toptenalltimegirls.htm">(See Girls)</a></span>
       </div>
-    </noscript>
-    <!-- End of StatCounter Code for Default Guide -->
-  </body>
+      <div id="topTenTable"></div>
+    </div>
+    <div class="right"></div>
+    <div class="footer"></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/topten.js"></script>
+  <script src="/js/events.js"></script>
+  <script>
+    $(".mainheader").load("/header.html");
+    $(".mainmenu").load("/mainmenu.html");
+    $(".recordsmenu").load("/recordsmenu.html");
+    $(".recordsmenu2").load("/recordsmenu2.html");
+    $(".footer").load("/footer.html");
+    $(document).ready(function () {
+      $.getJSON("/json/toptenboys.json", toptencallback);
+    });
+  </script>
+  <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+    var sc_project = 3895026;
+    var sc_invisible = 1;
+    var sc_security = "c1dd7cc1";
+  </script>
+  <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+  <noscript>
+    <div class="statcounter">
+      <a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter"
+          src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats" /></a>
+    </div>
+  </noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+</body>
+
 </html>
