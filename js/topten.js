@@ -13,6 +13,9 @@ var hideAllListsText = 'Collapse All';
 var showAllListsText = 'Expand All';
 var data;
 
+const expandIcon = "arrow_drop_down";
+const collapseIcon = "arrow_drop_up";
+
 function hideEventPerformances(event)
 {
 	var performanceClass = '.nonrecord' + event;
@@ -37,7 +40,7 @@ function hideEventPerformances(event)
 		$(this).removeClass('recordHeader');
 	});
 
-	$(headerId).html("arrow_drop_down");
+	$(headerId).html(expandIcon);
 
 	$(headerId).addClass('collapsed');
 }
@@ -65,7 +68,7 @@ function showEventPerformances(event)
 		$(this).addClass('recordHeader');
 	});
 
-	$(headerId).html("arrow_drop_up");
+	$(headerId).html(collapseIcon);
 	$(headerId).removeClass('collapsed');
 }
 
@@ -110,7 +113,7 @@ function formatJSON(jsonData)
 	var date = new Date();
 	var currentYear = date.getFullYear();
 
-	tableStr = '<div class="toptentableheader"><i class="material-icons">arrow_drop_down</i><span>Click to expand/collapse</span><span class="expandall">[<a href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</span></div>';
+	tableStr = '<div class="toptentableheader"><i class="material-icons">'+expandIcon+'</i><span>Expand/Collapse</span><i class="material-icons">'+collapseIcon+'</i><span class="expandall">[<a href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</span></div>';
 	tableStr += '<table class="recordTable" width="100%">';
 	data.Events.sort(function(a, b)
 	{
@@ -248,17 +251,15 @@ function formatJSON(jsonData)
 	return tableStr;
 }
 
-
-
-  function toptencallback(data) {
+function toptencallback(data) {
 	tableStr = formatJSON(data);
 	$("#topTenTable").html(tableStr);
 
 	$(".eventClick").click(function () {
-	  togglePerformances($(this).attr("event"));
+		togglePerformances($(this).attr("event"));
 	});
 
 	$("#toggleAll").html(hideAllListsText);
 	$(".eventHeader").html(hideListChar);
 	toggleAll();
-  }
+}
