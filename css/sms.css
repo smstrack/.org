@@ -368,6 +368,11 @@ i {
   grid-area: mainmenu;
 }
 
+.teammenu {
+  grid-area: teammenu;
+  background-color: #1c5e52;
+}
+
 .recordsmenu {
   grid-area: recordsmenu;
   background-color: #1c5e52;
@@ -418,6 +423,7 @@ i {
   grid-template-areas:
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
     "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "left middle middle right"
@@ -433,6 +439,7 @@ i {
     grid-template-areas:
       "mainheader mainheader mainheader mainheader"
       "mainmenu mainmenu mainmenu mainmenu"
+      "teammenu teammenu teammenu teammenu"
       "recordsmenu recordsmenu recordsmenu recordsmenu"
       "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
       "middle middle middle middle"
@@ -463,6 +470,7 @@ i {
     grid-template-areas:
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
     "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "middle middle middle middle"
@@ -507,6 +515,7 @@ i {
     grid-template-areas:
     "mainheader mainheader mainheader mainheader"
     "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
     "recordsmenu recordsmenu recordsmenu recordsmenu"
     "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
     "middle middle middle middle"
