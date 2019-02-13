@@ -13,8 +13,8 @@ var hideAllListsText = 'Collapse All';
 var showAllListsText = 'Expand All';
 var data;
 
-const expandIcon = "arrow_drop_down";
-const collapseIcon = "arrow_drop_up";
+const expandIcon = "chevron_right";
+const collapseIcon = "expand_more";
 
 function hideEventPerformances(event)
 {
@@ -113,7 +113,7 @@ function formatJSON(jsonData)
 	var date = new Date();
 	var currentYear = date.getFullYear();
 
-	tableStr = '<div class="toptentableheader"><i class="material-icons">'+expandIcon+'</i><span>Expand/Collapse</span><i class="material-icons">'+collapseIcon+'</i><span class="expandall">[<a href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</span></div>';
+	tableStr = '<div class="toptentableheader">Click Event To Expand<div class="expandall">[<a href="javascript:toggleAll();"><span id="toggleAll"></span></a>]</div></div>';
 	tableStr += '<table class="recordTable" width="100%">';
 	data.Events.sort(function(a, b)
 	{
@@ -182,7 +182,7 @@ function formatJSON(jsonData)
 				if (performanceList.length > 1)
 				{
 					tableStr += '<td class="eventClick" event="' + x + '">';
-					tableStr += '<i id="headerevent' + x + '" class="eventHeader material-icons" class="collapsed"></i>';
+					tableStr += '<i id="headerevent' + x + '" class="eventHeader toptenicon material-icons" class="collapsed"></i>';
 					tableStr += '<span class="eventName">' + row.event + '</span>';
 				} else
 				{

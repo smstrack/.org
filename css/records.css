@@ -91,8 +91,12 @@ table.recordTable tr.performanceHighlight{
 /*	background-color: #A2D5A1;*/
 /* 	font-size: smaller; */
 }
-table.recordTable td.eventClick{
+
+table.recordTable td.eventClick:hover{
 	cursor: pointer;
+	/* background-color: #A2D5A1; */
+	/* color: black; */
+	
 }
 
 table.recordTable tr.currentYear {
@@ -135,4 +139,8 @@ table.recordTable tr.currentYear {
 .toptentableheader a:hover {
 	color:black;
 	text-decoration: none;
+}
+
+.toptenicon {
+	vertical-align: middle;
 }

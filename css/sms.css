@@ -197,6 +197,10 @@ ul.o {
   padding: 0px 0px 10px 0px;
 }
 
+.contenttext {
+  margin: 1% 10%;
+}
+
 .subcontentheader {
 	text-align: center;
 	color: #2e4d47;
