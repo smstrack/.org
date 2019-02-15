@@ -258,6 +258,14 @@ i {
   z-index: 0;
 }
 
+.throwshero {
+  background-image: url("/images/throws1st.jpg");
+  background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+  max-height: 200px;
+  z-index: 0;
+}
+
 .style3 {
   text-align: right;
 }
