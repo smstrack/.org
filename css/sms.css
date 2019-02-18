@@ -197,7 +197,7 @@ ul.o {
   text-align: center;
   color: #2e4d47;
   font-size: x-large;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 .contenttext {
@@ -340,9 +340,9 @@ i {
   line-height: 20%;
 }
 
-.headline {
+/* .headline {
   line-height: 20%;
-}
+} */
 
 .style101 {
   text-align: center;

@@ -37,11 +37,11 @@ table.recordTable td {
 	min-width:60px; */
 }
 
-table.recordTable tr:nth-child(even) {
+table.titletable tr:nth-child(even) {
 	background-color: #A2D5A1;
 }
 
-table.recordTable tr:nth-child(odd) {
+table.titletable tr:nth-child(odd) {
 	background-color:white;
 }
 
