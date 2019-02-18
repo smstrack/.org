@@ -85,15 +85,14 @@ function formatJSON(data)
         
         tableStr += '</td>';
         tableStr += '<td>';
-        tableStr += (row.first != undefined) ? row.first : "";
-        tableStr += " ";
-        tableStr += (row.last != undefined) ? row.last : "";
+        tableStr += (row.first != undefined) ? row.first + " ": "";
+        tableStr += (row.last != undefined) ? row.last : (row.school != undefined)  ? row.school:"";
         tableStr += '</td>';
         
         // add school if present (used for relays records)
         if (numCols == 5)
         {
-            tableStr += '<td>';
+            tableStr += '<td class="recordsyear">';
             tableStr += row.school;
             tableStr += '</td>';
         }

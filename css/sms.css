@@ -552,6 +552,10 @@ i {
     display: none;
   }
 
+  .recordsschool {
+    display: none;
+  }
+
   .grid-container {
     grid-template-areas:
     "mainheader mainheader mainheader mainheader"
