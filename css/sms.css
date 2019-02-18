@@ -4,7 +4,10 @@
   font-size: 2em;
   font-style: italic;
   font-weight: bold;
-  padding-left: 5px;
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+  text-align: left;
 }
 
 h1 {
@@ -254,15 +257,15 @@ i {
   background-image: url("/images/run.png"), url("/images/smsbb.jpg");
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
-  max-height: 200px;
+  height: 200px;
   z-index: 0;
 }
 
 .throwshero {
   background-image: url("/images/throws1st.jpg");
-  background-position: right top, left top;
+  background-position: 0, 0;
   background-repeat: no-repeat, no-repeat;
-  max-height: 200px;
+  height: 200px;
   z-index: 0;
 }
 
@@ -351,9 +354,9 @@ i {
 
 /* Style the mainheader */
 .mainheader {
-  height: 157px;
   grid-area: mainheader;
   text-align: center;
+  position: relative;
 }
 
 /* Style the footer */
@@ -418,6 +421,10 @@ i {
   margin-left: auto;
   margin-right: auto;
   padding: 20px 0px 0px 0px;
+}
+
+.aligncenter {
+  text-align: center;
 }
 
 .schooladdress a {
