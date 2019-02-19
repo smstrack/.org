@@ -1,334 +1,570 @@
+.titletext {
+  color: #ffff66;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+  text-align: left;
+}
+
+.footnote {
+  font-size: small;
+  font-style: italic;
+}
+
 h1 {
-	color: #2E4D47;
+  color: #2e4d47;
 }
 
 h2 {
-	color: #2E4D47;
+  color: #2e4d47;
 }
 
 h3 {
-	color: #2E4D47;
+  color: #2e4d47;
 }
 
 h4 {
-	font-style: italic;
-	color: #2E4D47;
+  font-style: italic;
+  color: #2e4d47;
 }
 
-#banner {
-	max-height: 200px;
+h5 {
+	text-align: center;
 }
 
 .content {
-	margin:25 auto;
-	max-width:1250px;
-	width: 100%
+  margin: 25 auto;
+  max-width: 1250px;
+  width: 100%;
 }
 
 .scrollLine img {
-	width: 150px;
+  width: 150px;
 }
 
-.maindiv{
-	margin:0 auto;
-	max-width:1250px;
+.maindiv {
+  margin: 0 auto;
+  max-width: 1250px;
 }
 
 .bodydiv {
-    width:100%
+  width: 100%;
 }
 
 .center {
-	margin: auto;
+  margin: auto;
 }
 
 li a {
-	display: block
+  display: block;
 }
 
 li a:link {
-	color: #FFFFAA;
-	text-decoration: none
+  color: #ffffaa;
+  text-decoration: none;
 }
 
 li a:visited {
-	text-decoration: none
+  text-decoration: none;
 }
 
 li a:hover {
-	color: #FFFFFF
+  color: #ffffff;
 }
 
-table.menubar {
-	background-color: #2e4d47;
-	text-align: center
+.menubar {
+  background-color: #2e4d47;
+  text-align: center;
+  padding: 7px;
 }
 
-table.menubar a:link {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.menubar a {
+  padding: 0% 2%;
+  white-space: nowrap;
 }
 
-table.menubar a:visited {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.menubar a:link {
+  font-family: Arial;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menubar a:hover {
-	color: #FFFFFF
+.menubar a:visited {
+  font-family: Arial;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menuleaf a {
-	display: block
+.menubar a:hover {
+  color: #ffffff;
 }
 
-table.menuleaf a:link {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.menuleaf a {
+  display: block;
 }
 
-table.menuleaf a:hover {
-	color: #FFFFFF
+.menuleaf a:link {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menuleaf a:visited {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.menuleaf a:hover {
+  color: #ffffff;
 }
 
-table.menubar2 {
-	background-color: #1c5e52;
-	text-align: center
+.menuleaf a:visited {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menubar2 a:link {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.mainmenu2 {
+  background-color: #1c5e52;
+  text-align: center;
 }
 
-table.menubar2 a:visited {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.mainmenu2 a:link {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menubar2 a:hover {
-	color: #FFFFFF
+.mainmenu2 a:visited {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menubar3 {
-	background-color: #1c5e52;
-	text-align: center
+.mainmenu2 a:hover {
+  color: #ffffff;
 }
 
-table.menubar3 a:link {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.mainmenu3 {
+  background-color: #1c5e52;
+  text-align: center;
 }
 
-table.menubar3 a:visited {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-	text-decoration: none
+.mainmenu3 a:link {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
 }
 
-table.menubar3 a:hover {
-	color: #FFFFFF
+.mainmenu3 a:visited {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
+  text-decoration: none;
+}
+
+.mainmenu3 a:hover {
+  color: #ffffff;
 }
 
 ul {
-	margin-left: 0;
-	padding: 0;
-	font-weight: normal
+  margin-left: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
 ul li:last-child {
-	border-bottom-style: solid;
-	border-bottom-width: 0px
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
 }
 
 ul li {
-	border-top-style: solid;
-	border-top-width: 0px;
-	padding: 2px;
-	border-left-width: 0px;
-	border-right-width: 0px
+  border-top-style: solid;
+  border-top-width: 0px;
+  padding: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
 
 ul.o {
-	list-style-type: square;
+  list-style-type: square;
 }
 
 .style1 {
-	text-align: left
+  text-align: left;
 }
 
-.style1h {
-	text-align: center;
-	color: #2E4D47;
-	font-size: x-large
+.contentheader {
+  text-align: center;
+  color: #2e4d47;
+  font-size: x-large;
+  padding: 0px 0px 20px 0px;
 }
+
+.contenttext {
+  margin: 1% 10%;
+}
+
+.subcontentheader {
+	text-align: center;
+	color: #2e4d47;
+	font-size: medium;
+  }
+
+.subcontentheader a {
+	color: #6a9990;
+	text-decoration: none;
+}
+
+
+.subcontentheader a:link {
+	/* color: #2e4d47; */
+	text-decoration: none;
+}
+
+.subcontentheader a:visted {
+	color: #2e4d47;
+	text-decoration: none;
+}
+
+.subcontentheader a:hover {
+	color:black;
+	/* background-color: #1c5e52; */
+	text-decoration: none;
+}
+
+i {
+	vertical-align: middle;
+}
+
 
 .style1m {
-	text-align: center;
-	color: #2E4D47;
-	font-size: large
+  text-align: center;
+  color: #2e4d47;
+  font-size: large;
 }
 
 .style1a {
-	text-align: left;
-	color: #FFFFAA
+  text-align: left;
+  color: #ffffaa;
 }
 
 .style1n {
-	text-align: left;
-	color: black;
+  text-align: left;
+  color: black;
 }
 
-.style2 {
-	background-image: url('../images/smsbbt.jpg');
+.hero {
+  background-image: url("/images/run.png"), url("/images/smsbb.jpg");
+  background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+  height: 200px;
+  z-index: 0;
+}
+
+.throwshero {
+  background-image: url("/images/throws1.jpg");
+  background-position: 0, 0;
+  background-repeat: no-repeat, no-repeat;
+  height: 200px;
+  z-index: 0;
+}
+
+.iframediv {
+  position: relative;
+  overflow: hidden;
+    padding-top: 60%;
+}
+
+.iframeabs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 1px;
 }
 
 .style3 {
-	text-align: right;
+  text-align: right;
 }
 
 .menus {
-	text-align: center;
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFF66;
-	background-color: #2e4d47;
+  text-align: center;
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffff66;
+  background-color: #2e4d47;
 }
 
 .style14 {
-	border-width: 0px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+  border-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .style15 {
-	text-align: center;
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
 }
 
 .style16 {
-	font-size: medium;
+  font-size: medium;
 }
 
 .style17 {
-	border-color: #000000;
-	border-width: 0;
-	text-align: center;
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
+  border-color: #000000;
+  border-width: 0;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
 }
 
 .style18 {
-	font-family: Arial;
-	font-size: 10pt;
-	color: #FFFFAA;
-}
-
-.style19 {
-	border-style: solid;
-	border-width: 1px;
-	text-align: left;
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
+  font-family: Arial;
+  font-size: 10pt;
+  color: #ffffaa;
 }
 
 .style20 {
-	border-width: 0;
-	text-align: center;
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
+  border-width: 0;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
 }
 
 .style22 {
-	margin: 2px;
-	border-width: 0;
+  margin: 2px;
+  border-width: 0;
 }
 
 .style23 {
-    border-color: #2E4D47;
-    text-align: center;
-    border-width: 0;
-    border-collapse: collapse;
+  border-color: #2e4d47;
+  text-align: center;
+  border-width: 0;
+  border-collapse: collapse;
 }
 
 .byline {
-	font-family: sans-serif;
-	font-size: 75%;
-	color: gray;
-	line-height: 20%;
+  font-family: sans-serif;
+  font-size: 75%;
+  color: gray;
+  line-height: 20%;
 }
 
-.headline {
-	line-height: 20%;
-}
+/* .headline {
+  line-height: 20%;
+} */
 
 .style101 {
-	text-align: center;
+  text-align: center;
 }
 
 .style99 {
-	background-image: url('../images/throws1st.jpg');
+  background-image: url("/images/throws1st.jpg");
 }
 
-.schedlink a:link {
-	color: #2e4d47;
+/* Style the mainheader */
+.mainheader {
+  grid-area: mainheader;
+  text-align: center;
+  position: relative;
 }
 
-/* visited link */
-.schedlink a:visited {
-	color: #2e4d47;
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  text-align: center;
 }
 
-/* mouse over link */
-.schedlink a:hover {
-	color: black;
+.menuicon {
+  display: none;
 }
 
-/* selected link */
-.schedlink a:active {
-	color: black;
+* {
+  box-sizing: border-box;
 }
 
-.schedlink a:link {
-	text-decoration: none;
+.left,
+.middle,
+.right {
+  padding: 0px 5px 0px 5px;
 }
 
-.schedlink a:visited {
-	text-decoration: none;
+.mainmenu {
+  grid-area: mainmenu;
 }
 
-.schedlink a:hover {
-	text-decoration: none;
-	text-decoration: underline;
+.teammenu {
+  grid-area: teammenu;
+  background-color: #1c5e52;
 }
 
-.schedlink a:active {
-	color: white;
-	background-color: #2e4d47;
-	text-decoration: none;
+.recordsmenu {
+  grid-area: recordsmenu;
+  background-color: #1c5e52;
+}
+
+.recordsmenu2 {
+	grid-area: recordsmenu2;
+	background-color: #2e6e63;
+}
+
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  padding: 20px 5px;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+.schoollogo {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px 0px 0px;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.schooladdress a {
+  text-decoration: none;
+  color: #2e4d47;
+  font-size: smaller;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+}
+
+.grid-container {
+  grid-template-areas:
+    "mainheader mainheader mainheader mainheader"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
+    "left middle middle right"
+    "footer footer footer footer";
+}
+
+
+@media only screen and (max-width: 850px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .grid-container {
+    grid-template-areas:
+      "mainheader mainheader mainheader mainheader"
+      "mainmenu mainmenu mainmenu mainmenu"
+      "teammenu teammenu teammenu teammenu"
+      "recordsmenu recordsmenu recordsmenu recordsmenu"
+      "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
+      "middle middle middle middle"
+      "footer footer footer footer";
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .left,
+  .right {
+    display: none;
+  }
+  
+  .runnerup {
+    display: none;
+  }
+
+  .middle {
+    padding: 20px 1px;
+  }
+  
+  .firstname {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-areas:
+    "mainheader mainheader mainheader mainheader"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
+    "middle middle middle middle"
+    "footer footer footer footer";
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .left,
+  .right {
+    display: none;
+  }
+
+  .middle {
+    padding: 20px 1px;
+  }
+
+  .runnerup {
+    display: none;
+  }
+  
+  .firstname {
+    display: none;
+  }
+
+  .stateperformance {
+    display: none;
+  }
+
+  .toptenyear {
+    display: none;
+  }
+
+  .recordsyear {
+    display: none;
+  }
+
+  .recordsschool {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-areas:
+    "mainheader mainheader mainheader mainheader"
+    "mainmenu mainmenu mainmenu mainmenu"
+    "teammenu teammenu teammenu teammenu"
+    "recordsmenu recordsmenu recordsmenu recordsmenu"
+    "recordsmenu2 recordsmenu2 recordsmenu2 recordsmenu2"
+    "middle middle middle middle"
+    "footer footer footer footer";
+  }
+  
 }

@@ -1,71 +1,77 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="description"
+      content="Shawnee Mission South High School Track &amp; Field"
+    />
+    <meta
+      name="keywords"
+      content="shawnee mission south track, south track, sms track, south track &amp; field"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta http-equiv="Content-Language" content="en-us">
-	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
-	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<title>Boys Freshman Records</title>
-	<link rel="stylesheet" type="text/css" href="/css/records.css">
-	<link rel="stylesheet" type="text/css" href="/css/sms.css">
-	<style type="text/css">
-		.style23 {
-			text-align: center;
-		}
-	</style>
-</head>
+    <link rel="stylesheet" type="text/css" href="/css/records.css" />
+    <link rel="stylesheet" type="text/css" href="/css/sms.css" />
+    <title>Boys Freshman Records</title>
+  </head>
 
-<body>
-	<div class="header"></div>
-	<div class="recordsheader"></div>
-	<div class="recordsheader2"></div>
-	<div class="content">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td valign="top" width="100%">
-					<p align="center">
-						<span class="style1h">Records - Freshman Boys</span><span style="font-size: large;"> (<a href="girlsfreshmanrecords.htm">Girls</a>)</span><br>
-					</p>
-					<div id="recordTable"></div>
-				</td>
-				<td height="273"></td>
-			</tr>
-			<tr>
-				<td>
-					<p>&nbsp;</p>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div class="footer"></div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="/js/records.js"></script>
-	<script src="/js/events.js"></script>
-	<script>
-		$(".header").load("/header.html");
-		$(".recordsheader").load("/recordsheader.html");
-		$(".recordsheader2").load("/recordsheader2.html");
-		$(".footer").load("/footer.html");
-	</script>
-	<script>
-		$(document).ready(function () {
-			$.getJSON('/json/boysfreshmanrecords.json', function callback(data) {
-				tableStr = formatJSON(data);
-				$('#recordTable').html(tableStr);
-			});
-		});
-	</script>
-	<!-- Start of StatCounter Code for Default Guide -->
-	<script>
-		var sc_project = 3895026;
-		var sc_invisible = 1;
-		var sc_security = "c1dd7cc1";
-	</script>
-	<script src="http://www.statcounter.com/counter/counter.js"></script>
-	<noscript>
-		<div class="statcounter"><a title="web stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img
-				 class="statcounter" src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/" alt="web stats"></a></div>
-	</noscript>
-	<!-- End of StatCounter Code for Default Guide -->
-</body>
+  <body>
+    <div class="maindiv grid-container">
+      <div class="mainheader"></div>
+      <div class="mainmenu menubar"></div>
+      <div class="recordsmenu menubar"></div>
+      <div class="recordsmenu2 menubar"></div>
+      <div class="left"></div>
+      <div class="middle">
+        <div class="contentheader">
+          Records - Freshman Boys<br>
+			<span class="subcontentheader">
+				<a href="girlsfreshmanrecords.htm">(See Girls)</a>
+			</span>
+        </div>
+        <div id="recordTable"></div>
+      </div>
+      <div class="right"></div>
+      <div class="footer"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/records.js"></script>
+    <script src="/js/events.js"></script>
+    <script>
+      $(".mainheader").load("/header.html");
+      $(".mainmenu").load("/mainmenu.html");
+      $(".recordsmenu").load("/recordsmenu.html");
+      $(".recordsmenu2").load("/recordsmenu2.html");
+	  $(".footer").load("/footer.html");
+	  $(document).ready(function () {
+     	 $.getJSON("/json/boysfreshmanrecords.json", recordscallback);
+    });
+
+    </script>
+    <script>
+    </script>
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script>
+      var sc_project = 3895026;
+      var sc_invisible = 1;
+      var sc_security = "c1dd7cc1";
+    </script>
+    <script src="http://www.statcounter.com/counter/counter.js"></script>
+    <noscript>
+      <div class="statcounter">
+        <a
+          title="web stats"
+          href="http://statcounter.com/free-web-stats/"
+          target="_blank"
+          ><img
+            class="statcounter"
+            src="http://c.statcounter.com/3895026/0/c1dd7cc1/1/"
+            alt="web stats"
+        /></a>
+      </div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+  </body>
 </html>

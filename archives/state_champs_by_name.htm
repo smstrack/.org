@@ -1,56 +1,55 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html lang="en-us">
+
 <head>
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="description" content="Shawnee Mission South High School Track &amp; Field">
 	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field">
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<link rel="stylesheet" type="text/css" href="/css/ts.css">
-	<title>State Champions</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<link rel="stylesheet" type="text/css" href="/css/records.css">
 	<link rel="stylesheet" type="text/css" href="/css/sms.css">
+	<link rel="stylesheet" type="text/css" href="/css/ts.css">
+	<title>Individual State Champions</title>
 </head>
 
 <body>
-	<div class="header"></div>
-	<div class="recordsheader"></div>
-	<div class="content">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td valign="top" width="100%">
-					<p class="style1h">Individual Kansas State Champions<br>
-					</p>
-					<div class="style1m">
-						<p style="font-size: 10pt;">Click on column headers to sort by year, last name or event (shift click for
-							multi-sort)</p>
-						<p>
-							<input type="radio" name="gender" onclick="javascript:changeGender('both')" checked="checked">Combined
-							<input type="radio" name="gender" onclick="javascript:changeGender('male')">Boys
-							<input type="radio" name="gender" onclick="javascript:changeGender('female')">Girls
-							<br>
-							<input type="radio" name="season" onclick="javascript:changeSeason('both')" checked="checked">Combined
-							<input type="radio" name="season" onclick="javascript:changeSeason('indoor')">Indoor
-							<input type="radio" name="season" onclick="javascript:changeSeason('outdoor')">Outdoor
-					</div>
-					<div id="champs"></div>
-					<p class="style20">(i) - denotes indoor performance</p>
-				</td>
-				<td height="273"></td>
-			</tr>
-			<tr>
-				<td>
-					<p>&nbsp;</p>
-				</td>
-			</tr>
-		</table>
+	<div class="maindiv grid-container">
+		<div class="mainheader"></div>
+		<div class="mainmenu menubar"></div>
+		<div class="recordsmenu menubar"></div>
+		<div class="left"></div>
+		<div class="middle">
+			<div class="contentheader">State Champions<br>
+				<span class="subcontentheader"><a href="/archives/state_champion_teams.htm">(See Team Titles)</a></span>
+			</div><!-- <a href="league_championships.htm">League Championships</a> -->
+			<div class="subcontentheader">
+				<p>Click on column headers to sort by year, last name or event<br>(shift click for
+					multi-sort)</p>
+				<p>
+					<input type="radio" name="gender" onclick="javascript:changeGender('both')" checked="checked">Combined
+					<input type="radio" name="gender" onclick="javascript:changeGender('male')">Boys
+					<input type="radio" name="gender" onclick="javascript:changeGender('female')">Girls
+					<br>
+					<input type="radio" name="season" onclick="javascript:changeSeason('both')" checked="checked">Combined
+					<input type="radio" name="season" onclick="javascript:changeSeason('indoor')">Indoor
+					<input type="radio" name="season" onclick="javascript:changeSeason('outdoor')">Outdoor
+			</div>
+			<div id="champs"></div>
+			<h5>(i) - denotes indoor performance</h5>
+		</div>
+		<div class="right"></div>
+		<div class="footer"></div>
 	</div>
-	<div class="footer"></div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/js/jquery.tablesorter.js"></script>
 	<script src="/js/events.js"></script>
 	<script src="/js/statechamps.js"></script>
 	<script>
-		$(".header").load("/header.html");
-		$(".recordsheader").load("/recordsheader.html");
+		$(".mainheader").load("/header.html");
+		$(".mainmenu").load("/mainmenu.html");
+		$(".recordsmenu").load("/recordsmenu.html");
 		$(".footer").load("/footer.html");
 	</script>
 	<!-- Start of StatCounter Code for Default Guide -->

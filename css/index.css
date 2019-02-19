@@ -1,103 +1,130 @@
 .style22 {
-    border-width: 0;
+  border-width: 0;
 }
 
 .style24 {
-    border-left: 1px solid #2E4D47;
-    border-top: 1px solid #2E4D47;
-    border-right: 1px solid #2E4D47;
-    border-bottom: 1px solid #2E4D47;
+  border-left: 1px solid #2e4d47;
+  border-top: 1px solid #2e4d47;
+  border-right: 1px solid #2e4d47;
+  border-bottom: 1px solid #2e4d47;
 }
 
 .indexscroll {
-    border-left: 1px solid #2E4D47;
-    border-top: 0;
-    border-right: 1px solid #2E4D47;
-    border-bottom: 1px solid #2E4D47;
+  border-left: 1px solid #2e4d47;
+  border-top: 0;
+  border-right: 1px solid #2e4d47;
+  border-bottom: 1px solid #2e4d47;
+  padding: 0px 20px;
 }
 
 .style27 {
-    text-align: center;
-    border: 1px solid #2E4D47;
-    background-color: #2E4D47;
+  text-align: center;
+  border: 1px solid #2e4d47;
+  background-color: #2e4d47;
 }
 
 .style28 {
-    text-align: center;
-    color: #FFFF66;
+  text-align: center;
+  color: #ffff66;
 }
 
 .style72 {
-    text-align: center;
-    border: 1px solid #FFFF66;
-    background-color: #FFFF66;
+  text-align: center;
+  border: 1px solid #ffff66;
+  background-color: #ffff66;
 }
 
 .style82 {
-    text-align: center;
-    color: #2E4D47;
+  text-align: center;
+  color: #2e4d47;
 }
 
 .smstf {
-    border: 1px solid #FFFF66;
-    color: #2E4D47;
-    background-color: #FFFF66;
+  border: 1px solid #ffff66;
+  color: #2e4d47;
+  background-color: #ffff66;
 }
 
 .smstf a:link {
-    text-decoration: none;
-    color: #2E4D47;
+  text-decoration: none;
+  color: #2e4d47;
 }
 
 .smstf a:visited {
-    color: #2E4D47;
+  color: #2e4d47;
 }
 
 .style28 a:link {
-    text-decoration: none;
-    color: #FFFF66;
+  text-decoration: none;
+  color: #ffff66;
 }
 
 .style28 a:visited {
-    color: #FFFF66;
+  color: #ffff66;
 }
 
 .style82 a:link {
-    text-decoration: none;
-    color: #2E4D47;
+  text-decoration: none;
+  color: #2e4d47;
 }
 
 .style82 a:visited {
-    color: #2E4D47;
+  color: #2e4d47;
 }
 
-.style30 {
-    background-image: url('../images/southrelaysback.jpg');
-    height: 315px;
+.relaysbanner {
+  background-image: url("/images/southrelaysback.jpg");
+  background-repeat: no-repeat;
+  /* height: 315px;
+  width: 180px; */
+  cursor: pointer;
 }
 
 .style34 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFF66;
-    font-size: larger;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff66;
+  font-size: larger;
 }
 
 .style35 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFAA;
-    font-size: smaller;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffaa;
+  font-size: smaller;
 }
 
-.style36 {
-    position: absolute;
-    margin-top: 63px;
-    text-align: center;
-    width: 180px;
+.relaysbannertext {
+  margin: auto;
+  float: left;
+  /* position: absolute; */
+  /* margin-top: 63px; */
+  padding: 220px 0px 10px 20px;
+  text-align: center;
+  /* width: 180px; */
 }
 
 .style37 {
-    font-size: 24pt;
-    color: #1C5E52;
+  font-size: 24pt;
+  color: #1c5e52;
+  text-align: center;
 }
+
+.vscroll {
+  margin:auto;
+  float:right;
+  position:relative;
+  overflow:hidden;
+}
+
+table {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
