@@ -5,7 +5,7 @@ function formatJSON(data)
     var date = new Date();
     var currentYear = date.getFullYear();
 
-    tableStr = '<table class="recordTable">';
+    tableStr = '<table class="recordTable" width="100%">';
 
     data.Events.sort(function(a, b)
     {
@@ -85,23 +85,27 @@ function formatJSON(data)
         
         tableStr += '</td>';
         tableStr += '<td>';
-        tableStr += (row.first != undefined) ? row.first : "";
-        tableStr += " ";
-        tableStr += (row.last != undefined) ? row.last : "";
+        tableStr += (row.first != undefined) ? row.first + " ": "";
+        tableStr += (row.last != undefined) ? row.last : (row.school != undefined)  ? row.school:"";
         tableStr += '</td>';
         
         // add school if present (used for relays records)
         if (numCols == 5)
         {
-            tableStr += '<td>';
+            tableStr += '<td class="recordsyear">';
             tableStr += row.school;
             tableStr += '</td>';
         }
-        tableStr += '<td>';
+        tableStr += '<td class="recordsyear">';
         tableStr += row.year;
         tableStr += '</td>';
         tableStr += '</tr>';
     }
     tableStr += '</table>';
     return tableStr;
+}
+
+function recordscallback(data) {
+    tableStr = formatJSON(data);
+    $("#recordTable").html(tableStr);
 }

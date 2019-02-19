@@ -10,8 +10,10 @@ function dateFromISO8601(isostr)
 
 function displaySchedule(entries)
 {
-	var htmlStr = '<table border="1" class="style19" align="center" width="850px">';
+	var htmlStr = '<table border="1" class="schedlink schedtable" align="center" width="100%">';
 	var rowClass;
+	var anyInfo = false;
+	var infoLinks;
 
 	for (var i = 0; i < entries.length; i++)
 	{
@@ -50,7 +52,7 @@ function displaySchedule(entries)
 		
 		var eventSummary = eventDesc.split(EVENT_SPLIT);
 		var shortLocation = eventSummary[0];
-		var infoLinks = "";
+		infoLinks = "";
 
 		for (var summarySplitIndex = 1; summarySplitIndex < eventSummary.length; summarySplitIndex++)
 		{
@@ -74,7 +76,9 @@ function displaySchedule(entries)
 
 			if (summarySplitIndex + 1 < eventSummary.length)
 			{
-				infoLinks += "  ";
+				infoLinks += "";
+			} else {
+				anyInfo = true;
 			}
 		}
 
@@ -84,7 +88,7 @@ function displaySchedule(entries)
 		if (locationString !== null && locationString.length !== 0)
 		{
 			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ "><i class='material-icons' style='font-size:16px'>place</i>"+shortLocation+"</a>";
+					+ "><i class='material-icons schedicons'>place</i>"+shortLocation+"</a>";
 		} 
 		else 
 		{
@@ -97,5 +101,7 @@ function displaySchedule(entries)
 	}
 	htmlStr += "</table>";
 	$('#sched').html(htmlStr);
-
+	if (anyInfo === true) {
+		$("td:nth-child(5)").css("display", "table-cell");
+	}
 }

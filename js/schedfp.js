@@ -122,7 +122,7 @@ function displayUpcomingEvents(entries)
 
 			eventTime = eventHours + ":" + (eventMinutes < 10 ? "0" + eventMinutes : eventMinutes) + timeMod;
 
-			var titleString = '<h3 class="style1h">' + eventTitle + '</h3>';
+			var titleString = '<h3 class="contentheader">' + eventTitle + '</h3>';
 			var dateString = '<div class="byline">' + eventDateStr + '</div>';
 			var timeStr = '<h5>' + eventTime + '</h5>';
 

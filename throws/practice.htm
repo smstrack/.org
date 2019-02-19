@@ -1,52 +1,58 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-	<meta http-equiv="Content-Language" content="en-us">
-	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field, ">
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<title>Throwing Practice</title>
-	<link rel="stylesheet" type="text/css" href="/css/sms.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Shawnee Mission South High School Track &amp; Field" />
+	<meta name="keywords" content="shawnee mission south track, south track, sms track, south track &amp; field" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="/css/sms.css" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://smstrack.org/feed.xml" />
+
+	<title>Shot and Disc Practice</title>
 </head>
 
 <body>
-	<div class="throwsheader"></div>
-	<div class="content">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-			<tr>
-				<td valign="top" width="100%">
-					<p>&nbsp;</p>
-					<div align="center">
-						<h4 class="style1h">Phase 2</h4>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td align="center"><a href="https://drive.google.com/open?id=0B4e6HoJZumBwMWxicXlXTk1JbG8">Stretching</a></td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td align="center"><a href="https://docs.google.com/spreadsheets/d/1dRRon0mNO20C469KzssJznhFGetjEugEqAU5CK8r6yk/edit?usp=sharing">Workout
-						Phase 1</a></td>
-			</tr>
-			<tr>
-				<td align="center"><a href="https://docs.google.com/spreadsheets/d/101TFIoYXViGJYD-zhuqWq7qgC7idI07JgjNCy5p7fjI/edit?usp=sharing">Workout
-						Phase 2</a></td>
-			</tr>
-			<tr>
-				<td align="center"><a href="https://docs.google.com/spreadsheets/d/1tJajrgHpOn8OFaq-zQnO5_m_bmjpLHfveR44JzvZP0I/edit?usp=sharing">Workout
-						Phase 3</a></td>
-			</tr>
-		</table>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
+	<div class="maindiv grid-container">
+		<div class="throwsheader mainheader"></div>
+		<div class="throwsmenu mainmenu menubar"></div>
+		<div class="left"></div>
+		<div class="middle">
+			<div class="content">
+				<div class="contentheader">Workout Sheets</div>
+				<div class="contenttext aligncenter">
+					<p>
+						<td align="center"><a
+								href="https://drive.google.com/open?id=0B4e6HoJZumBwMWxicXlXTk1JbG8">Stretching</a></td>
+					</p>
+					<p>
+						<td align="center"><a
+								href="https://docs.google.com/spreadsheets/d/1dRRon0mNO20C469KzssJznhFGetjEugEqAU5CK8r6yk/edit?usp=sharing">Workout
+								Phase 1</a></td>
+					</p>
+					<p>
+						<td align="center"><a
+								href="https://docs.google.com/spreadsheets/d/101TFIoYXViGJYD-zhuqWq7qgC7idI07JgjNCy5p7fjI/edit?usp=sharing">Workout
+								Phase 2</a></td>
+					</p>
+					<p>
+						<td align="center"><a
+								href="https://docs.google.com/spreadsheets/d/1tJajrgHpOn8OFaq-zQnO5_m_bmjpLHfveR44JzvZP0I/edit?usp=sharing">Workout
+								Phase 3</a></td>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="right"></div>
+		<div class="footer"></div>
 	</div>
-	<div class="footer"></div>
-	<script src="/js/jquery-latest.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(".throwsheader").load("/throws/throwsheader.html");
+		$(".throwsmenu").load("/throws/throwsmenu.html");
 		$(".footer").load("/footer.html");
 	</script>
 </body>
