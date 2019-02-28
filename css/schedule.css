@@ -1,7 +1,7 @@
 :root {
 	--futureTextColor: black;  
 	--pastTextColor: #6a9990;
-	--link: var(--link);
+	--link: #2e4d47;
 }
 
 .row0 {
@@ -43,13 +43,13 @@ td:nth-child(5) {
 	color: var(--link);
 }
 
-.rowColorF a:hover {
-	color:var(--futureTextColor);
+.rowColorF a:visited {
+	color: var(--link);
 	text-decoration: none;
 }
 
-.rowColorF a:visited {
-  color: var(--link);
+.rowColorF a:hover {
+	color:black;
 	text-decoration: none;
 }
 
@@ -62,13 +62,13 @@ td:nth-child(5) {
 	color: var(--pastTextColor);
 }
 
-.rowColorP a:hover {
-	color: black;
+.rowColorP a:visited {
+	color: var(--pastTextColor);
 	text-decoration: none;
 }
 
-.rowColorP a:visited {
-  color: var(--pastTextColor);
+.rowColorP a:hover {
+	color: black;
 	text-decoration: none;
 }
 
