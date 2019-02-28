@@ -14,6 +14,7 @@ function displaySchedule(entries)
 	var rowClass;
 	var anyInfo = false;
 	var infoLinks;
+	var today = new Date();
 
 	for (var i = 0; i < entries.length; i++)
 	{
@@ -27,6 +28,13 @@ function displaySchedule(entries)
 			eventDate = eventEntry.start.date;
 		}
 		eventDate = dateFromISO8601(eventDate);
+		var rowColorClass = "rowColorF";
+		
+		today.setHours(0,0,0,0);  // don't care about hours minutes seconds milliseconds
+		if (eventDate.getTime() < today.getTime()) 
+		{
+			rowColorClass = "rowColorP";
+		}
 		// var eventLocation = (eventEntry.getLocations())[0];
 		var eventLocation = eventEntry.location;
 		var eventDateStr = eventDate.toDateString();
@@ -87,8 +95,8 @@ function displaySchedule(entries)
 
 		if (locationString !== null && locationString.length !== 0)
 		{
-			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString)
-					+ "><i class='material-icons schedicons'>place</i>"+shortLocation+"</a>";
+			mapLink = "<a target='_blank' href=" + encodeURI("https://maps.google.com/maps?hl=en&q=" + locationString) + 
+					"><i class='material-icons schedicons'>place</i>" + shortLocation+"</a>";
 		} 
 		else 
 		{
@@ -96,8 +104,8 @@ function displaySchedule(entries)
 		}
 
 		eventTime = eventHours + ":" + (eventMinutes < 10 ? "0" + eventMinutes : eventMinutes) + timeMod;
-		htmlStr += "<tr class='row" + rowClass + "'><td>" + eventDateStr + "</td><td>" + eventTitle + "</td><td>"
-				+ eventTime + "</td><td>" + mapLink + "</td><td>" + infoLinks + "</td>";
+		htmlStr += "<tr class='row" + rowClass + " " + rowColorClass +"'><td>" + eventDateStr + "</td><td>" + eventTitle + "</td><td>" + 
+				eventTime + "</td><td>" + mapLink + "</td><td>" + infoLinks + "</td>";
 	}
 	htmlStr += "</table>";
 	$('#sched').html(htmlStr);

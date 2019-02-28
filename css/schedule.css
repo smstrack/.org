@@ -1,3 +1,9 @@
+:root {
+	--futureTextColor: black;  
+	--pastTextColor: #6a9990;
+	--link: var(--link);
+}
+
 .row0 {
   background-color: #a2d5a1;
 }
@@ -19,45 +25,55 @@ td:nth-child(5) {
 	text-align: center;
 }
 
-.schedlink a:link {
-  color: #2e4d47;
-}
-
-/* visited link */
-.schedlink a:visited {
-  color: #2e4d47;
-}
-
-.schedlink a:link {
-	text-decoration: none;
-}
-
-.schedlink a:visited {
-	text-decoration: none;
-}
-
-.schedlink a:hover {
-	color: black;
-	text-decoration: none;
-}
-
-.schedlink a:active {
-	color: black;
-  background-color: #2e4d47;
-  text-decoration: none;
-}
 
 .schedtable {
 	border-style: solid;
 	border-width: 1px;
 	text-align: left;
-	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
-	}
+}
 
-	.schedicons {
+.rowColorF {
+	color: var(--futureTextColor);
+}
+
+.rowColorF a:link {
+	text-decoration: none;
+	color: var(--link);
+}
+
+.rowColorF a:hover {
+	color:var(--futureTextColor);
+	text-decoration: none;
+}
+
+.rowColorF a:visited {
+  color: var(--link);
+	text-decoration: none;
+}
+
+.rowColorP {
+	color: var(--pastTextColor);
+}
+
+.rowColorP a:link {
+	text-decoration: none;
+	color: var(--pastTextColor);
+}
+
+.rowColorP a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.rowColorP a:visited {
+  color: var(--pastTextColor);
+	text-decoration: none;
+}
+
+.schedicons {
 		font-size: 18px;
-	}
+}
 
 	
