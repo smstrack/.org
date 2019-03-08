@@ -115,7 +115,14 @@ function displayUpcomingEvents(entries)
 			}	
 			else
 			{
-				content += shortLocation;
+				var shortText = shortLocation.split(SUMMARY_SPLIT);
+				if (shortText.length === 2) {
+					var href = shortText[1];
+					content = "<a target='_blank' href=" + href + 
+					"><i class='material-icons schedicons'>place</i>" + shortLocation+"</a>"; 				
+				} else {
+					content = shortLocation;
+				}
 			}
 			
 			content += '</div>';

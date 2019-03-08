@@ -100,7 +100,14 @@ function displaySchedule(entries)
 		} 
 		else 
 		{
-			mapLink = shortLocation;
+			var shortText = shortLocation.split(SUMMARY_SPLIT);
+			if (shortText.length === 2) {
+				var href = shortText[1];
+				mapLink = "<a target='_blank' href=" + href + 
+				"><i class='material-icons schedicons'>place</i>" + shortLocation+"</a>"; 				
+			} else {
+				mapLink = shortLocation;
+			}
 		}
 
 		eventTime = eventHours + ":" + (eventMinutes < 10 ? "0" + eventMinutes : eventMinutes) + timeMod;
