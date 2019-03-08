@@ -119,7 +119,7 @@ function displayUpcomingEvents(entries)
 				if (shortText.length === 2) {
 					var href = shortText[1];
 					content = "<a target='_blank' href=" + href + 
-					"><i class='material-icons schedicons'>place</i>" + shortLocation+"</a>"; 				
+					">" + shortText[0]+"<i class='material-icons schedicons'>open_in_new</i></a>"; 				
 				} else {
 					content = shortLocation;
 				}
