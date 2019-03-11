@@ -8,7 +8,11 @@ function dateFromISO8601(isostr)
 	return new Date(parts[0], parts[1] - 1, parts[2], parts[3], parts[4], parts[5]);
 }
 
-function displaySchedule(entries)
+/**
+ * 
+ * @param {@see https://developers.google.com/calendar/v3/reference/events#resource} entries 
+ */
+export function displaySchedule(entries)
 {
 	var htmlStr = '<table border="1" class="schedlink schedtable" align="center" width="100%">';
 	var rowClass;

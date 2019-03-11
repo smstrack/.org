@@ -1,5 +1,7 @@
 /*globals MSDAY eventsFound firstEventDate singletext:true link:true gapi displayUpcomingEvents returnStr:true*/
 /*eslint-env jquery, qunit, browser*/
+import {displayUpcomingEvents} from 'schedfp.js';
+
 var modes = ["COUNTDOWN","SCHEDULE","NEWS","CUSTOM", "AUTO"];
 
 var COUNTDOWN = modes[0];
@@ -118,7 +120,7 @@ function updateScroller(startItem)
 	var subTitle;
 	
 	var iNum = startItem; //blog item start 
-	singletext = new Array();
+	singletext = [];
 	for (var sNum = 0; sNum < NEWS_ITEMS_TO_SCROLL; sNum++)
 	{
 		title = newsItems[iNum].title;
@@ -210,11 +212,11 @@ function ISODateString(d)
 {
 	function pad(n)
 	{
-		return n < 10 ? '0' + n : n
+		return n < 10 ? '0' + n : n;
 	}
 	
-	returnStr = d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + 'T'
-   + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) + 'Z'; 
+	returnStr = d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + 'T' + 
+	pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) + 'Z'; 
 	
 	return returnStr;
 }

@@ -13,8 +13,11 @@ function dateFromISO8601(isostr)
 	return new Date(parts[0], parts[1] - 1, parts[2], parts[3], parts[4], parts[5]);
 }
 
-
-function displayUpcomingEvents(entries)
+/**
+ * 
+ * @param {*} entries 
+ */
+export function displayUpcomingEvents(entries)
 {
 	// var htmlStr = '<table border="1" class="style19" align="center"
 	// width="850px">';
@@ -32,7 +35,7 @@ function displayUpcomingEvents(entries)
 			eventDate = eventEntry.start.date;
 		}
 		
-		var eventDate = dateFromISO8601(eventDate);
+		eventDate = dateFromISO8601(eventDate);
 		
 		
 		// event date > todays date and 
@@ -110,8 +113,8 @@ function displayUpcomingEvents(entries)
 			
 			if (locationString !== null && locationString.length !== 0)
 			{
-				content += '<a target="_blank" href='
-						+ encodeURI('https://maps.google.com/maps?hl=en&q=' + locationString) + '><i class="material-icons" style="font-size:16px">place</i>'+shortLocation+'</a>';
+				content += '<a target="_blank" href=' + encodeURI('https://maps.google.com/maps?hl=en&q=' + locationString) + 
+				'><i class="material-icons" style="font-size:16px">place</i>'+shortLocation+'</a>';
 			}	
 			else
 			{

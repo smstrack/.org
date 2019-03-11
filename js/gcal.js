@@ -1,3 +1,5 @@
+	import {displaySchedule} from 'sched';
+	
 	var date = new Date();
 
 	var scheduleYear = date.getFullYear();
@@ -16,6 +18,7 @@
 		gapi.client.setApiKey('AIzaSyDPyjKbAMmWr1pexjS4iUPoq4W2EJUsFyE');
 		gapi.client.load('calendar', 'v3', function()
 		{
+			// https://developers.google.com/calendar/v3/reference/events/list
 			var request = gapi.client.calendar.events.list({
 				'calendarId' : calAdd,
 				'orderBy' : 'startTime',
@@ -38,11 +41,11 @@
 	{
 		function pad(n)
 		{
-			return n < 10 ? '0' + n : n
+			return n < 10 ? '0' + n : n;
 		}
 		
-		returnStr = d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + 'T'
-      + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) + 'Z'; 
+		returnStr = d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + 'T' +
+		 pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds()) + 'Z'; 
 		
 		return returnStr;
 	}
