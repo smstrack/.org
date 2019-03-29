@@ -69,6 +69,11 @@ function displaySchedule(entries)
 			var aText = anchor[0];
 			var aHref;
 
+			if (anchor.length === 1) {
+				infoLinks = summary;
+				break;
+			}
+
 			if (anchor.length === 1)
 			{
 				aHref = aText;
