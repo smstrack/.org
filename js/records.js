@@ -5,15 +5,15 @@ function formatJSON(data)
     var date = new Date();
     var currentYear = date.getFullYear();
 
-    tableStr = '<table class="recordTable" width="100%">';
+    var tableStr = '<table class="recordTable" width="100%">';
 
     data.Events.sort(function(a, b)
     {
 		// sorts on event group then by event name, then by year of performance (older ranks higher)
-   	var aStr = EVENT_GROUPS[a.eventGroup]['sortPrefix'] + a.event;
-		var bStr = EVENT_GROUPS[b.eventGroup]['sortPrefix'] + b.event;
-		var aYear = EVENT_GROUPS[a.eventGroup]['sortPrefix'] + a.year;
-		var bYear = EVENT_GROUPS[b.eventGroup]['sortPrefix'] + b.year;
+   	    var aStr = EVENT_GROUPS[a.eventGroup].sortPrefix + a.event;
+		var bStr = EVENT_GROUPS[b.eventGroup].sortPrefix + b.event;
+		var aYear = EVENT_GROUPS[a.eventGroup].sortPrefix + a.year;
+		var bYear = EVENT_GROUPS[b.eventGroup].sortPrefix + b.year;
 		
 		var ret = aStr < bStr ? -1 : aStr > bStr ? 1 : aYear > bYear ? 1 : aYear < bYear ? -1 : 0;
 		
@@ -31,9 +31,9 @@ function formatJSON(data)
         var row = data.Events[x];
 
         // add a header for each group
-        if (currentGroup != EVENT_GROUPS[row.eventGroup]['name'])
+        if (currentGroup != EVENT_GROUPS[row.eventGroup].name)
         {
-            currentGroup = EVENT_GROUPS[row.eventGroup]['name'];
+            currentGroup = EVENT_GROUPS[row.eventGroup].name;
             tableStr += '<tr class="header">';
             tableStr += '<td colspan="' + numCols + '">';
             tableStr += currentGroup;
@@ -106,6 +106,6 @@ function formatJSON(data)
 }
 
 function recordscallback(data) {
-    tableStr = formatJSON(data);
+    var tableStr = formatJSON(data);
     $("#recordTable").html(tableStr);
 }
