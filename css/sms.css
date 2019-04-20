@@ -59,6 +59,22 @@ h5 {
   margin: auto;
 }
 
+.page a:link {
+	text-decoration: none;
+	color: #578b56;
+}
+
+.page a:visited {
+	color: #2e4d47;
+	text-decoration: none;
+}
+
+.page a:hover {
+	color:rgb(27, 51, 2);
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
 li a {
   display: block;
 }
