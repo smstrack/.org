@@ -170,13 +170,14 @@
 			{"performance" : "126-07","first" : "Laura","last" : "Meschke","year" : "2011"},
 			{"performance" : "118-11","first" : "Holly","last" : "Myers","year" : "2006"},
 			{"performance" : "117-08","first" : "Dottie","last" : "Powell","year" : "2018"},
+			{"performance" : "110-11","first" : "Chloe","last" : "Cox","year" : "2019"},
 			{"performance" : "106-06","first" : "Cori","last" : "Komarek","year" : "2007"},
 			{"performance" : "106-00","first" : "Jennifer","last" : "Anderson","year" : "2006"},
 			{"performance" : "Old Style"},
 			{"performance" : "123-06","first" : "Ashely","last" : "Weeks","year" : "1999"},
 			{"performance" : "114-02","first" : "Jennifer","last" : "House","year" : "1995"},
 			{"performance" : "112-04","first" : "Jessie","last" : "Barger","year" : "2002"},
-			{"performance" : "111-03","first" : "Lauren","last" : "Myers","year" : "2001"},
+			{"" : "111-03","first" : "Lauren","last" : "Myers","year" : "2001"},
 			{"" : "111-02","first" : "Kristi","last" : "Singleton","year" : "1993"},
 			{"" : "110-10","first" : "Jill","last" : "Bornkessel","year" : "1993"}
 		]
