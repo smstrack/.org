@@ -1,0 +1,15 @@
+table {
+    /* border:"2e4d47"; */
+    /* width: 244px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    width:230;
+    text-align: left;
+}
