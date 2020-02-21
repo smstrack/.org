@@ -50,7 +50,7 @@ function setFrontPage()
 {
 	var newsItemDate;
 	
-	if (fpNewsItem !== null)
+	if (fpNewsItem)
 	{
 		var stringStrArray = fpNewsItem.published.split(/[- T:]/);
 		newsItemDate = new Date(stringStrArray[0], stringStrArray[1]-1, stringStrArray[2], stringStrArray[3], stringStrArray[4], stringStrArray[5]);
@@ -58,7 +58,7 @@ function setFrontPage()
 	
 	if (displayMode === AUTO || displayMode === null)
 	{
-		if (newsItemDate !== null && ((today.getTime() - newsItemDate.getTime()) < Number(MSDAY)))
+		if (newsItemDate && ((today.getTime() - newsItemDate.getTime()) < Number(MSDAY)))
 		{	
 				displayMode = NEWS;
 		}
