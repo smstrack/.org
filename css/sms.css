@@ -460,6 +460,15 @@ i {
   padding: 20px 0px 0px 0px;
 }
 
+.boosterclub a {
+  font-family: "Amaranth" !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 1px !important;
+  text-decoration: none;
+  color: #508d24;
+}
+
 .aligncenter {
   text-align: center;
 }
@@ -582,5 +591,5 @@ i {
     "middle middle middle middle"
     "footer footer footer footer";
   }
-  
+
 }
