@@ -21,20 +21,20 @@
         {
             "event": "200*",
             "eventGroup": "TS",
-            "performance": "25.54",
-            "first": "Destiny",
-            "last": "Ray",
-            "school": "SM East",
-            "year": "2019"
+            "performance": "25.16",
+            "first": "Kennedi",
+            "last": "Cline",
+            "school": "Olathe West",
+            "year": "2021"
         },
         {
             "event": "400*",
             "eventGroup": "TS",
-            "performance": "58.70",
-            "first": "Emma",
-            "last": "Vickers",
-            "school": "SM East",
-            "year": "2013"
+            "performance": "58.16",
+            "first": "Kennedi",
+            "last": "Cline",
+            "school": "Olathe West",
+            "year": "2021"
         },
         {
             "event": "800*",
@@ -48,11 +48,11 @@
         {
             "event": "1600*",
             "eventGroup": "TD",
-            "performance": "5:16.10",
-            "first": "Amber",
-            "last": "Reed",
-            "school": "SM North",
-            "year": "2017"
+            "performance": "5:15.01",
+            "first": "Grace",
+            "last": "Meyer",
+            "school": "SM East",
+            "year": "2021"
         },
         {
             "event": "3200",
@@ -98,16 +98,16 @@
         {
             "event": "4 x 400",
             "eventGroup": "TRS",
-            "performance": "4:06.86",
-            "school": "Nerinx Hall",
-            "year": "2017"
+            "performance": "4:03.02",
+            "school": "Olathe West",
+            "year": "2021"
         },
         {
             "event": "4 x 800",
             "eventGroup": "TRS",
-            "performance": "9:50.16",
-            "school": "SM West",
-            "year": "2012"
+            "performance": "9:43.80",
+            "school": "Olathe West",
+            "year": "2021"
         },
         {
             "event": "4 x 1600",
