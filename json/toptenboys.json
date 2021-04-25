@@ -7,14 +7,15 @@
 			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
 			{"performance" : "10.7","first" : "Ryan","last" : "Stanley","year" : "1995"},
 			{"performance" : "10.7","first" : "Chad","last" : "Stafford","year" : "1991"},
+			{"performance" : "10.97","first" : "Kywan","last" : "Edwards","year" : "2021"},
 			{"performance" : "10.99","first" : "Drew","last" : "Haig","year" : "2011"},
 			{"performance" : "11.00","first" : "Cameron","last" : "Union","year" : "2016"},
 			{"performance" : "10.8","first" : "Alvin","last" : "Chambers","year" : "2000"},
 			{"performance" : "10.8","first" : "John","last" : "Paris","year" : "1998"},
-			{"performance" : "10.9","first" : "Rodney","last" : "Olson","year" : "1972"},
-			{"performance" : "10.9","first" : "Jon","last" : "Harmon","year" : "2007"},
-			{"performance" : "10.9","first" : "Traa","last" : "Ammons","year" : "2007"},
-			{"performance" : "10.9","first" : "Jason","last" : "Cole","year" : "2007"}
+			{"" : "10.9","first" : "Rodney","last" : "Olson","year" : "1972"},
+			{"" : "10.9","first" : "Jon","last" : "Harmon","year" : "2007"},
+			{"" : "10.9","first" : "Traa","last" : "Ammons","year" : "2007"},
+			{"" : "10.9","first" : "Jason","last" : "Cole","year" : "2007"}
 		]
 	},
 	{"event" : "200*", "eventGroup" : "TS",	"list" : 
@@ -244,9 +245,10 @@
 			{"performance" : "43.20","first" : "Maicel Smith, Huseyin Bilgen,","last" : "Trenton Holliman, Cameron Union","year" : "2017"},
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
 			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
+			{"performance" : "43.31","first" : "Alex Phan, Ky Edwards,","last" : "Kieron Smith, Eyan Appleman","year" : "2021"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
 			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
-			{"performance" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
+			{"" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
 			{"" : "43.4","first" : "&nbsp;","last" : "","year" : "1973"}
 		]
 	},
