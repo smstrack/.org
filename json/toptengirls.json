@@ -12,6 +12,7 @@
 			{"performance" : "12.68","first" : "Suby","last" : "Lewis","year" : "2017"},
 			{"performance" : "12.80","first" : "Kirsten","last" : "Womack","year" : "2021"},
 			{"performance" : "12.81","first" : "Arianna","last" : "Manuel","year" : "2021"},
+			{"performance" : "12.81","first" : "Annie","last" : "Donovan","year" : "2021"},
 			{"" : "12.6","first" : "Hillary","last" : "Hoffman","year" : "2006"},
 			{"" : "12.91","first" : "Jadyn","last" : "Smith","year" : "2017"},
 			{"" : "12.7","first" : "Marvita","last" : "Oliver","year" : "1978"},
@@ -89,7 +90,7 @@
 			{"performance" : "10:58.2","first" : "Jenny","last" : "Marien","year" : "1986"},
 			{"performance" : "11:10.2","first" : "Leeann","last" : "Conway","year" : "1987"},
 			{"performance" : "11:18.2","first" : "Dede","last" : "Lawless","year" : "1981"},
-			{"performance" : "11:30.20","first" : "Hannah","last" : "Gibson","year" : "2021"},
+			{"performance" : "11:25.26","first" : "Hannah","last" : "Gibson","year" : "2021"},
 			{"performance" : "11:35.14","first" : "Lauren","last" : "McCarthy","year" : "2012"},
 			{"performance" : "11:35.90","first" : "Allie","last" : "Antrim&nbsp;","year" : "2010"},
 			{"performance" : "11:36.62","first" : "Haley","last" : "Beggs","year" : "2005"},
@@ -133,8 +134,8 @@
 	{"event" : "Discus", "eventGroup" : "FT",  "list"   :
 		[
 			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "allTimeKansas" : "26" },
+			{"performance" : "136-05",  "first" : "Kirsten","last" : "Womack","year" : "2021"},
 			{"performance" : "133-02", "video" : "https://youtu.be/_xtbCecyUcE", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
-			{"performance" : "133-02", "video" : "https://youtu.be/okIzhQQOcWw", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Kirsten","last" : "Womack","year" : "2021"},
 			{"performance" : "130-08","first" : "Carol","last" : "Bennett","year" : "1981"},
 			{"performance" : "128-05","first" : "Clara","last" : "Sitas","year" : "2016"},
 			{"performance" : "125-03", "video" : "https://youtu.be/-bSPCe6eiOk", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Maggie","last" : "Long","year" : "2004"},
@@ -153,8 +154,8 @@
 		[
 			{"performance" : "40-10","first" : "Alix","last" : "Richards","year" : "2009"},
 			{"performance" : "40-05.5" , "first" : "Desirae","last" : "Upton","year" : "2017"},
+			{"performance" : "40-00.5","video" : "https://youtu.be/8dpssx2G6lQ", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Kirsten","last" : "Womack","year" : "2021"},
 			{"performance" : "39-08.75", "video" : "https://youtu.be/ns2A9eBFzCY", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png" ,"first" : "Jennifer","last" : "Anderson","year" : "2006"},
-			{"performance" : "39-08.5","first" : "Kirsten","last" : "Womack","year" : "2021"},
 			{"performance" : "39-06" ,"video" : "https://youtu.be/_tkZIZ2ooPw", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Dana","last" : "Olsen","year" : "2006"},
 			{"performance" : "39-03" , "video" : "https://youtu.be/vpsQC4nMOR8", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
 			{"performance" : "37-08" , "video" : "https://youtu.be/-_SkuYf3j8k", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Bethany","last" : "Webb","year" : "2012"},
