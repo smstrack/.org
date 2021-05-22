@@ -22,6 +22,7 @@
 		[
 			{"performance" : "21.6","first" : "Vincent","last" : "Parrett","year" : "1976"},
 			{"performance" : "21.6","first" : "Ryan","last" : "Stanley","year" : "1995", "record" : "true"},
+			{"performance" : "22.20","first" : "Kywan","last" : "Edwards","year" : "2021"},
 			{"performance" : "22.0","first" : "Darren","last" : "Nutt","year" : "1988"},
 			{"performance" : "22.0","first" : "Mitch","last" : "Katz","year" : "1970"},
 			{"performance" : "22.26","first" : "Cameron","last" : "Union","year" : "2016"},
@@ -29,7 +30,7 @@
 			{"performance" : "22.1","first" : "Rodger","last" : "Stewart","year" : "1972"},
 			{"performance" : "22.2","first" : "AJ","last" : "Sims","year" : "1999"},
 			{"performance" : "22.48","first" : "Jon","last" : "Harmon","year" : "2008"},
-			{"performance" : "22.3","first" : "Rodney","last" : "Olson","year" : "1972"},
+			{"" : "22.3","first" : "Rodney","last" : "Olson","year" : "1972"},
 			{"" : "22.61","first" : "Jake","last" : "Caldwell","year" : "2013"},
 			{"" : "22.4","first" : "Randy","last" : "Leighton","year" : "1985"},
 			{"" : "22.4","first" : "Keith","last" : "Hollins","year" : "1991"}
