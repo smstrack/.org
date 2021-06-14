@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<xsl:stylesheet version="1.0" exclude-result-prefixes="xsl ddwrt msxsl" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddwrt2="urn:frontpage:internal">
+<xsl:stylesheet version="1.0" exclude-result-prefixes="xsl ddwrt msxsl" xmlns:ddwrt="https://schemas.microsoft.com/WebParts/v2/DataView/runtime" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddwrt2="urn:frontpage:internal">
 	<xsl:param name="dvt_adhocmode"></xsl:param>
 	<xsl:param name="dvt_adhocfiltermode">xsl</xsl:param>
 	<xsl:param name="dvt_fieldsort"></xsl:param>

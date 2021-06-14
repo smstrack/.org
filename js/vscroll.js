@@ -1,5 +1,5 @@
 /**************************************
- * http://vertical-scroller.vbarsan.com/
+ * https://vertical-scroller.vbarsan.com/
  *    This notice may not be removed
  **************************************/
 //-- Begin Scroller's Parameters and messages -->
