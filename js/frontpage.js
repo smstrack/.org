@@ -34,8 +34,16 @@ var myService;
 var feedUrl = "https://www.google.com/calendar/feeds/smsraidertrack@gmail.com/public/full";
 var query;
 
-var newsItems;
+var news;
 var fpNewsItem;
+var startItem;
+
+$.get("https://openapi.band.us/v2/band/posts",
+	{
+		access_token: BAND_ACCESS_TOKEN,
+		band_key: SMSTF_KEY,
+		locale: "en_US"
+	}, handleResponse);
 
 $(function () 
 {
@@ -52,8 +60,7 @@ function setFrontPage()
 	
 	if (fpNewsItem)
 	{
-		var stringStrArray = fpNewsItem.published.split(/[- T:]/);
-		newsItemDate = new Date(stringStrArray[0], stringStrArray[1]-1, stringStrArray[2], stringStrArray[3], stringStrArray[4], stringStrArray[5]);
+		newsItemDate = new Date(fpNewsItem.created_at);
 	}	
 	
 	if (displayMode === AUTO || displayMode === null)
@@ -70,7 +77,7 @@ function setFrontPage()
 			}
 			else
 			{
-				if (eventsFound > 0 && newsItemDate !== null && (today.getTime() - newsItemDate.getTime() > firstEventDate.getTime() - today.getTime()))
+				if (eventsFound > 0 && newsItemDate !== undefined && (today.getTime() - newsItemDate.getTime() > firstEventDate.getTime() - today.getTime()))
 				{
 					displayMode = SCHEDULE;
 				}	
@@ -116,64 +123,81 @@ function updateScroller(startItem)
 	// update scroller
 	var title;
 	var subTitle;
-	
-	var iNum = startItem; //blog item start 
-	singletext = new Array();
-	for (var sNum = 0; sNum < NEWS_ITEMS_TO_SCROLL; sNum++)
-	{
-		title = newsItems[iNum].title;
-		subTitle = newsItems[iNum].content;
-		link = newsItems[iNum].url;
-		if (subTitle.trim().search('<a') === 0 || subTitle.trim().length === 0)
-		{
-			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">'+subTitle+'</span></p>';
+
+	if (news != undefined) {
+		var iNum = startItem; //news item start 
+		singletext = new Array();
+		for (var sNum = 0; sNum < NEWS_ITEMS_TO_SCROLL; sNum++) {
+			var item = news[iNum];
+			var author = item.author;
+			var content = item.content;
+
+			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader")) {
+				var stop = content.trim().search('\\.');
+				if (stop != -1) {
+					content = content.substring(0, stop);
+				}
+				singletext[sNum] = '<p align="center"><span style="font-size:85%;color:green;text-decoration:none;"><strong>' + content + '</strong><br><a style="font-size:85%;color:green;text-decoration:none;" href="news.htm">[Read More...]</a></span></p>';
+			}
+
+			iNum++;
 		}
-		else
-		{
-			singletext[sNum]='<p align="center"><span style="font-size:125%; color:green"><strong>'+title+'</strong></span><br><span style="font-size:90%;">[<a target="_blank" href="'+link+'">Read More...</a>]</span></p>';
-		}
-		iNum++;
-	}	
+	}
 	
 	start();
 }
 
-// response from Google blogger
-function handleResponse(response) 
-{
+// response from Band
+function handleResponse(response) {
 	var data = "";
-	
-	newsItems = response.items;
-	
-	var startItem = 0;  // 0 is first item
-	
-	if (newsItems !== null)
-	{
-		fpNewsItem = newsItems[0];
-		// update front page
-		startItem = 1;
+
+	var resultCode = response.result_code;
+
+	if (resultCode == 1) {
+		news = response.result_data.items;
+
 		
-		var content = fpNewsItem.content;
-		var url = fpNewsItem.url;
-		
-		// update main page with latest blog entry
-		data += "<p class='style37'>"+fpNewsItem.title+"</p>";
-		if (content.trim().search('<a') !== 0)
-		{
-			content = "[<a target='_blank' href='"+url+"'>Read More...</a>]";
+		for (var count = 0; count < news.length; count++) {
+			
+			var item = news[count];
+			var author = item.author;
+			var content = item.content;
+			
+			
+			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader") ) {
+				date = new Date(item.created_at);
+				
+				fpNewsItem = item;
+				
+				var headline = content;
+				if (content.length > 25) {
+					var stop = content.indexOf(" ", HEADLINE_MAX);
+					if (stop != -1) {
+						headline = content.slice(0, stop) + "...";
+					}
+				}
+				
+				body = linkify(content);
+				
+				data += "<h2 class='headline'>" + headline + "</h2>";
+				data += "<div class='byline'><small>" + author.name + "</small> - " + date.toLocaleString() + "</div>";
+				data += "<p class='bandbody'>" + body + "</p>";
+
+				// update front page
+				startItem = count + 1;
+				break;
+			}
 		}
 
-		data +="<p>"+content+"</p>";
 		$("#newsDisplay").html(data);
-	}
-	
-//	updateScroller(startItem);
-	
-	if (today.getMonth() > 6)
-	{
-	    scheduleYear += 1;
-	}
 
+		updateScroller(startItem);
+
+		if (today.getMonth() > 6) {
+			scheduleYear += 1;
+		}
+
+	}
 }
 
 function loadGoogleData()

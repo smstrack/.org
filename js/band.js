@@ -2,3 +2,8 @@ const BAND_ACCESS_TOKEN = "ZQAAAX427aneVq70QpIz2bnepEX_pgwI0mioOJck9Pdola4-IPqEQ
 const SMSTF_KEY = "AABoOkqd1PNn4cndslgrrYNt";
 const HEADLINE_MAX = 25;
 const EVENT_UPLOAD = "Uploaded event."
+
+function linkify(text) {
+    var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+    return text.replace(exp, "<a href='$1' target='_blank'>$1</a>");
+}

@@ -19,7 +19,7 @@ function bandResponse(response) {
 			var content = item.content;
 
 
-			if (author.role == "leader" || author.role == "coleader") {
+			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader") ) {
 				date = new Date(item.created_at);
 
 				var headline = content;
@@ -40,8 +40,5 @@ function bandResponse(response) {
 	}
 	document.getElementById("newsList").innerHTML = data;
 
-	function linkify(text) {
-		var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-		return text.replace(exp, "<a href='$1' target='_blank'>$1</a>");
-	}
+
 }
