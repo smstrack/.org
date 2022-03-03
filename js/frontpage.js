@@ -133,10 +133,7 @@ function updateScroller(startItem)
 			var content = item.content;
 
 			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader")) {
-				var stop = content.trim().search('\\.');
-				if (stop != -1) {
-					content = content.substring(0, stop);
-				}
+				content = getHeadline(content);
 				singletext[sNum] = '<p align="center"><span style="font-size:85%;color:green;text-decoration:none;"><strong>' + content + '</strong><br><a style="font-size:85%;color:green;text-decoration:none;" href="news.htm">[Read More...]</a></span></p>';
 			}
 
@@ -169,13 +166,7 @@ function handleResponse(response) {
 				
 				fpNewsItem = item;
 				
-				var headline = content;
-				if (content.length > 25) {
-					var stop = content.indexOf(" ", HEADLINE_MAX);
-					if (stop != -1) {
-						headline = content.slice(0, stop) + "...";
-					}
-				}
+				var headline = getHeadline(content);
 				
 				body = linkify(content);
 				

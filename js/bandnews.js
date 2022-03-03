@@ -22,13 +22,7 @@ function bandResponse(response) {
 			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader") ) {
 				date = new Date(item.created_at);
 
-				var headline = content;
-				if (content.length > 25) {
-					var stop = content.indexOf(" ", HEADLINE_MAX);
-					if (stop != -1) {
-						headline = content.slice(0, stop) + "...";
-					}
-				}
+				var headline = getHeadline(content);
 
 				body = linkify(content);
 
