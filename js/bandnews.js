@@ -23,6 +23,7 @@ function bandResponse(response) {
 				date = new Date(item.created_at);
 
 				var headline = getHeadline(content);
+				content = content.slice(headline.length + 1);
 
 				body = linkify(content);
 

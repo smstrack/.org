@@ -12,11 +12,11 @@ function getHeadline(content) {
     var headline = content;
     var stop = content.trim().search(/[\\.;:!]/);
     if (stop != -1) {
-        headline = content.substring(0, stop + 1);
+        headline = content.slice(0, stop + 1);
     } else if (content.length > HEADLINE_MAX) {
         var stop = content.indexOf(" ", HEADLINE_MAX);
         if (stop != -1) {
-            headline = content.slice(0, stop + 1) + "...";
+            headline = content.slice(0, stop + 1);
         }
     }
     return headline;
