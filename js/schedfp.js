@@ -143,4 +143,5 @@ function displayUpcomingEvents(entries)
 	}
 	htmlStr += "</div>";
 	$('#scheduleDisplay').html(htmlStr);
+	$('#calPanel').html(htmlStr + "<br><a style='text-decoration:none;font-size:smaller;color:green' href='/schedule.htm'>[See Schedule]</a>");
 }
