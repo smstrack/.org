@@ -161,7 +161,7 @@ function handleResponse(response) {
 			var content = item.content;
 			
 			
-			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader") ) {
+			if (checkContent(content, author.role) ) {
 				date = new Date(item.created_at);
 				
 				fpNewsItem = item;

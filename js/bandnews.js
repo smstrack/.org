@@ -19,7 +19,7 @@ function bandResponse(response) {
 			var content = item.content;
 
 
-			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader") ) {
+			if (checkContent(content, author.role)) {
 				date = new Date(item.created_at);
 
 				var headline = getHeadline(content);
@@ -29,7 +29,7 @@ function bandResponse(response) {
 
 				data += "<h2 class='headline'>" + headline + "</h2>";
 				data += "<div class='byline'><b>" + author.name + " </b><small>" + author.description + "</small> - " + date.toLocaleString() + "</div>";
-				data += "<p>" + body + "</p><hr>";
+				data += "<p>" + body + "</p>"+ BAND_LINK +"<hr>";
 			}
 		}
 	}
