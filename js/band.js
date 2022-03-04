@@ -3,7 +3,7 @@ const SMSTF_KEY = "AABoOkqd1PNn4cndslgrrYNt";
 const HEADLINE_MAX = 75;
 const EVENT_MESSAGE_START = "[";
 const EVENT_UPLOADED = "Uploaded";
-const BAND_LINK = "<a href='https://band.us/band/83079051' target='_blank' style='text-decoration:none'>SMS <img alt='Band' src='/images/BAND_LOGO_green.png' height='16' style='vertical-align: middle'/></a>";
+const BAND_LINK = "<a href='https://band.us/band/83079051' target='_blank' style='text-decoration:none'><img alt='Band' src='/images/BAND_LOGO_green.png' height='16' style='vertical-align: middle'/></a>";
 
 function linkify(text) {
     var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;

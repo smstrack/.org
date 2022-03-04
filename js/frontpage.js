@@ -96,21 +96,21 @@ function setFrontPage()
 		$("#countdownDisplayTitle").text(COUNTDOWN_TITLE);
 		$('#defaultCountdown').countdown({until: countdownEndDate});
 		$("#countdownDisplay").show();
-		updateScroller(0);
+		// updateScroller(0);
 		break;
 		
 	case SCHEDULE:
 		$("#scheduleDisplay").show();
-		updateScroller(0);
+		// updateScroller(0);
 		break;
 		
 	case NEWS:
 		$("#newsDisplay").show();
-		updateScroller(1);
+		// updateScroller(1);
 		break;
 		
 	case CUSTOM:
-		updateScroller(0);
+		// updateScroller(0);
 		break;
 		
 	default:
@@ -118,31 +118,31 @@ function setFrontPage()
 }
 
 
-function updateScroller(startItem)
-{
-	// update scroller
-	var title;
-	var subTitle;
+// function updateScroller(startItem)
+// {
+// 	// update scroller
+// 	var title;
+// 	var subTitle;
 
-	if (news != undefined) {
-		var iNum = startItem; //news item start 
-		singletext = new Array();
-		for (var sNum = 0; sNum < NEWS_ITEMS_TO_SCROLL; sNum++) {
-			var item = news[iNum];
-			var author = item.author;
-			var content = item.content;
+// 	if (news != undefined) {
+// 		var iNum = startItem; //news item start 
+// 		singletext = new Array();
+// 		for (var sNum = 0; sNum < NEWS_ITEMS_TO_SCROLL; sNum++) {
+// 			var item = news[iNum];
+// 			var author = item.author;
+// 			var content = item.content;
 
-			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader")) {
-				content = getHeadline(content);
-				singletext[sNum] = '<p align="center"><span style="font-size:85%;color:green;text-decoration:none;"><strong>' + content + '</strong><br><a style="font-size:85%;color:green;text-decoration:none;" href="news.htm">[Read More...]</a></span></p>';
-			}
+// 			if (content != EVENT_UPLOAD && (author.role == "leader" || author.role == "coleader")) {
+// 				content = getHeadline(content);
+// 				singletext[sNum] = '<p align="center"><span style="font-size:85%;color:green;text-decoration:none;"><strong>' + content + '</strong><br><a style="font-size:85%;color:green;text-decoration:none;" href="news.htm">[Read More...]</a></span></p>';
+// 			}
 
-			iNum++;
-		}
-	}
+// 			iNum++;
+// 		}
+// 	}
 	
-	start();
-}
+// 	start();
+// }
 
 // response from Band
 function handleResponse(response) {
@@ -174,6 +174,7 @@ function handleResponse(response) {
 				data += "<h2 class='headline'>" + headline + "</h2>";
 				data += "<div class='byline'><small>" + author.name + "</small> - " + date.toLocaleString() + "</div>";
 				data += "<p class='bandbody'>" + body + "</p>";
+				data += "<br><a style='text-decoration:none;font-size:smaller;color:green' href='/news.htm'>[See News]</a>";
 
 				// update front page
 				startItem = count + 1;
@@ -183,7 +184,7 @@ function handleResponse(response) {
 
 		$("#newsDisplay").html(data);
 
-		updateScroller(startItem);
+		// updateScroller(startItem);
 
 		if (today.getMonth() > 6) {
 			scheduleYear += 1;
