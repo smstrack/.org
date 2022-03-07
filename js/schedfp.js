@@ -143,5 +143,5 @@ function displayUpcomingEvents(entries)
 	}
 	htmlStr += "</div>";
 	$('#scheduleDisplay').html(htmlStr);
-	$('#calPanel').html(htmlStr + "<br><a style='text-decoration:none;font-size:smaller;color:green' href='/schedule.htm'>[See Schedule]</a>");
+	$('#rightPanel').html("<div class='page'>" + htmlStr + "<br><a style='font-size:smaller;color:green' href='/schedule.htm'>[See Schedule]</a></div>");
 }

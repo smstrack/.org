@@ -20,7 +20,7 @@ function checkContent(content, role) {
 
 function getHeadline(content) {
     var headline = content;
-    var stop = content.trim().search(/[\\.;:!]/);
+    var stop = content.trim().search(/[\\.;:!?]/);
     if (stop != -1) {
         headline = content.slice(0, stop + 1);
     } else if (content.length > HEADLINE_MAX) {

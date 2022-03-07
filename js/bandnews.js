@@ -34,6 +34,4 @@ function bandResponse(response) {
 		}
 	}
 	document.getElementById("newsList").innerHTML = data;
-
-
 }
