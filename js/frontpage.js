@@ -37,6 +37,7 @@ var query;
 var news;
 var fpNewsItem;
 var startItem;
+var sideBarNews;
 
 $.get("https://openapi.band.us/v2/band/posts",
 	{
@@ -101,6 +102,7 @@ function setFrontPage()
 		
 	case SCHEDULE:
 		$("#scheduleDisplay").show();
+		$("#rightPanel").html(sideBarNews);
 		// updateScroller(0);
 		break;
 		
@@ -116,7 +118,6 @@ function setFrontPage()
 	default:
 	}
 }
-
 
 // function updateScroller(startItem)
 // {
@@ -146,20 +147,19 @@ function setFrontPage()
 
 // response from Band
 function handleResponse(response) {
-	var data = "";
+	var newsData = "";
 
 	var resultCode = response.result_code;
 
 	if (resultCode == 1) {
 		news = response.result_data.items;
-
 		
 		for (var count = 0; count < news.length; count++) {
 			
+			const newsFooter = "<br><a style='text-decoration:none;font-size:smaller;color:green' href='/news.htm'>[See News]</a>";
 			var item = news[count];
 			var author = item.author;
 			var content = item.content;
-			
 			
 			if (checkContent(content, author.role) ) {
 				date = new Date(item.created_at);
@@ -171,10 +171,13 @@ function handleResponse(response) {
 				
 				body = linkify(content);
 				
-				data += "<h2 class='headline'>" + headline + "</h2>";
-				data += "<div class='byline'><small>" + author.name + "</small> - " + date.toLocaleString() + "</div>";
-				data += "<p class='bandbody'>" + body + "</p>";
-				data += "<br><a style='text-decoration:none;font-size:smaller;color:green' href='/news.htm'>[See News]</a>";
+				newsData += "<h2 class='headline'>" + headline + "</h2>";
+				sideBarNews = "<div style='font-size:60%'>" + newsData + "</div>";
+				newsData += "<div class='byline'><small>" + author.name + "</small> - " + date.toLocaleString() + "</div>";
+				newsData += "<p class='bandbody'>" + body + "</p>";
+				newsData += newsFooter;
+
+				sideBarNews += newsFooter;
 
 				// update front page
 				startItem = count + 1;
@@ -182,7 +185,7 @@ function handleResponse(response) {
 			}
 		}
 
-		$("#newsDisplay").html(data);
+		$("#newsDisplay").html(newsData);
 
 		// updateScroller(startItem);
 
