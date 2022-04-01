@@ -513,7 +513,7 @@ i {
 /* The grid container */
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto minmax(auto, 25%);
+  /* grid-template-columns: auto auto auto minmax(auto, 25%); */
 }
 
 .grid-container {
