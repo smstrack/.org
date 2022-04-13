@@ -20,14 +20,19 @@ function checkContent(content, role) {
 
 function getHeadline(content) {
     var headline = content;
-    var stop = content.trim().search(/[\\.;:!?]/);
-    if (stop != -1) {
-        headline = content.slice(0, stop + 1);
-    } else if (content.length > HEADLINE_MAX) {
-        var stop = content.indexOf(" ", HEADLINE_MAX);
+    var stop = content.trim().search("\n");
+    if (stop == -1) {
+        stop = content.trim().search(/[\\.;:!?]/);
         if (stop != -1) {
             headline = content.slice(0, stop + 1);
+        } else if (content.length > HEADLINE_MAX) {
+            var stop = content.indexOf(" ", HEADLINE_MAX);
+            if (stop != -1) {
+                headline = content.slice(0, stop + 1);
+            }
         }
-    }
-    return headline;
+    } else {
+       headline = content.slice(0, stop);
+   }
+   return linkify(headline);
 }
