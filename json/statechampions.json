@@ -1085,6 +1085,15 @@
             "first": "Samuel",
 			"gender":"m",
             "performance": "22-09.25"
+        },
+        {
+            "year": 2022,
+            "event": "Discus",
+            "eventGroup": "FT",
+            "last": "Womack",
+            "first": "Kirsten",
+			"gender":"f",
+            "performance": "145-01"
         }
     ]
 }
