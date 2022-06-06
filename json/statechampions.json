@@ -1092,6 +1092,8 @@
             "eventGroup": "FT",
             "last": "Womack",
             "first": "Kirsten",
+            "video":"https://youtu.be/9h8fHJUSJUg",
+            "videoIcon": "../images/YouTube-social-icon_red_24px.png",
 			"gender":"f",
             "performance": "145-01"
         }
