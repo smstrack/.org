@@ -16,7 +16,7 @@ var scheduleYear = today.getFullYear();
 var COUNTDOWN_TITLE = "The " + scheduleYear + " Season Begins";   
 var COUNTDOWN_YEAR = scheduleYear;   
 var COUNTDOWN_MONTH = 1;   // 0-jan - 11-dec
-var COUNTDOWN_DAY = 28;     // 1 - 31
+var COUNTDOWN_DAY = 27;     // 1 - 31
 var COUNTDOWN_HOUR = 15;   // 0 - 23
 var COUNTDOWN_MINUTES = 0; // 0 - 59
 
