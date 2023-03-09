@@ -366,7 +366,7 @@ i {
 }
 
 .heroiconlayer {
-  text-align: left;
+  float: left;
   position: relative;
   z-index: 30;
 }
