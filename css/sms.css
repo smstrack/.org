@@ -278,6 +278,8 @@ i {
   background-image: url("/images/run.png"), url("/images/smsbb.jpg");
   background-position: right top, left top;
   background-repeat: no-repeat, no-repeat;
+  position: relative;
+  cursor: pointer;
   height: 200px;
   z-index: 0;
 }
@@ -361,6 +363,12 @@ i {
 .style22 {
   margin: 2px;
   border-width: 0;
+}
+
+.heroiconlayer {
+  text-align: left;
+  position: relative;
+  z-index: 30;
 }
 
 .style23 {
