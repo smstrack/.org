@@ -1,81 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://www.smstrack.org/index.htm</loc>
+      <loc>https://smstrack.org/index.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/south_relays.htm</loc>
+      <loc>https://smstrack.org/south_relays.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/south_relays.htm</loc>
+      <loc>https://smstrack.org/schedule.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/schedule.htm</loc>
+      <loc>https://smstrack.org/archives/state_champion_teams.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/state_champion_teams.htm</loc>
+      <loc>https://smstrack.org/coaches.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/coaches.htm</loc>
+      <loc>https://smstrack.org/team.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/team.htm</loc>
+      <loc>https://smstrack.org/guidelines.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/guidelines.htm</loc>
+      <loc>https://smstrack.org/rules.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/rules.htm</loc>
+      <loc>https://smstrack.org/forms.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/forms.htm</loc>
+      <loc>https://smstrack.org/throws/Top%20Ten%20Reasons%20to%20Throw%20the%20Discus.htm.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/throws/Top%20Ten%20Reasons%20to%20Throw%20the%20Discus.htm.htm</loc>
+      <loc>https://smstrack.org/throws/Top%20Ten%20Reasons%20to%20Throw%20the%20Shot.htm.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/throws/Top%20Ten%20Reasons%20to%20Throw%20the%20Shot.htm.htm</loc>
+      <loc>https://smstrack.org/throws/index.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/throws/index.htm</loc>
+      <loc>https://smstrack.org/news.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/news.htm</loc>
+      <loc>https://smstrack.org/honors.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/honors.htm</loc>
+      <loc>https://smstrack.org/pictures.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/pictures.htm</loc>
+      <loc>https://smstrack.org/links.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/.htm</loc>
+      <loc>https://smstrack.org/archives/state_champs_by_name.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/links.htm</loc>
+      <loc>https://smstrack.org/archives/toptenalltimeboys.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/archives/state_champion_teams.htm</loc>
+      <loc>https://smstrack.org/archives/toptenalltimegirls.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/archives/state_champs_by_name.htm</loc>
+      <loc>https://smstrack.org/records/boysfreshmanrecords.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/archives/toptenalltimeboys.htm</loc>
+      <loc>https://smstrack.org/records/girlsfreshmanrecords.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/archives/toptenalltimegirls.htm</loc>
+      <loc>https://smstrack.org/records/smsrelaysboys.htm</loc>
    </url>
    <url>
-      <loc>https://www.smstrack.org/records/boysfreshmanrecords.htm</loc>
-   </url>
-   <url>
-      <loc>https://www.smstrack.org/records/girlsfreshmanrecords.htm</loc>
-   </url>
-   <url>
-      <loc>https://www.smstrack.org/records/smsrelaysboys.htm</loc>
-   </url>
-   <url>
-      <loc>https://www.smstrack.org/records/smsrelaysgirls.htm</loc>
+      <loc>https://smstrack.org/records/smsrelaysgirls.htm</loc>
    </url>
 </urlset>
