@@ -39,20 +39,20 @@
         {
             "event": "1600*",
             "eventGroup" : "TD", 
-            "performance": "4:23.42",
-            "first": "Colton",
-            "last": "Donahue",
-            "school": "Blue Valley",
-            "year": "2013"
+            "performance": "4:15.72",
+            "first": "Parker",
+            "last": "Walion",
+            "school": "Gardner-Edgerton",
+            "year": "2023"
         },
         {
             "event": "3200",
             "eventGroup" : "TD", 
-            "performance": "9:26.20",
-            "first": "Belesti",
-            "last": "Akula",
-            "school": "SM North",
-            "year": "2016"
+            "performance": "8:50.75",
+            "first": "Clay",
+            "last": "Shively",
+            "school": "Trinity Academy",
+            "year": "2023"
         },
         {
             "event": "110 Hurdles*",
@@ -89,9 +89,9 @@
         {
             "event": "4 x 800",
             "eventGroup" : "TRS", 
-            "performance": "8:08.2",
-            "school": "SM West",
-            "year": "1972"
+            "performance": "8:06.77",
+            "school": "SM East",
+            "year": "2023"
         },
         {
             "event": "4 x 1600",

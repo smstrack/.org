@@ -39,20 +39,20 @@
         {
             "event": "800*",
             "eventGroup": "TS",
-            "performance": "2:18.00",
-            "first": "Molly",
-            "last": "Born",
-            "school": "SM Northwest",
-            "year": "2017"
+            "performance": "2:16.69",
+            "first": "Bree",
+            "last": "Newport",
+            "school": "Olathe West",
+            "year": "2023"
         },
         {
             "event": "1600*",
             "eventGroup": "TD",
-            "performance": "5:15.01",
-            "first": "Grace",
-            "last": "Meyer",
-            "school": "SM East",
-            "year": "2021"
+            "performance": "5:00.99",
+            "first": "Paige",
+            "last": "Mullen",
+            "school": "SM Northwest",
+            "year": "2023"
         },
         {
             "event": "3200",
@@ -75,11 +75,11 @@
         {
             "event": "300 Hurdles",
             "eventGroup": "TH",
-            "performance": "45.7",
-            "first": "Angela",
-            "last": "Butcher",
-            "school": "Notre Dame de Sion",
-            "year": "1996"
+            "performance": "44.65",
+            "first": "Grace",
+            "last": "Parsons",
+            "school": "Rock Bridge",
+            "year": "2023"
         },
         {
             "event": "4 x 100",
@@ -98,9 +98,9 @@
         {
             "event": "4 x 400",
             "eventGroup": "TRS",
-            "performance": "4:03.02",
-            "school": "Olathe West",
-            "year": "2021"
+            "performance": "4:00.84",
+            "school": "BV North",
+            "year": "2023"
         },
         {
             "event": "4 x 800",
