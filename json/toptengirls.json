@@ -108,7 +108,7 @@
 			{"performance" : "15.0","first" : "Sarah","last" : "Nutt","year" : "1997"},
 			{"performance" : "15.0","first" : "Gail","last" : "McBride","year" : "1973"},
 			{"performance" : "15.0","first" : "Martha","last" : "Rinker","year" : "1976"},
-			{"performance" : "15.40","first" : "Aurora","last" : "Wessel","year" : "2023"},
+			{"performance" : "15.38","first" : "Aurora","last" : "Wessel","year" : "2023"},
 			{"performance" : "15.2","first" : "Sara","last" : "Jadlow","year" : "1990"},
 			{"performance" : "15.3","first" : "Kris","last" : "Oden","year" : "1988"},
 			{"performance" : "15.55","first" : "Maude","last" : "Kilmer","year" : "2022"},
@@ -129,7 +129,8 @@
 			{"performance" : "47.02","first" : "Nora","last" : "Bingaman","year" : "2012"},
 			{"performance" : "47.0","first" : "Wendy","last" : "Deering","year" : "1987"},
 			{"performance" : "47.14","first" : "Kylie","last" : "Holliman","year" : "2014"},
-			{"performance" : "48.1","first" : "Marianne","last" : "Tremblay","year" : "1995"},
+			{"performance" : "47.79","first" : "Aurora","last" : "Wessel","year" : "2023"},
+			{"" : "48.1","first" : "Marianne","last" : "Tremblay","year" : "1995"},
 			{"" : "48.4","first" : "Sara","last" : "Jadlow","year" : "1990"},
 			{"" : "49.1","first" : "Olivia","last" : "Thompson","year" : "1993"},
 			{"" : "49.6","first" : "Christy","last" : "Cloughley","year" : "1989"}
