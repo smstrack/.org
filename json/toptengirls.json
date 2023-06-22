@@ -220,12 +220,13 @@
 			{"performance" : "18-06.5","first" : "Brooke","last" : "Holmes","year" : "2014", "record":"true"},
 			{"performance" : "17-02","first" : "Lisa","last" : "Avery","year" : "1994"},
 			{"performance" : "17-02","first" : "Hillary","last" : "Hoffman","year" : "2007"},
+			{"performance" : "17-00","first" : "Aurora","last" : "Wessel","year" : "2023"},
 			{"performance" : "16-11","first" : "Jody","last" : "Manson","year" : "&nbsp;"},
 			{"performance" : "16-10","first" : "Stacy","last" : "Bombaars","year" : "1985"},
 			{"performance" : "16-10","first" : "Gretchen","last" : "Fiebig","year" : "2015"},
 			{"performance" : "16-08","first" : "Tina","last" : "Niu","year" : "1984"},
 			{"performance" : "16-08","first" : "Kelly","last" : "Turner","year" : "1992"},
-			{"performance" : "16-07","first" : "Meg","last" : "Ryan","year" : "2004"},
+			{"" : "16-07","first" : "Meg","last" : "Ryan","year" : "2004"},
 			{"" : "16-07","first" : "Annie","last" : "Drinane","year" : "2001"}
 		]
 	},
