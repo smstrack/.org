@@ -242,9 +242,6 @@ function formatJSON(jsonData)
 	faster than the equivalent hand time<br>\
 	<em>300 and 400 meters:</em> FAT times are considered .14 seconds\
 	faster than the equivalent hand time<br>\
-	<sup>[n]</sup>All-Time Kansas ranking as of August 2015 \
-	(<a href="https://drive.google.com/file/d/0B4e6HoJZumBwSm5jR0NTVWlLMzg/view?usp=sharing" target="_blank">\
-	see all-time bests</a>).<br>\
 	**Performance converted from yards<br>\
 	&#134;IAAF javelin adopted in 2002\
   </p>'

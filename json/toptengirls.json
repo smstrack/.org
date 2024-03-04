@@ -54,8 +54,8 @@
 	},
 	{"event" : "800", "eventGroup" : "TS", "list"   :
 		[
-			{"performance" : "2:13.62","first" : "Kristen","last" : "Gillespie","year" : "2008", "allTimeKansas" : "15"},
-			{"performance" : "2:13.7**","first" : "Sally","last" : "Arthur","year" : "1973", "allTimeKansas" : "18"},
+			{"performance" : "2:13.62","first" : "Kristen","last" : "Gillespie","year" : "2008"},
+			{"performance" : "2:13.7**","first" : "Sally","last" : "Arthur","year" : "1973"},
 			{"performance" : "2:16.2","first" : "Dede","last" : "Lawless","year" : "1981"},
 			{"performance" : "2:19.1","first" : "Lisa","last" : "Avery","year" : "1995"},
 			{"performance" : "2:19.3","first" : "Leeann","last" : "Conway","year" : "1989"},
@@ -70,7 +70,7 @@
 	},
 	{"event" : "1600", "eventGroup" : "TD", "list"   : 
 		[
-			{"performance" : "4:53.2","first" : "Dede","last" : "Lawless","year" : "1980", "allTimeKansas" : "8"},
+			{"performance" : "4:53.2","first" : "Dede","last" : "Lawless","year" : "1980"},
 			{"performance" : "5:07.0","first" : "Leeann","last" : "Conway","year" : "1989"},
 			{"performance" : "5:07.24","first" : "Hannah","last" : "Gibson","year" : "2022"},
 			{"performance" : "5:08.6","first" : "Connie","last" : "Abbott","year" : "2003"},
@@ -138,7 +138,7 @@
 	},
 	{"event" : "Discus", "eventGroup" : "FT",  "list"   :
 		[
-			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010", "allTimeKansas" : "26" },
+			{"performance" : "149-04", "video" : "https://youtu.be/2bmdn-MBiQg", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png","first" : "Alix","last" : "Richards","year" : "2010"},
 			{"performance" : "146-07",  "video" : "https://www.youtube.com/watch?v=WnQaudqkEDI", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Kirsten","last" : "Womack","year" : "2022"},
 			{"performance" : "133-02", "video" : "https://youtu.be/_xtbCecyUcE", "target": "_blank", "videoIcon" : "../images/YouTube-social-icon_red_24px.png", "first" : "Korbin","last" : "Richards","year" : "2011"},
 			{"performance" : "130-08","first" : "Carol","last" : "Bennett","year" : "1981"},
@@ -232,7 +232,7 @@
 	},
 	{"event" : "Triple Jump", "eventGroup" : "FHJ",    "list"   : 
 		[
-			{"performance" : "39-01.75", "first" : "Brooke","last" : "Holmes","year" : "2014", "allTimeKansas" : "19"},
+			{"performance" : "39-01.75", "first" : "Brooke","last" : "Holmes","year" : "2014"},
 			{"performance" : "34-09","first" : "Kelly","last" : "Turner","year" : "1992"},
 			{"performance" : "34-04.5","first" : "Annie","last" : "Drinane","year" : "2001"},
 			{"performance" : "34-02","first" : "Dana","last" : "Drinane","year" : "1995"},
@@ -249,7 +249,7 @@
 	},
 	{"event" : "Pole Vault", "eventGroup" : "FVJ", "list"   : 
 		[
-			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003", "allTimeKansas" : "14"},
+			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003"},
 			{"performance" : "11-07","first" : "Julia","last" : "Cummings","year" : "2006"},
 			{"performance" : "11-00","first" : "Claire","last" : "Christy","year" : "2008"},
 			{"performance" : "11-00","first" : "Kendra","last" : "Martiny","year" : "2011"},
@@ -313,7 +313,7 @@
 	},
 	{"event" : "4 x 800", "eventGroup" : "TRS",    "list"   : 
 		[
-			{"performance" : "9:20.63","first" : "Elizabeth Dedon, Kelsey Goebel, ","last" : "Megan Murray, Kristen Gillespie","year" : "2007", "allTimeKansas" : "1"},
+			{"performance" : "9:20.63","first" : "Elizabeth Dedon, Kelsey Goebel, ","last" : "Megan Murray, Kristen Gillespie","year" : "2007"},
 			{"performance" : "9:30.3","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
 			{"performance" : "9:35.5","first" : "Dedon-Goebel-Murray-Gillespie","last" : "","year" : "2007"},
 			{"performance" : "9:41.78","first" : "Murray-Dedon-Beggs-Gillespie","last" : "","year" : "2008"},
@@ -327,13 +327,13 @@
 	},
 	{"event" : "3000", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "10:02.84","first" : "Connie","last" : "Abbott","year" : "2003", "allTimeKansas" : "6"}
+            {"performance" : "10:02.84","first" : "Connie","last" : "Abbott","year" : "2003"}
         ]
     },
     
 	{"event" : "5000", "eventGroup" : "NS", "list"   : 
         [
-            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002", "allTimeKansas" : "4"}
+            {"performance" : "17:39.18","first" : "Connie","last" : "Abbott","year" : "2002"}
         ]
     },
     
