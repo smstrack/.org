@@ -30,11 +30,11 @@
         {
             "event": "800*",
             "eventGroup" : "TS", 
-            "performance": "1:57.39",
-            "first": "Colton",
-            "last": "Donahue",
-            "school": "Blue Valley",
-            "year": "2013"
+            "performance": "1:54.94",
+            "first": "Colin",
+            "last": "Kleinhen",
+            "school": "Liberty North",
+            "year": "2024"
         },
         {
             "event": "1600*",
@@ -48,11 +48,11 @@
         {
             "event": "3200",
             "eventGroup" : "TD", 
-            "performance": "8:50.75",
+            "performance": "8:41.29",
             "first": "Clay",
             "last": "Shively",
             "school": "Trinity Academy",
-            "year": "2023"
+            "year": "2024"
         },
         {
             "event": "110 Hurdles*",
@@ -96,9 +96,9 @@
         {
             "event": "4 x 1600",
             "eventGroup" : "TRD", 
-            "performance": "18:07.2",
-            "school": "SM South",
-            "year": "1976"
+            "performance": "18:05.44",
+            "school": "Rockhurst",
+            "year": "2024"
         },
         {
             "event": "4 x 100 HOG**",

@@ -21,20 +21,20 @@
         {
             "event": "200*",
             "eventGroup": "TS",
-            "performance": "25.16",
-            "first": "Kennedi",
-            "last": "Cline",
-            "school": "Olathe West",
-            "year": "2021"
+            "performance": "24.57",
+            "first": "Delia",
+            "last": "Gregory",
+            "school": "BV North",
+            "year": "2024"
         },
         {
             "event": "400*",
             "eventGroup": "TS",
-            "performance": "58.16",
-            "first": "Kennedi",
-            "last": "Cline",
-            "school": "Olathe West",
-            "year": "2021"
+            "performance": "55.83",
+            "first": "Delia",
+            "last": "Gregory",
+            "school": "BV North",
+            "year": "2024"
         },
         {
             "event": "800*",
@@ -57,20 +57,20 @@
         {
             "event": "3200",
             "eventGroup": "TD",
-            "performance": "11:09.10",
-            "first": "Paige",
-            "last": "Mullen",
-            "school": "SM Northwest",
-            "year": "2022"
+            "performance": "11:03.12",
+            "first": "Emily",
+            "last": "Hein",
+            "school": "Trinity Academy",
+            "year": "2024"
         },
         {
             "event": "100 Hurdles",
             "eventGroup": "TH",
-            "performance": "14.99",
-            "first": "Alexa",
-            "last": "Harmon-Thomas",
-            "school": "Free State",
-            "year": "2012"
+            "performance": "14.61",
+            "first": "Aurora",
+            "last": "Wessel",
+            "school": "SM South",
+            "year": "2024"
         },
         {
             "event": "300 Hurdles",
@@ -84,9 +84,9 @@
         {
             "event": "4 x 100",
             "eventGroup": "TRS",
-            "performance": "49.98",
-            "school": "Gardner-Edgerton",
-            "year": "2011"
+            "performance": "48.34",
+            "school": "BV North",
+            "year": "2024"
         },
         {
             "event": "4 x 200",
@@ -98,9 +98,9 @@
         {
             "event": "4 x 400",
             "eventGroup": "TRS",
-            "performance": "4:00.84",
+            "performance": "3:53.84",
             "school": "BV North",
-            "year": "2023"
+            "year": "2024"
         },
         {
             "event": "4 x 800",
@@ -181,11 +181,11 @@
         {
             "event": "Long Jump",
             "eventGroup": "FHJ",
-            "performance": "18-04",
-            "first": "Leslie",
-            "last": "Dudley",
-            "school": "Leavenworth",
-            "year": "1995"
+            "performance": "18-10.75",
+            "first": "Rosjai",
+            "last": "Curtis",
+            "school": "SM North",
+            "year": "2024"
         },
         {
             "event": "Triple Jump",
