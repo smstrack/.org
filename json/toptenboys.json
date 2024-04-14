@@ -5,8 +5,8 @@
 			{"performance" : "10.77","first" : "Anthony","last" : "Hill","year" : "2006"},
 			{"performance" : "10.81","first" : "AJ","last" : "Sims","year" : "1999"},
 			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
+			{"performance" : "10.88","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "10.91","first" : "Kywan","last" : "Edwards","year" : "2021"},
-			{"performance" : "10.92","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "10.7","first" : "Ryan","last" : "Stanley","year" : "1995"},
 			{"performance" : "10.7","first" : "Chad","last" : "Stafford","year" : "1991"},
 			{"performance" : "10.99","first" : "Drew","last" : "Haig","year" : "2011"},
@@ -72,13 +72,14 @@
 			{"performance" : "4:05.96**","first" : "Steve","last" : "Smith","year" : "1980"},
 			{"performance" : "4:09.5**","first" : "Brent","last" : "Steiner","year" : "1979"},
 			{"performance" : "4:11.6**","first" : "Kevin","last" : "Kenny","year" : "1976"},
+			{"performance" : "4:11.64","first" : "Max","last" : "Larson","year" : "2024"},
 			{"performance" : "4:11.8**","first" : "Reed","last" : "Eichner","year" : "1976"},
 			{"performance" : "4:12.6**","first" : "Dave","last" : "Anderson","year" : "1969"},
 			{"performance" : "4:14.9**","first" : "Ryan","last" : "Eichner","year" : "1970"},
 			{"performance" : "4:15.1**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "4:17.0**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "4:19.2**","first" : "Jeff","last" : "Brady","year" : "1977"},
-			{"performance" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"}
+			{"" : "4:19.2","first" : "Jeff","last" : "Stokes","year" : "1983"}
 		]
 	},
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
