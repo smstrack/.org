@@ -2,10 +2,10 @@
 [
 	{"event" : "100*" , "eventGroup" : "TS",	"list" : 
 		[
+			{"performance" : "10.68","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "10.77","first" : "Anthony","last" : "Hill","year" : "2006"},
 			{"performance" : "10.81","first" : "AJ","last" : "Sims","year" : "1999"},
 			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
-			{"performance" : "10.88","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "10.91","first" : "Kywan","last" : "Edwards","year" : "2021"},
 			{"performance" : "10.7","first" : "Ryan","last" : "Stanley","year" : "1995"},
 			{"performance" : "10.7","first" : "Chad","last" : "Stafford","year" : "1991"},
