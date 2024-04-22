@@ -106,7 +106,7 @@
 		
 	{"event" : "100 Hurdles*", "eventGroup" : "TH",   "list"   :
 		[
-			{"performance" : "14.30","first" : "Aurora","last" : "Wessel","year" : "2024"},
+			{"performance" : "13.92","first" : "Aurora","last" : "Wessel","year" : "2024"},
 			{"performance" : "14.9","first" : "Sarah","last" : "Nutt","year" : "1997"},
 			{"performance" : "15.0","first" : "Tina","last" : "Niu","year" : "1984"},
 			{"performance" : "15.0","first" : "Gail","last" : "McBride","year" : "1973"},
@@ -122,7 +122,7 @@
 	},
 	{"event" : "300 Hurdles*", "eventGroup" : "TH",    "list"   : 
 		[
-			{"performance" : "45.19","first" : "Aurora","last" : "Wessel","year" : "2024"},
+			{"performance" : "44.30","first" : "Aurora","last" : "Wessel","year" : "2024"},
 			{"performance" : "45.3","first" : "Kris","last" : "Oden","year" : "1987"},
 			{"performance" : "45.46","first" : "Danielle","last" : "Reichart","year" : "2016"},
 			{"performance" : "45.8","first" : "Tina","last" : "Niu","year" : "1984"},
