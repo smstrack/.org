@@ -24,8 +24,8 @@
 		[
 			{"performance" : "21.6","first" : "Vincent","last" : "Parrett","year" : "1976"},
 			{"performance" : "21.6","first" : "Ryan","last" : "Stanley","year" : "1995", "record" : "true"},
+			{"performance" : "21.95","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "22.20","first" : "Kywan","last" : "Edwards","year" : "2021"},
-			{"performance" : "22.20","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "22.0","first" : "Darren","last" : "Nutt","year" : "1988"},
 			{"performance" : "22.0","first" : "Mitch","last" : "Katz","year" : "1970"},
 			{"performance" : "22.26","first" : "Cameron","last" : "Union","year" : "2016"},
@@ -59,13 +59,14 @@
 			{"performance" : "1:54.2**","first" : "Craig","last" : "Carter","year" : "1979"},
 			{"performance" : "1:54.3**","first" : "Kevin","last" : "Kenny","year" : "1976"},
 			{"performance" : "1:54.3","first" : "Steve","last" : "Smith","year" : "1980"},
+			{"performance" : "1:55.09","first" : "Max","last" : "Larson","year" : "2024"},
 			{"performance" : "1:55.61","first" : "Scott","last" : "Howell","year" : "1996"},
 			{"performance" : "1:55.9**","first" : "Jamie","last" : "McPhee","year" : "1976"},
 			{"performance" : "1:55.9**","first" : "Paul","last" : "Francis","year" : "1969"},
 			{"performance" : "1:56.8**","first" : "Mark","last" : "Lauterbach","year" : "1980"},
 			{"performance" : "1:56.7","first" : "Scott","last" : "Gillespie","year" : "2008"},
 			{"performance" : "1:56.9","first" : "Gordon","last" : "Graham","year" : "1971"},
-			{"performance" : "1:56.93","first" : "Aidan","last" : "Johnson","year" : "2014"}
+			{"" : "1:56.93","first" : "Aidan","last" : "Johnson","year" : "2014"}
 		]
 	},
 	{"event" : "1600", "eventGroup" : "TD",	"list" : 
@@ -254,8 +255,9 @@
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
 			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
 			{"performance" : "43.25","first" : "Alex Phan, Ky Edwards,","last" : "Kieron Smith, Eyan Appleman","year" : "2021"},
-			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
-			{"performance" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
+			{"performance" : "43.30","first" : "Greg Pearl, Jude Strahm,","last" : "Blake Cikot, Korrey Womack","year" : "2024"},
+			{"" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
+			{"" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
 			{"" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
 			{"" : "43.4","first" : "&nbsp;","last" : "","year" : "1973"}
 		]
