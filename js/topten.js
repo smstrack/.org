@@ -243,7 +243,8 @@ function formatJSON(jsonData)
 	<em>300 and 400 meters:</em> FAT times are considered .14 seconds\
 	faster than the equivalent hand time<br>\
 	**Performance converted from yards<br>\
-	&#134;IAAF javelin adopted in 2002\
+	&#134;IAAF javelin adopted in 2002<br>\
+	&#134;&#134;4K shot adopted in 1982\
   </p>'
 	return tableStr;
 }
