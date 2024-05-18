@@ -2,10 +2,10 @@
 [
 	{"event" : "100*" , "eventGroup" : "TS",	"list" : 
 		[
-			{"performance" : "10.68","first" : "Korrey","last" : "Womack","year" : "2024"},
+			{"performance" : "10.57","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "10.77","first" : "Anthony","last" : "Hill","year" : "2006"},
 			{"performance" : "10.81","first" : "AJ","last" : "Sims","year" : "1999"},
-			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
+			{"performance" : "10.6","first" : "Vincent","last" : "Parrett","year" : "1976"},
 			{"performance" : "10.91","first" : "Kywan","last" : "Edwards","year" : "2021"},
 			{"performance" : "10.7","first" : "Ryan","last" : "Stanley","year" : "1995"},
 			{"performance" : "10.7","first" : "Chad","last" : "Stafford","year" : "1991"},
@@ -246,7 +246,8 @@
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",	"list"  : 
 		[
-			{"performance" : "42.8","first" : "Troy Adkins, Terri Mohajir,","last" : "Jim Davis, Darren Nutt","year" : "1988"},
+			{"performance" : "42.88","first" : "Greg Pearl, Jude Strahm,","last" : "Blake Cikot, Korrey Womack","year" : "2024"},
+			{"performance" : "42.8","first" : "Troy Adkins, Terri Mohajir,","last" : "Jim Davis, Darren Nutt","year" : "1988", "record" : "true"},
 			{"performance" : "42.9","first" : "AJ Sims, Jeremy Gordon, ","last" : "Euler Bropleh, Matt Ryan","year" : "1998"},
 			{"performance" : "42.9","first" : "Mike Novak, Alvin Chambers","last" : "Matt Ryan, AJ Sims","year" : "1999"},
 			{"performance" : "42.9","first" : "Josh Mott, Alvin Chambers, ","last" : "Matt Ryan, AJ Sims ","year" : "2000"},
@@ -255,7 +256,6 @@
 			{"performance" : "43.1","first" : "&nbsp;","last" : "","year" : "1972"},
 			{"performance" : "43.1","first" : "Brian Shurtleff, Craig Adams,","last" : "Gary Nafginer, Randy Leighton","year" : "1984"},
 			{"performance" : "43.25","first" : "Alex Phan, Ky Edwards,","last" : "Kieron Smith, Eyan Appleman","year" : "2021"},
-			{"performance" : "43.30","first" : "Greg Pearl, Jude Strahm,","last" : "Blake Cikot, Korrey Womack","year" : "2024"},
 			{"" : "43.2","first" : "&nbsp;","last" : "","year" : "1974"},
 			{"" : "43.2","first" : "&nbsp;","last" : "","year" : "1975"},
 			{"" : "43.3","first" : "Phill Staley, Randy Leighton,","last" : "Kevin Underhill, Brian Murray","year" : "1983"},
