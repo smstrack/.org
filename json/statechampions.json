@@ -1096,6 +1096,15 @@
             "videoIcon": "../images/YouTube-social-icon_red_24px.png",
 			"gender":"f",
             "performance": "145-01"
+        },
+        {
+            "year": 2024,
+            "event": "3200",
+            "eventGroup": "TD",
+            "last": "Larson",
+            "first": "Max",
+			"gender":"m",
+            "performance": "9:13.44"
         }
     ]
 }
