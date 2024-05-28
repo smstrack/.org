@@ -22,9 +22,9 @@
 	},
 	{"event" : "200*", "eventGroup" : "TS",	"list" : 
 		[
-			{"performance" : "21.6","first" : "Vincent","last" : "Parrett","year" : "1976"},
+			{"performance" : "21.73","first" : "Korrey","last" : "Womack","year" : "2024"},
+			{"performance" : "21.6","first" : "Vincent","last" : "Parrett","year" : "1976", "record" : "true"},
 			{"performance" : "21.6","first" : "Ryan","last" : "Stanley","year" : "1995", "record" : "true"},
-			{"performance" : "21.95","first" : "Korrey","last" : "Womack","year" : "2024"},
 			{"performance" : "22.20","first" : "Kywan","last" : "Edwards","year" : "2021"},
 			{"performance" : "22.0","first" : "Darren","last" : "Nutt","year" : "1988"},
 			{"performance" : "22.0","first" : "Mitch","last" : "Katz","year" : "1970"},
