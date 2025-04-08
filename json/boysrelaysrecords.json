@@ -21,20 +21,20 @@
         {
             "event": "400*",
             "eventGroup" : "TS", 
-            "performance": "49.42",
-            "first": "Hayden",
-            "last": "Goodpaster",
-            "school": "SM Northwest",
-            "year": "2018"
+            "performance": "48.61",
+            "first": "Noah",
+            "last": "Allen",
+            "school": "St. Thomas Aquinas",
+            "year": "2025"
         },
         {
             "event": "800*",
             "eventGroup" : "TS", 
-            "performance": "1:54.94",
-            "first": "Colin",
-            "last": "Kleinhen",
-            "school": "Liberty North",
-            "year": "2024"
+            "performance": "1:54.39",
+            "first": "Henry",
+            "last": "Acorn",
+            "school": "Rockhurst",
+            "year": "2025"
         },
         {
             "event": "1600*",
