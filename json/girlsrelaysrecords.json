@@ -3,15 +3,6 @@
         {
             "event": "100",
             "eventGroup": "TS",
-            "performance": "12.1",
-            "first": "Vanessa",
-            "last": "O'Dell",
-            "school": "BV North",
-            "year": "1991"
-        },
-        {
-            "event": "100",
-            "eventGroup": "TS",
             "performance": "11.96",
             "first": "Delia",
             "last": "Gregory",
