@@ -165,6 +165,7 @@
 			{"performance" : "175-03","first" : "Alex","last" : "Brown","year" : "2012"},
 			{"performance" : "173-09","first" : "Taylor","last" : "Huhn","year" : "2010"},
 			{"performance" : "173-09","first" : "Maury","last" : "Antoniewicz","year" : "2025"},
+			{"performance" : "173-03","first" : "Wyatt","last" : "Dietzel","year" : "2025"},
 			{"performance" : "172-01","first" : "Maxwell","last" : "Close","year" : "2021"},
 			{"performance" : "169-05","first" : "John","last" : "O'Donnell","year" : "2007"},
 			{"performance" : "168-10","first" : "Carter","last" : "Cox","year" : "2025"},
@@ -243,7 +244,8 @@
 			{"performance" : "13-06","first" : "Tom","last" : "Grafton","year" : "2008"},
 			{"performance" : "13-06","first" : "Braxton","last" : "Quelle","year" : "2009"}, 
 			{"performance" : "13-06","first" : "Jacob","last" : "Benson","year" : "2014"},
-			{"performance" : "13-06","first" : "Michael","last" : "Park","year" : "2018"}
+			{"performance" : "13-06","first" : "Michael","last" : "Park","year" : "2018"},
+			{"performance" : "13-06","first" : "Avi","last" : "Coppaken","year" : "2025"}
 		]
 	},
 	{"event" : "4 x 100", "eventGroup" : "TRS",	"list"  : 
