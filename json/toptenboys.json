@@ -87,15 +87,16 @@
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
 		[
 			{"performance" : "8:43.59**","first" : "Brent","last" : "Steiner","year" : "1979"},
+			{"performance" : "8:57.27","first" : "Max","last" : "Larson","year" : "2025"},
 			{"performance" : "8:57.6**","first" : "Reed","last" : "Eichner","year" : "1976"},
 			{"performance" : "9:00.0**","first" : "Dave","last" : "Anderson","year" : "1969"},
-			{"performance" : "9:02.47","first" : "Max","last" : "Larson","year" : "2025"},
 			{"performance" : "9:09.7**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "9:14.9**","first" : "Ryan","last" : "Eichner","year" : "1970"},
 			{"performance" : "9:16.1","first" : "Steve","last" : "Smith","year" : "1980"},
+			{"performance" : "9:22.99","first" : "Liam","last" : "Kirkpatrick","year" : "2025"},
 			{"performance" : "9:24.1**","first" : "Jim","last" : "Graham","year" : "1968"},
 			{"performance" : "9:27.8**","first" : "Paul","last" : "Francis","year" : "1969"},
-			{"performance" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
+			{"" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
 			{"" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"}
 		]
 	},
