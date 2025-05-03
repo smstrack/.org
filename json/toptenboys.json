@@ -87,15 +87,16 @@
 	{"event" : "3200", "eventGroup" : "TD",	"list" :
 		[
 			{"performance" : "8:43.59**","first" : "Brent","last" : "Steiner","year" : "1979"},
+			{"performance" : "8:57.27","first" : "Max","last" : "Larson","year" : "2025"},
 			{"performance" : "8:57.6**","first" : "Reed","last" : "Eichner","year" : "1976"},
 			{"performance" : "9:00.0**","first" : "Dave","last" : "Anderson","year" : "1969"},
-			{"performance" : "9:02.47","first" : "Max","last" : "Larson","year" : "2025"},
 			{"performance" : "9:09.7**","first" : "Jim","last" : "Nicolay","year" : "1974"},
 			{"performance" : "9:14.9**","first" : "Ryan","last" : "Eichner","year" : "1970"},
 			{"performance" : "9:16.1","first" : "Steve","last" : "Smith","year" : "1980"},
+			{"performance" : "9:22.99","first" : "Liam","last" : "Kirkpatrick","year" : "2025"},
 			{"performance" : "9:24.1**","first" : "Jim","last" : "Graham","year" : "1968"},
 			{"performance" : "9:27.8**","first" : "Paul","last" : "Francis","year" : "1969"},
-			{"performance" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
+			{"" : "9:27.9**","first" : "Eric","last" : "Lathrop","year" : "1973"},
 			{"" : "9:28.4**","first" : "Bill","last" : "Smith","year" : "1977"}
 		]
 	},
@@ -151,8 +152,9 @@
 			{"performance" : "58-03","first" : "Floyd","last" : "Dorsey","year" : "1974"},
 			{"performance" : "57-03", "video" : "https://youtu.be/MkpEWoHdLv8", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank" ,"first" : "Justin","last" : "Holmes","year" : "2008"},
 			{"performance" : "56-09","first" : "Dalton","last" : "Lewallen","year" : "2015", "video":"https://youtu.be/RE03Z1EQPdY", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank"},
+			{"performance" : "56-00.25","first" : "Michael","last" : "Moser","year" : "2025"},
 			{"performance" : "56-00","first" : "Dirk","last" : "Ochs","year" : "1990"},
-			{"performance" : "55-06","first" : "Lynn","last" : "Stowe","year" : "1967"},
+			{"" : "55-06","first" : "Lynn","last" : "Stowe","year" : "1967"},
 			{"" : "55-02","first" : "Zac","last" : "Bendrick","year" : "2011"}
 		]
 	},
@@ -237,8 +239,8 @@
 			{"performance" : "13-06","first" : "Bill","last" : "Fash","year" : "1977"},
 			{"performance" : "13-06","first" : "Bruce","last" : "Dahlquist","year" : "1978"},
 			{"performance" : "13-06","first" : "John","last" : "Jacobs","year" : "1987"},
-			{"performance" : "13-06","first" : "John","last" : "Paris","year" : "1998"},
 			{"performance" : "13-06","first" : "Joe","last" : "Quint","year" : "1993"},
+			{"performance" : "13-06","first" : "John","last" : "Paris","year" : "1998"},
 			{"performance" : "13-06","first" : "Bryan","last" : "McConnell","year" : "2000"},
 			{"performance" : "13-06","first" : "Mike","last" : "Wilson","year" : "2003"},
 			{"performance" : "13-06","first" : "Tom","last" : "Grafton","year" : "2008"},
