@@ -152,7 +152,7 @@
 			{"performance" : "58-03","first" : "Floyd","last" : "Dorsey","year" : "1974"},
 			{"performance" : "57-03", "video" : "https://youtu.be/MkpEWoHdLv8", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank" ,"first" : "Justin","last" : "Holmes","year" : "2008"},
 			{"performance" : "56-09","first" : "Dalton","last" : "Lewallen","year" : "2015", "video":"https://youtu.be/RE03Z1EQPdY", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank"},
-			{"performance" : "56-00.25","first" : "Michael","last" : "Moser","year" : "2025"},
+			{"performance" : "56-00.25","first" : "Michael","last" : "Moser","year" : "2025", "video":"https://youtu.be/Md_bBPSaTqo", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank"},
 			{"performance" : "56-00","first" : "Dirk","last" : "Ochs","year" : "1990"},
 			{"" : "55-06","first" : "Lynn","last" : "Stowe","year" : "1967"},
 			{"" : "55-02","first" : "Zac","last" : "Bendrick","year" : "2011"}
