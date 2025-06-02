@@ -1105,6 +1105,33 @@
             "first": "Max",
 			"gender":"m",
             "performance": "9:13.44"
+        },
+        {
+            "year": 2025,
+            "event": "Pole Vault",
+            "eventGroup": "FVJ",
+            "last": "Hansen",
+            "first": "Amelia",
+			"gender":"f",
+            "performance": "12-00"
+        },
+        {
+            "year": 2025,
+            "event" : "3200",
+            "eventGroup": "TD",
+            "last": "Larson",
+            "first": "Max",
+			"gender":"m",
+            "performance": "9:01.39"
+        },
+        {
+            "year": 2025,
+            "event" : "1600",
+            "eventGroup": "TD",
+            "last": "Larson",
+            "first": "Max",
+			"gender":"m",
+            "performance": "4:11.70"
         }
     ]
 }

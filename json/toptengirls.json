@@ -203,10 +203,10 @@
 			{"performance" : "5-04","first" : "Beth","last" : "Olson","year" : "1982"},
 			{"performance" : "5-04","first" : "Lisa","last" : "Avery","year" : "1994"},
 			{"performance" : "5-04","first" : "Jocelyn","last" : "Cummings","year" : "2008"},
+			{"performance" : "5-04","first" : "Hannah","last" : "Kerr","year" : "2025"},
 			{"performance" : "5-02","first" : "Rachel","last" : "Compton","year" : "1994"},
 			{"performance" : "5-02","first" : "Kristen","last" : "Kenton","year" : "1998"},
 			{"performance" : "5-02","first" : "Liz (Elisabeth)","last" : "Crawford","year" : "2018"},
-			{"performance" : "5-02","first" : "Hannah","last" : "Kerr","year" : "2024"},
 			{"performance" : "5-01","first" : "Stacy","last" : "Bombaars","year" : "1985"},
 			{"" : "5-00","first" : "Leah","last" : "Honeycutt","year" : "1986"},
 			{"" : "5-00","first" : "Tria","last" : "Chomyak","year" : "1987"},
@@ -255,7 +255,7 @@
 	{"event" : "Pole Vault", "eventGroup" : "FVJ", "list"   : 
 		[
 			{"performance" : "12-01","first" : "Libby","last" : "Harmon","year" : "2003"},
-			{"performance" : "11-09","first" : "Amelia","last" : "Hansen","year" : "2025"},
+			{"performance" : "12-00","first" : "Amelia","last" : "Hansen","year" : "2025"},
 			{"performance" : "11-07","first" : "Julia","last" : "Cummings","year" : "2006"},
 			{"performance" : "11-00","first" : "Claire","last" : "Christy","year" : "2008"},
 			{"performance" : "11-00","first" : "Kendra","last" : "Martiny","year" : "2011"},
