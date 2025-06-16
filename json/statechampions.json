@@ -1131,6 +1131,8 @@
             "last": "Larson",
             "first": "Max",
 			"gender":"m",
+			"video":"https://www.youtube.com/watch?v=60hnpW5kTkw",
+            "videoIcon": "../images/YouTube-social-icon_red_24px.png",
             "performance": "4:11.70"
         }
     ]
