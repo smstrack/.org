@@ -323,6 +323,11 @@
             {"performance" : "6:30.50","first" : "Andrew","last" : "Stevens","year" : "2010"}
         ]
     },
+	{"event" : "5000", "eventGroup" : "NS", "list"   : 
+        [
+            {"performance" : "14:37.23", "video" : "https://www.youtube.com/watch?v=6AdsSV6XAh0", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank","first" : "Max","last" : "Larson","year" : "2025"}
+        ]
+    },
 	{"event" : "Distance Medley", "eventGroup" : "NS", "list"   : 
         [
             {"performance" : "10:15.93**","first" : "","last" : "","year" : "1979"}
