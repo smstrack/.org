@@ -11,6 +11,21 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="/css/sms.css" />
   <link rel="stylesheet" type="text/css" href="/css/records.css" />
+  <link rel="alternate" type="application/json" href="/json/toptenboys.json" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "SMS Top Ten All-Time Boys",
+    "description": "Boys all-time records and top ten performances for each event",
+    "url": "https://smstrack.org/archives/toptenalltimeboys.htm",
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smstrack.org/json/toptenboys.json"
+    }
+  }
+  </script>
 
   <title>Boys Varsity Records</title>
 </head>
@@ -28,6 +43,7 @@
         <span class="subcontentheader"><a href="toptenalltimegirls.htm">(Girls)</a></span>
       </div>
       <div id="topTenTable"></div>
+      <p class="visually-hidden"><a href="/json/toptenboys.json" rel="noopener">Download top ten data (JSON)</a></p>
     </div>
     <div class="right"></div>
     <div class="footer"></div>
