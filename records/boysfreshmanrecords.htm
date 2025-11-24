@@ -15,6 +15,22 @@
 
     <link rel="stylesheet" type="text/css" href="/css/records.css" />
     <link rel="stylesheet" type="text/css" href="/css/sms.css" />
+    <link rel="alternate" type="application/json" href="/json/boysfreshmanrecords.json" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "SMS All-Time Boys Freshman Records",
+      "description": "Boys all-time freshman class records for each event",
+      "url": "https://smstrack.org/records/boysfreshmanrecords.htm",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://smstrack.org/json/boysfreshmanrecords.json"
+      }
+    }
+    </script>
+
     <title>Boys Freshman Records</title>
   </head>
 
@@ -33,6 +49,7 @@
 			</span>
         </div>
         <div id="recordTable"></div>
+        <p class="visually-hidden"><a href="/json/boysfreshmanrecords.json" rel="noopener">Download record data (JSON)</a></p>
       </div>
       <div class="right"></div>
       <div class="footer"></div>
