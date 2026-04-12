@@ -164,6 +164,7 @@
 		[
 			{"performance" : "238-04" , "video" : "https://youtu.be/fU4blEddQAk", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank" ,"first" : "Johannes","last" : "Swanepoel","year" : "2010"},
 			{"performance" : "206-07","first" : "Kyle","last" : "Komarek","year" : "2005"},
+			{"performance" : "179-05","first" : "Benjamin","last" : "Alexander","year" : "2026"},
 			{"performance" : "176-07","first" : "Marcus","last" : "Reynolds","year" : "2008"},
 			{"performance" : "175-10","first" : "Jack","last" : "Roberts","year" : "2018"},
 			{"performance" : "175-03","first" : "Alex","last" : "Brown","year" : "2012"},
@@ -171,7 +172,7 @@
 			{"performance" : "173-09","first" : "Maury","last" : "Antoniewicz","year" : "2025"},
 			{"performance" : "173-03","first" : "Wyatt","last" : "Dietzel","year" : "2025"},
 			{"performance" : "172-01","first" : "Maxwell","last" : "Close","year" : "2021"},
-			{"performance" : "172-00","first" : "Carter","last" : "Cox","year" : "2025"},
+			{"" : "172-00","first" : "Carter","last" : "Cox","year" : "2025"},
 			{"" : "169-05","first" : "John","last" : "O'Donnell","year" : "2007"},
 			{"" : "167-05","first" : "Clay","last" : "Pearce","year" : "2012"},
 			{"" : "167-05","first" : "Brendan","last" : "Brooks","year" : "2015"},
