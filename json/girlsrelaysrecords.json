@@ -3,11 +3,11 @@
         {
             "event": "100",
             "eventGroup": "TS",
-            "performance": "11.96",
-            "first": "Delia",
-            "last": "Gregory",
-            "school": "BV North",
-            "year": "2025"
+            "performance": "11.66",
+            "first": "Maria",
+            "last": "Portela",
+            "school": "Blue Valley",
+            "year": "2026"
         },
         {
             "event": "200*",
@@ -57,11 +57,11 @@
         {
             "event": "100 Hurdles",
             "eventGroup": "TH",
-            "performance": "14.61",
-            "first": "Aurora",
-            "last": "Wessel",
-            "school": "SM South",
-            "year": "2024"
+            "performance": "14.59",
+            "first": "Nora",
+            "last": "Turney",
+            "school": "KC Piper",
+            "year": "2026"
         },
         {
             "event": "300 Hurdles",
@@ -199,29 +199,11 @@
         {
             "event": "Pole Vault",
             "eventGroup": "FVJ",
-            "performance": "11-06",
-            "first": "Cassie",
-            "last": "Wait",
-            "school": "Gardner-Edgerton",
-            "year": "2011"
-        },
-        {
-            "event": "Pole Vault",
-            "eventGroup": "FVJ",
-            "performance": "11-06",
-            "first": "Natalie",
-            "last": "Mitchell",
-            "school": "Gardner-Edgerton",
-            "year": "2012"
-        },
-        {
-            "event": "Pole Vault",
-            "eventGroup": "FVJ",
-            "performance": "11-06",
-            "first": "Abigail",
-            "last": "Kelly-Salo",
-            "school": "SM Northwest",
-            "year": "2018"
+            "performance": "12-08",
+            "first": "Amelia",
+            "last": "Hansen",
+            "school": "Blue Valley",
+            "year": "2026"
         }
     ]
 }
