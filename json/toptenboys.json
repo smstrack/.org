@@ -162,8 +162,8 @@
 	},
 	{"event" : "Javelin", "eventGroup" : "FT",	"list"  :
 		[
-			{"performance" : "238-04" , "video" : "https://youtu.be/fU4blEddQAk", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank" ,"first" : "Johannes","last" : "Swanepoel","year" : "2010"},
-			{"performance" : "207-06","first" : "Benjamin","last" : "Alexander","year" : "2026"},
+			{"performance" : "238-04","video" : "https://youtu.be/fU4blEddQAk", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank","first" : "Johannes","last" : "Swanepoel","year" : "2010"},
+			{"performance" : "207-06","video" : "https://youtu.be/yGgDmZYqPmM", "videoIcon":"../images/YouTube-social-icon_red_24px.png", "target":"_blank","first" : "Benjamin","last" : "Alexander","year" : "2026"},
 			{"performance" : "206-07","first" : "Kyle","last" : "Komarek","year" : "2005"},
 			{"performance" : "176-07","first" : "Marcus","last" : "Reynolds","year" : "2008"},
 			{"performance" : "175-10","first" : "Jack","last" : "Roberts","year" : "2018"},
